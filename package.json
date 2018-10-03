@@ -1,0 +1,25 @@
+{
+  "name": "blue-eagles",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mig-amq/blue-eagles.git"
+  },
+  "author": "Team Blue Eagles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mig-amq/blue-eagles/issues"
+  },
+  "homepage": "https://github.com/mig-amq/blue-eagles#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3",
+    "mime": "^2.3.1"
+  }
+}
