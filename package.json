@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mig-amq/blue-eagles#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "mime": "^2.3.1"
   }
 }
