@@ -1,0 +1,22 @@
+/* the style for the DLSU logo */
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+}
+/* the style for the header */
+.header {
+    background-color: #087830;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/* the style for the iframe */
+.frame{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1920;
+    height: 960;
+}
