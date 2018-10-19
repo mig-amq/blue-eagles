@@ -1,9 +1,17 @@
-const express = require('express')
-const fs = require('fs')
-const path = require('path')
-const reader = require('./classes/Reader')
+var express = require('express');
 
-let res = path.join(__dirname, "res")
-let r = new reader(res)
+/* Start */
+const app = express();
+const path = require("path");
+app.use(express.static(__dirname + "/public"));
 
-console.log(r.data)
+/* Routes */
+app.get("/",(req,res)=>{
+    console.log("GET /")
+    // process - find all foods from mongoose
+
+    res.sendFile(path.join(__dirname, "index.html"));
+})
+
+/* Listen */
+app.listen(3000);

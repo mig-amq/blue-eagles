@@ -1,8 +1,8 @@
 var express = require('express');
-// var marzipano = require('marzipano');
 
 /* Start */
 const app = express();
+const path = require("path");
 app.use(express.static(__dirname + "/public"));
 
 /* Routes */
@@ -10,7 +10,7 @@ app.get("/",(req,res)=>{
     console.log("GET /")
     // process - find all foods from mongoose
 
-    res.sendFile("C:/Users/LAPTOP/Documents/GitHub/blue-eagles/marzipano-export/render.html");
+    res.sendFile(path.join(__dirname, "render.html"));
 })
 
 /* Listen */
