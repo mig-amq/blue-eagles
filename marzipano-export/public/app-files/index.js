@@ -118,14 +118,14 @@
   }
 
   // Set handler for autorotate toggle.
-  autorotateToggleElement.addEventListener('click', toggleAutorotate);
+  // autorotateToggleElement.addEventListener('click', toggleAutorotate);
 
   // Set up fullscreen mode, if supported.
   if (screenfull.enabled && data.settings.fullscreenButton) {
     document.body.classList.add('fullscreen-enabled');
-    fullscreenToggleElement.addEventListener('click', function() {
-      screenfull.toggle();
-    });
+    // fullscreenToggleElement.addEventListener('click', function() {
+    //   screenfull.toggle();
+    // });
     screenfull.on('change', function() {
       if (screenfull.isFullscreen) {
         fullscreenToggleElement.classList.add('enabled');
@@ -138,24 +138,24 @@
   }
 
   // Set handler for scene list toggle.
-  sceneListToggleElement.addEventListener('click', toggleSceneList);
+  // sceneListToggleElement.addEventListener('click', toggleSceneList);
 
   // Start with the scene list open on desktop.
   if (!document.body.classList.contains('mobile')) {
-    showSceneList();
+    // showSceneList();
   }
 
   // Set handler for scene switch.
-  scenes.forEach(function(scene) {
-    var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
-    el.addEventListener('click', function() {
-      switchScene(scene);
-      // On mobile, hide scene list after selecting a scene.
-      if (document.body.classList.contains('mobile')) {
-        hideSceneList();
-      }
-    });
-  });
+  // scenes.forEach(function(scene) {
+  //   var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
+  //   el.addEventListener('click', function() {
+  //     switchScene(scene);
+  //     // On mobile, hide scene list after selecting a scene.
+  //     if (document.body.classList.contains('mobile')) {
+  //       hideSceneList();
+  //     }
+  //   });
+  // });
 
   // DOM elements for view controls.
   var viewUpElement = document.querySelector('#viewUp');
@@ -183,16 +183,16 @@
   }
 
   function switchScene(scene) {
-    stopAutorotate();
+    // stopAutorotate();
     scene.view.setParameters(scene.data.initialViewParameters);
     scene.scene.switchTo();
-    startAutorotate();
+    // startAutorotate();
     updateSceneName(scene);
     updateSceneList(scene);
   }
 
   function updateSceneName(scene) {
-    sceneNameElement.innerHTML = sanitize(scene.data.name);
+    // sceneNameElement.innerHTML = sanitize(scene.data.name);
   }
 
   function updateSceneList(scene) {
@@ -206,43 +206,43 @@
     }
   }
 
-  function showSceneList() {
-    sceneListElement.classList.add('enabled');
-    sceneListToggleElement.classList.add('enabled');
-  }
+  // function showSceneList() {
+  //   sceneListElement.classList.add('enabled');
+  //   sceneListToggleElement.classList.add('enabled');
+  // }
 
-  function hideSceneList() {
-    sceneListElement.classList.remove('enabled');
-    sceneListToggleElement.classList.remove('enabled');
-  }
+  // function hideSceneList() {
+  //   sceneListElement.classList.remove('enabled');
+  //   sceneListToggleElement.classList.remove('enabled');
+  // }
 
-  function toggleSceneList() {
-    sceneListElement.classList.toggle('enabled');
-    sceneListToggleElement.classList.toggle('enabled');
-  }
+  // function toggleSceneList() {
+  //   sceneListElement.classList.toggle('enabled');
+  //   sceneListToggleElement.classList.toggle('enabled');
+  // }
 
-  function startAutorotate() {
-    if (!autorotateToggleElement.classList.contains('enabled')) {
-      return;
-    }
-    viewer.startMovement(autorotate);
-    viewer.setIdleMovement(3000, autorotate);
-  }
+  // function startAutorotate() {
+  //   if (!autorotateToggleElement.classList.contains('enabled')) {
+  //     return;
+  //   }
+  //   viewer.startMovement(autorotate);
+  //   viewer.setIdleMovement(3000, autorotate);
+  // }
 
-  function stopAutorotate() {
-    viewer.stopMovement();
-    viewer.setIdleMovement(Infinity);
-  }
+  // function stopAutorotate() {
+  //   viewer.stopMovement();
+  //   viewer.setIdleMovement(Infinity);
+  // }
 
-  function toggleAutorotate() {
-    if (autorotateToggleElement.classList.contains('enabled')) {
-      autorotateToggleElement.classList.remove('enabled');
-      stopAutorotate();
-    } else {
-      autorotateToggleElement.classList.add('enabled');
-      startAutorotate();
-    }
-  }
+  // function toggleAutorotate() {
+  //   if (autorotateToggleElement.classList.contains('enabled')) {
+  //     autorotateToggleElement.classList.remove('enabled');
+  //     stopAutorotate();
+  //   } else {
+  //     autorotateToggleElement.classList.add('enabled');
+  //     startAutorotate();
+  //   }
+  // }
 
   function createLinkHotspotElement(hotspot) {
 
