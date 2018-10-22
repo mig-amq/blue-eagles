@@ -27,9 +27,11 @@ files.
 
 Testing
 ------------
-1. Open the marzipano-export folder in the command prompt.
+1. Open the trials-experiments folder in the command prompt.
 2. Type in "node server.js" to initiate the server.
-3. In the browser, type "localhost:3000" as the URL.
+3. Initiate NPM. "npm init"
+4. In the browser, type "localhost:3000" as the URL.
 
 [INFO] Requires NodeJS to function.
+[INFO] Requires NPM Express to function.
 [INFO] The webpage will now work in most browsers.

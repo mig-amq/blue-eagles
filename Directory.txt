@@ -1,0 +1,9 @@
+--------------------------------------------------------
+SOFENGG blue-eagles
+--------------------------------------------------------
+
+master folder contains the final commit.
+
+trials-experiments folder contains the testing files (buggy files)
+
+old-files folder contains the initial commit.
