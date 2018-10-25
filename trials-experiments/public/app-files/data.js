@@ -63,13 +63,13 @@ var APP_DATA = {
           "yaw": 1.2385717170019852,
           "pitch": -0.31701593952579543,
           "title": "Room 301",
-          "text": "Is huge room."
+          "text": "General purpose room."
         },
         {
           "yaw": 2.8889104071677085,
           "pitch": -0.3715420055575933,
           "title": "Room 301",
-          "text": "Ya is huge room"
+          "text": "General purpose room."
         },
         {
           "yaw": 0.38074568473863835,
@@ -86,14 +86,14 @@ var APP_DATA = {
         {
           "yaw": 0.9053957353884279,
           "pitch": -0.09333636277388102,
-          "title": "The actual place for eating&nbsp;",
-          "text": "But hey why bother when you have the whole gok's lobby xD"
+          "title": "Gokongwei Dining Area",
+          "text": ""
         },
         {
           "yaw": -2.3221891951137508,
           "pitch": -0.3959971087533791,
           "title": "Gokongwei Building",
-          "text": "Lorem Ipsum"
+          "text": "Building made specifically to house special facilities for the College of Computer Studies."
         }
       ]
     },
@@ -160,13 +160,13 @@ var APP_DATA = {
           "yaw": 1.2385717170019852,
           "pitch": -0.31701593952579543,
           "title": "Room 301",
-          "text": "Is huge room."
+          "text": "General purpose room."
         },
         {
           "yaw": 2.8889104071677085,
           "pitch": -0.3715420055575933,
           "title": "Room 301",
-          "text": "Ya is huge room"
+          "text": "General purpose room."
         },
         {
           "yaw": 0.38074568473863835,
@@ -183,14 +183,14 @@ var APP_DATA = {
         {
           "yaw": 0.9053957353884279,
           "pitch": -0.09333636277388102,
-          "title": "The actual place for eating&nbsp;",
-          "text": "But hey why bother when you have the whole gok's lobby xD"
+          "title": "Gokongwei Dining Area",
+          "text": ""
         },
         {
           "yaw": -2.3221891951137508,
           "pitch": -0.3959971087533791,
           "title": "Gokongwei Building",
-          "text": "Lorem Ipsum"
+          "text": "Building made specifically to house special facilities for the College of Computer Studies."
         }
       ]
     },
@@ -269,7 +269,7 @@ var APP_DATA = {
           "yaw": -1.7810640911265487,
           "pitch": -0.16755002764061544,
           "title": "2nd Floor Gokongwei Building",
-          "text": "Standard classrooms."
+          "text": "This floor has the standard DLSU classrooms."
         },
         {
           "yaw": -2.29793072495492,
@@ -336,25 +336,25 @@ var APP_DATA = {
           "yaw": 0.9406077685083947,
           "pitch": -0.19576489238923855,
           "title": "Room ???",
-          "text": "Blah Blah Blah"
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
         },
         {
           "yaw": 0.47121187114592544,
           "pitch": -0.14093980128726535,
           "title": "Room ???",
-          "text": "Blah Blah Blah"
+          "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
         },
         {
           "yaw": 2.8089383861427706,
           "pitch": -0.13319648810333362,
           "title": "Information",
-          "text": "Lorem Ipsum"
-        },
-        {
-          "yaw": -0.3189018063033622,
-          "pitch": -0.029226260846233032,
-          "title": "Why is Plinky Gamara?",
-          "text": "Please get the joke... (c) Cedric Lange Viaje"
+          "text": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        // },
+        // {
+        //   "yaw": -0.3189018063033622,
+        //   "pitch": -0.029226260846233032,
+        //   "title": "Why is Plinky Gamara?",
+        //   "text": "Please get the joke... (c) Cedric Lange Viaje"
         }
       ]
     },
@@ -409,25 +409,25 @@ var APP_DATA = {
           "yaw": 0.9406077685083947,
           "pitch": -0.19576489238923855,
           "title": "Room ???",
-          "text": "Blah Blah Blah"
+          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
         },
         {
           "yaw": 0.47121187114592544,
           "pitch": -0.14093980128726535,
           "title": "Room ???",
-          "text": "Blah Blah Blah"
+          "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
         },
         {
           "yaw": 2.8089383861427706,
           "pitch": -0.13319648810333362,
           "title": "Information",
-          "text": "Lorem Ipsum"
-        },
-        {
-          "yaw": -0.3189018063033622,
-          "pitch": -0.029226260846233032,
-          "title": "Why is Plinky Gamara?",
-          "text": "Please get the joke... (c) Cedric Lange Viaje"
+          "text": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        // },
+        // {
+        //   "yaw": -0.3189018063033622,
+        //   "pitch": -0.029226260846233032,
+        //   "title": "Why is Plinky Gamara?",
+        //   "text": "Please get the joke... (c) Cedric Lange Viaje"
         }
       ]
     },
@@ -506,19 +506,19 @@ var APP_DATA = {
           "yaw": 3.0881552739893277,
           "pitch": -0.3103840822242141,
           "title": "Room ???",
-          "text": "Blah Blah Blah"
+          "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"
         },
         {
           "yaw": 2.838137950423251,
           "pitch": -0.32091708796498963,
           "title": "Room ???",
-          "text": "Blah Blah Blah"
+          "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
         },
         {
           "yaw": 1.4210179008956345,
           "pitch": -0.21926519199455718,
           "title": "Campus Map",
-          "text": "Ayy it's a guide for you in campus"
+          "text": "Physical Campus Map"
         },
         {
           "yaw": 0.3748872925849476,
@@ -578,13 +578,13 @@ var APP_DATA = {
         {
           "yaw": -0.029927668440688393,
           "pitch": -0.003214881546330872,
-          "title": "Sample Build Only",
+          "title": "Placeholder Link",
           "text": "Demo walkthrough/skeleton"
         }
       ]
     }
   ],
-  "name": "Project Title",
+  "name": "Alpha 1.4: Gokongwei Lobby Simulation",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
