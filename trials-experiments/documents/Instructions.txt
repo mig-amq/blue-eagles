@@ -1,0 +1,13 @@
+Early Beta: 0.0 - 0.9
+A. To Open:
+	- Open each "index.html" file with Mozilla Firefox. Other browsers may give unintended results.
+	
+B. These versions will contain some bugs and missing features.
+
+C. "next-floor" is just a place holder for developers to keep track of hotspots as it was automatically generated.
+
+D. Information hotspots contains dummy and generalized data.
+
+E. Link/Move hotspots do not have names yet as naming conventions are still being thought through.
+
+F. Zoom In and Out functions might not work based on the screen resolution. It works mostly when kept at a small window size.
