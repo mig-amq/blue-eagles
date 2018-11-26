@@ -106,6 +106,8 @@
     };
   });
 
+  parent.generateLinks(scenes);
+
   // Set up autorotate, if enabled.
   var autorotate = Marzipano.autorotate({
     yawSpeed: 0.03,
@@ -169,7 +171,6 @@
     var wrapper = document.createElement('div');
     wrapper.classList.add('hotspot');
     wrapper.classList.add('link-hotspot');
-
     // Create image element.
     var icon = document.createElement('img');
     icon.src = 'img/link.png';
@@ -184,7 +185,10 @@
 
     // Add click event handler.
     wrapper.addEventListener('click', function() {
-      switchScene(findSceneById(hotspot.target));
+      let scene = findSceneById(hotspot.target);
+      switchScene(scene);
+
+      parent.changeFloor(scene.data.name);
     });
 
     // Prevent touch and scroll events from reaching the parent element.

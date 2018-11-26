@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-5",
-      "name": "5",
+      "name": "Chill at the 5th",
       "levels": [
         {
           "tileSize": 256,
@@ -43,7 +43,8 @@ var APP_DATA = {
     },
     {
       "id": "1-6-a",
-      "name": "6-A",
+      "name": "HSSH, 6F",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -108,7 +109,7 @@ var APP_DATA = {
     },
     {
       "id": "2-6-b",
-      "name": "6-B",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -185,7 +186,7 @@ var APP_DATA = {
     },
     {
       "id": "3-6-c",
-      "name": "6-C",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -250,7 +251,7 @@ var APP_DATA = {
     },
     {
       "id": "4-6-d",
-      "name": "6-D",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -321,7 +322,7 @@ var APP_DATA = {
     },
     {
       "id": "5-6-t",
-      "name": "6-T",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -367,7 +368,8 @@ var APP_DATA = {
     },
     {
       "id": "6-7-a",
-      "name": "7-A",
+      "name": "HSSH, 7F",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -432,7 +434,7 @@ var APP_DATA = {
     },
     {
       "id": "7-7-b",
-      "name": "7-B",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -503,7 +505,7 @@ var APP_DATA = {
     },
     {
       "id": "8-7-c",
-      "name": "7-C",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -586,7 +588,7 @@ var APP_DATA = {
     },
     {
       "id": "9-7-d",
-      "name": "7-D",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -651,7 +653,7 @@ var APP_DATA = {
     },
     {
       "id": "10-7-e",
-      "name": "7-E",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -698,7 +700,7 @@ var APP_DATA = {
     },
     {
       "id": "11-7-f",
-      "name": "7-F",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -769,7 +771,7 @@ var APP_DATA = {
     },
     {
       "id": "12-7-g",
-      "name": "7-G",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -828,7 +830,7 @@ var APP_DATA = {
     },
     {
       "id": "13-7-h",
-      "name": "7-H",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -875,7 +877,7 @@ var APP_DATA = {
     },
     {
       "id": "14-7-i",
-      "name": "7-I",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -940,7 +942,7 @@ var APP_DATA = {
     },
     {
       "id": "15-7-m",
-      "name": "7-M",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -980,7 +982,7 @@ var APP_DATA = {
     },
     {
       "id": "16-7-o",
-      "name": "7-O",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -1033,7 +1035,7 @@ var APP_DATA = {
     },
     {
       "id": "17-7-t",
-      "name": "7-T",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -1080,7 +1082,8 @@ var APP_DATA = {
     },
     {
       "id": "18-m7-a",
-      "name": "M7-A",
+      "name": "HSSH, 7F Mezannine",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -1126,7 +1129,7 @@ var APP_DATA = {
     },
     {
       "id": "19-m7-b",
-      "name": "M7-B",
+      "name": "HSSH, 7F Mezannine",
       "levels": [
         {
           "tileSize": 256,
@@ -1166,7 +1169,7 @@ var APP_DATA = {
     },
     {
       "id": "20-m7-c",
-      "name": "M7-C",
+      "name": "HSSH, 7F Mezannine",
       "levels": [
         {
           "tileSize": 256,
@@ -1219,7 +1222,8 @@ var APP_DATA = {
     },
     {
       "id": "21-8-a",
-      "name": "8-A",
+      "name": "HSSH, 8F",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -1284,7 +1288,7 @@ var APP_DATA = {
     },
     {
       "id": "22-8-b",
-      "name": "8-B",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1343,7 +1347,7 @@ var APP_DATA = {
     },
     {
       "id": "23-8-c",
-      "name": "8-C",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1408,7 +1412,7 @@ var APP_DATA = {
     },
     {
       "id": "24-8-d",
-      "name": "8-D",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1467,7 +1471,7 @@ var APP_DATA = {
     },
     {
       "id": "25-8-e",
-      "name": "8-E",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1520,7 +1524,7 @@ var APP_DATA = {
     },
     {
       "id": "26-8-f",
-      "name": "8-F",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1560,7 +1564,7 @@ var APP_DATA = {
     },
     {
       "id": "27-8-g",
-      "name": "8-G",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1613,7 +1617,7 @@ var APP_DATA = {
     },
     {
       "id": "28-8-h",
-      "name": "8-H",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1678,7 +1682,7 @@ var APP_DATA = {
     },
     {
       "id": "29-8-i",
-      "name": "8-I",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1725,7 +1729,7 @@ var APP_DATA = {
     },
     {
       "id": "30-8-j",
-      "name": "8-J",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1778,7 +1782,7 @@ var APP_DATA = {
     },
     {
       "id": "31-8-k",
-      "name": "8-K",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1819,7 +1823,7 @@ var APP_DATA = {
     },
     {
       "id": "32-8-t",
-      "name": "8-T",
+      "name": "HSSH, 8F",
       "levels": [
         {
           "tileSize": 256,
@@ -1866,7 +1870,9 @@ var APP_DATA = {
     },
     {
       "id": "33-m8-a",
-      "name": "M8-A",
+      "name": "HSSH, 8F Mezzanine",
+      "initial": true,
+      "displayName": "HSSH, 8F Mezzanine",
       "levels": [
         {
           "tileSize": 256,
@@ -1906,7 +1912,7 @@ var APP_DATA = {
     },
     {
       "id": "34-m8-b",
-      "name": "M8-B",
+      "name": "HSSH,  8F Mezzanine",
       "levels": [
         {
           "tileSize": 256,
@@ -1946,7 +1952,7 @@ var APP_DATA = {
     },
     {
       "id": "35-m8-c",
-      "name": "M8-C",
+      "name": "HSSH,  8F Mezzanine",
       "levels": [
         {
           "tileSize": 256,
@@ -1986,7 +1992,8 @@ var APP_DATA = {
     },
     {
       "id": "36-9-a",
-      "name": "9-A",
+      "name": "HSSH, 9F",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -2013,7 +2020,7 @@ var APP_DATA = {
     },
     {
       "id": "37-9-b",
-      "name": "9-B",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2040,7 +2047,7 @@ var APP_DATA = {
     },
     {
       "id": "38-9-c",
-      "name": "9-C",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2067,7 +2074,7 @@ var APP_DATA = {
     },
     {
       "id": "39-9-d",
-      "name": "9-D",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2094,7 +2101,7 @@ var APP_DATA = {
     },
     {
       "id": "40-9-e",
-      "name": "9-E",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2121,7 +2128,7 @@ var APP_DATA = {
     },
     {
       "id": "41-9-f",
-      "name": "9-F",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2148,7 +2155,7 @@ var APP_DATA = {
     },
     {
       "id": "42-9-g",
-      "name": "9-G",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2175,7 +2182,7 @@ var APP_DATA = {
     },
     {
       "id": "43-9-h",
-      "name": "9-H",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2202,7 +2209,7 @@ var APP_DATA = {
     },
     {
       "id": "44-9-i",
-      "name": "9-I",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2229,7 +2236,7 @@ var APP_DATA = {
     },
     {
       "id": "45-9-j",
-      "name": "9-J",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2256,7 +2263,7 @@ var APP_DATA = {
     },
     {
       "id": "46-9-o",
-      "name": "9-O",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2283,7 +2290,7 @@ var APP_DATA = {
     },
     {
       "id": "47-9-t",
-      "name": "9-T",
+      "name": "HSSH, 9F",
       "levels": [
         {
           "tileSize": 256,
@@ -2310,7 +2317,8 @@ var APP_DATA = {
     },
     {
       "id": "48-m9-a",
-      "name": "M9-A",
+      "name": "HSSH, 9F Mezzanine",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -2337,7 +2345,7 @@ var APP_DATA = {
     },
     {
       "id": "49-m9-b",
-      "name": "M9-B",
+      "name": "HSSH,  9F Mezzanine",
       "levels": [
         {
           "tileSize": 256,
@@ -2364,7 +2372,8 @@ var APP_DATA = {
     },
     {
       "id": "50-10-a",
-      "name": "10-A",
+      "name": "HSSH, 10F",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -2391,7 +2400,7 @@ var APP_DATA = {
     },
     {
       "id": "51-10-b",
-      "name": "10-B",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2418,7 +2427,7 @@ var APP_DATA = {
     },
     {
       "id": "52-10-c",
-      "name": "10-C",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2445,7 +2454,7 @@ var APP_DATA = {
     },
     {
       "id": "53-10-d",
-      "name": "10-D",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2472,7 +2481,7 @@ var APP_DATA = {
     },
     {
       "id": "54-10-e",
-      "name": "10-E",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2499,7 +2508,7 @@ var APP_DATA = {
     },
     {
       "id": "55-10-f",
-      "name": "10-F",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2526,7 +2535,7 @@ var APP_DATA = {
     },
     {
       "id": "56-10-g",
-      "name": "10-G",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2553,7 +2562,7 @@ var APP_DATA = {
     },
     {
       "id": "57-10-h",
-      "name": "10-H",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2580,7 +2589,7 @@ var APP_DATA = {
     },
     {
       "id": "58-10-i",
-      "name": "10-I",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2607,7 +2616,7 @@ var APP_DATA = {
     },
     {
       "id": "59-10-j",
-      "name": "10-J",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2634,7 +2643,7 @@ var APP_DATA = {
     },
     {
       "id": "60-10-s",
-      "name": "10-S",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2661,7 +2670,7 @@ var APP_DATA = {
     },
     {
       "id": "61-10-s2",
-      "name": "10-S2",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2688,7 +2697,7 @@ var APP_DATA = {
     },
     {
       "id": "62-10-t",
-      "name": "10-T",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -2715,7 +2724,8 @@ var APP_DATA = {
     },
     {
       "id": "63-m10-a",
-      "name": "M10-A",
+      "name": "HSSH, 10F Mezzanine",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -2742,7 +2752,7 @@ var APP_DATA = {
     },
     {
       "id": "64-m10-b",
-      "name": "M10-B",
+      "name": "HSSH, 10F Mezzanine",
       "levels": [
         {
           "tileSize": 256,
@@ -2769,7 +2779,8 @@ var APP_DATA = {
     },
     {
       "id": "65-11-a",
-      "name": "11-A",
+      "name": "HSSH, 11F",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -2796,7 +2807,7 @@ var APP_DATA = {
     },
     {
       "id": "66-11-t",
-      "name": "11-T",
+      "name": "HSSH, 11F",
       "levels": [
         {
           "tileSize": 256,
@@ -2823,7 +2834,8 @@ var APP_DATA = {
     },
     {
       "id": "67-12-a",
-      "name": "12-A",
+      "name": "HSSH, 12F",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -2850,7 +2862,7 @@ var APP_DATA = {
     },
     {
       "id": "68-12-b",
-      "name": "12-B",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -2877,7 +2889,7 @@ var APP_DATA = {
     },
     {
       "id": "69-12-c",
-      "name": "12-C",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -2904,7 +2916,7 @@ var APP_DATA = {
     },
     {
       "id": "70-12-d",
-      "name": "12-D",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -2931,7 +2943,7 @@ var APP_DATA = {
     },
     {
       "id": "71-12-e",
-      "name": "12-E",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -2958,7 +2970,7 @@ var APP_DATA = {
     },
     {
       "id": "72-12-f",
-      "name": "12-F",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -2985,7 +2997,7 @@ var APP_DATA = {
     },
     {
       "id": "73-12-s",
-      "name": "12-S",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -3012,7 +3024,7 @@ var APP_DATA = {
     },
     {
       "id": "74-12-t",
-      "name": "12-T",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
