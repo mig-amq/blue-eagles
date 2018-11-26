@@ -4,6 +4,7 @@ $(document).ready(function(){
         $(o).click((e) => {
             e.preventDefault();
             var scene = $("#frame")[0].contentWindow.findSceneById($(o).attr("data-scene"));
+            $("span#location").text($(o).text());
             $("#frame")[0].contentWindow.switchScene(scene);
         });
     });

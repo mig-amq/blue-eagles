@@ -38,14 +38,16 @@ body, html {
 
 .header nav span > ul {
     margin-left: 25px;
+    min-width: 250px !important;
     display: inline-block !important;
 }
 
 .header nav ul > li {
     cursor: pointer;
+    text-align: center;
     position: relative;
     color: #fff;
-    background-color: #035203;
+    background-color: #012701;
     padding: 6px 15px;
     list-style-type: none;
 }
@@ -63,7 +65,6 @@ body, html {
     width: 100%;
     padding: 0;
     font-size: 14px;
-    background-color: #fff;
 }
 
 .header nav ul li ul li:hover {
@@ -74,10 +75,15 @@ body, html {
     color: #ffffff;
 }
 
+.header nav ul li ul li {
+    padding: 0;
+    background-color: #004d00;
+}
+
 .header nav ul li ul li a {
     color: #fff;
     display: block;
-    padding: 10px 10px;
+    padding: 10px;
     text-decoration: none;
 }
 .header > div {
