@@ -1,8 +1,9 @@
 <html>
     <head>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="render_styles.css">
-        <script src="./render_scripts.js">
+        <script src="script.js">
         </script>
     </head>
     <body>
@@ -14,9 +15,9 @@
                         <li>
                             <span id="location">Gokongwei Building, 1F</span>
                             <ul>
-                            <li>Gokongwei Hall, 2F</a></li>
-                            <li>Gokongwei Hall, 3F</a></li>
-                            <li>Gokongwei Hall, 4F</a></li>
+                            <li><a data-scene="0-5">Chill at the 5th</a></li>
+                            <li><a data-scene="1-6-a">HSSH, 6F</a></li>
+                            <li><a data-scene="6-7-a">HSSH, 7F</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -27,7 +28,7 @@
             <span id="space"></span>
         </div>
         <!-- it is supposed to contain the tour which is in the index.html file -->
-        <iframe class="frame" src="/public/tour/index.html"></iframe>
+        <iframe class="frame" id="frame" src="/tour/index.html"></iframe>
         
     </body>
 </html>
