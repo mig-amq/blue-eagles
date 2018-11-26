@@ -106,7 +106,8 @@
     };
   });
 
-  parent.generateLinks(scenes);
+  if (parent.generateLinks)
+    parent.generateLinks(scenes);
 
   // Set up autorotate, if enabled.
   var autorotate = Marzipano.autorotate({
@@ -140,8 +141,8 @@
   var viewDownElement = document.querySelector('#viewDown');
   var viewLeftElement = document.querySelector('#viewLeft');
   var viewRightElement = document.querySelector('#viewRight');
-  var viewInElement = document.querySelector('#viewIn');
-  var viewOutElement = document.querySelector('#viewOut');
+  // var viewInElement = document.querySelector('#viewIn');
+  // var viewOutElement = document.querySelector('#viewOut');
 
   // Dynamic parameters for controls.
   var velocity = 0.7;
@@ -153,8 +154,16 @@
   controls.registerMethod('downElement',  new Marzipano.ElementPressControlMethod(viewDownElement,   'y',  velocity, friction), true);
   controls.registerMethod('leftElement',  new Marzipano.ElementPressControlMethod(viewLeftElement,   'x', -velocity, friction), true);
   controls.registerMethod('rightElement', new Marzipano.ElementPressControlMethod(viewRightElement,  'x',  velocity, friction), true);
-  controls.registerMethod('inElement',    new Marzipano.ElementPressControlMethod(viewInElement,  'zoom', -velocity, friction), true);
-  controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
+  // controls.registerMethod('inElement',    new Marzipano.ElementPressControlMethod(viewInElement,  'zoom', -velocity, friction), true);
+  // controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
+
+  // Associate keys   
+  controls.registerMethod('upKey',    new Marzipano.KeyControlMethod(38,     'y', -velocity, friction), true);
+  controls.registerMethod('downKey',  new Marzipano.KeyControlMethod(40,   'y',  velocity, friction), true);
+  controls.registerMethod('leftKey',  new Marzipano.KeyControlMethod(37,   'x', -velocity, friction), true);
+  controls.registerMethod('rightKey', new Marzipano.KeyControlMethod(39,  'x',  velocity, friction), true);
+  controls.registerMethod('inKey',    new Marzipano.KeyControlMethod(61,  'zoom', -velocity, friction), true);
+  controls.registerMethod('outKey',   new Marzipano.KeyControlMethod(173, 'zoom',  velocity, friction), true);
 
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
@@ -188,7 +197,8 @@
       let scene = findSceneById(hotspot.target);
       switchScene(scene);
 
-      parent.changeFloor(scene.data.name);
+      if (parent.changeFloor)
+        parent.changeFloor(scene.data.name);
     });
 
     // Prevent touch and scroll events from reaching the parent element.
@@ -222,7 +232,12 @@
     var iconWrapper = document.createElement('div');
     iconWrapper.classList.add('info-hotspot-icon-wrapper');
     var icon = document.createElement('img');
-    icon.src = 'img/info.png';
+
+    if (hotspot.icon)
+      icon.src = hotspot.icon;
+    else
+      icon.src = 'img/info.png';
+
     icon.classList.add('info-hotspot-icon');
     iconWrapper.appendChild(icon);
 
@@ -254,7 +269,9 @@
 
     // Place header and text into wrapper element.
     wrapper.appendChild(header);
-    wrapper.appendChild(text);
+
+    if (hotspot.text)
+      wrapper.appendChild(text);
 
     // Create a modal for the hotspot content to appear on mobile mode.
     var modal = document.createElement('div');
@@ -268,7 +285,7 @@
     };
 
     // Show content when hotspot is clicked.
-    wrapper.querySelector('.info-hotspot-header').addEventListener('click', toggle);
+    wrapper.querySelector('.info-hotspot-header').addEventListener('click', (hotspot.text) ? toggle : {});
 
     // Hide content when close icon is clicked.
     modal.querySelector('.info-hotspot-close-wrapper').addEventListener('click', toggle);
@@ -310,4 +327,4 @@
   }
 
   // Display the initial scene.
-  switchScene(scenes[0]);
+  switchScene(scenes[1]);

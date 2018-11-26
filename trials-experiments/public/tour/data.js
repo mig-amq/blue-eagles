@@ -3,6 +3,7 @@ var APP_DATA = {
     {
       "id": "0-5",
       "name": "Chill at the 5th",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -233,6 +234,7 @@ var APP_DATA = {
           "yaw": 0.09981983207461731,
           "pitch": -0.21917746260329274,
           "title": "Cyberspace A",
+          "icon": "",
           "text": "These computer terminals are available to use for a quick access to the internet."
         },
         {
