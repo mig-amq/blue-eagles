@@ -221,12 +221,6 @@ var APP_DATA = {
           "pitch": 0.35719185181604196,
           "rotation": 0,
           "target": "2-6-b"
-        },
-        {
-          "yaw": 3.0810895327996626,
-          "pitch": 0.3634059190871568,
-          "rotation": 0,
-          "target": "5-6-t"
         }
       ],
       "infoHotspots": [
@@ -1330,7 +1324,7 @@ var APP_DATA = {
         {
           "yaw": 2.3898937212875584,
           "pitch": -0.07519845431375316,
-          "title": "Study Hall",
+          "title": "Reading Area",
           "text": ""
         },
         {
@@ -1778,7 +1772,13 @@ var APP_DATA = {
           "yaw": 2.127663576317163,
           "pitch": -0.13220270538921142,
           "title": "Discussion Rooms",
-          "text": "Text"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
+        },
+        {
+          "yaw": -1.0480988697689924,
+          "pitch": -0.14132328384228643,
+          "title": "Reading Area",
+          "text": ""
         }
       ]
     },
@@ -1816,8 +1816,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 2.4286416511459334,
-          "pitch": 0.3945894474127005,
+          "yaw": 2.2754068029531886,
+          "pitch": -0.0402769040279054,
           "title": "Reading Area",
           "text": ""
         }
@@ -2049,13 +2049,13 @@ var APP_DATA = {
           "yaw": -0.9980230252267965,
           "pitch": -0.03938996822355456,
           "title": "9th Floor Information",
-          "text": "&lt;edit text&gt;"
+          "text": "Popup function to be made."
         },
         {
           "yaw": -0.9925017064555348,
           "pitch": -0.2643405753465693,
-          "title": "Announcement Screen",
-          "text": "&lt;edit text&gt;"
+          "title": "Announcements Screen",
+          "text": "Announcements are displayed here."
         }
       ]
     },
@@ -2108,7 +2108,7 @@ var APP_DATA = {
           "yaw": 1.9243395456139814,
           "pitch": 0.230343100114224,
           "title": "Information and Reference Counter",
-          "text": "&lt;edit text&gt;"
+          "text": "If assistance is required, people here are there to help."
         }
       ]
     },
@@ -2167,7 +2167,7 @@ var APP_DATA = {
           "yaw": 2.1451422963225566,
           "pitch": 0.11947477628054415,
           "title": "Navigation Terminal",
-          "text": "&lt;edit text&gt;"
+          "text": "These terminals are used to locate materials within the libraries."
         },
         {
           "yaw": -1.6815538263197123,
@@ -2308,9 +2308,9 @@ var APP_DATA = {
           "target": "46-9-o"
         },
         {
-          "yaw": -0.41166463592220914,
-          "pitch": 0.7360287046948528,
-          "rotation": 0,
+          "yaw": -0.28083193929615646,
+          "pitch": 0.16782266856315609,
+          "rotation": 7.0685834705770345,
           "target": "42-9-g"
         },
         {
@@ -2359,7 +2359,7 @@ var APP_DATA = {
           "yaw": 0.17021594682672792,
           "pitch": -0.3384983535517314,
           "title": "Discussion Rooms",
-          "text": "&lt;edit text&gt;"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         }
       ]
     },
@@ -2446,7 +2446,7 @@ var APP_DATA = {
           "yaw": -2.243815381757752,
           "pitch": -0.11461465517655256,
           "title": "Discussion Rooms",
-          "text": "&lt;edit text&gt;"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         },
         {
           "yaw": -3.1147569899556142,
@@ -2499,7 +2499,7 @@ var APP_DATA = {
           "yaw": 0.5085233859258693,
           "pitch": -0.0037902310471373823,
           "title": "Discussion Rooms",
-          "text": "&lt;edit text&gt;"
+          "text": "&These rooms are available for student groups who wish to conduct collaborative academic activities."
         },
         {
           "yaw": 1.469363620357508,
@@ -2546,7 +2546,7 @@ var APP_DATA = {
           "yaw": 0.8551056637932728,
           "pitch": 0.197137139357352,
           "title": "Copier",
-          "text": "&lt;edit text&gt;"
+          "text": "Guests may use this photocopier to copy permitted materials."
         }
       ]
     },
@@ -2643,24 +2643,24 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -0.5689919439438196,
-          "pitch": 0.09958861780527428,
-          "title": "Collection A",
-          "text": "&lt;edit text&gt;"
-        },
-        {
-          "yaw": -2.0988999618527906,
-          "pitch": 0.07196178398610442,
-          "title": "Collection B",
-          "text": "&lt;edit text&gt;"
-        },
-        {
-          "yaw": 2.26222292071283,
-          "pitch": 0.05794020096892538,
-          "title": "Collection C",
-          "text": "&lt;edit text&gt;"
-        }
+        // {
+        //   "yaw": -0.5689919439438196,
+        //   "pitch": 0.09958861780527428,
+        //   "title": "Collection A",
+        //   "text": "&lt;edit text&gt;"
+        // },
+        // {
+        //   "yaw": -2.0988999618527906,
+        //   "pitch": 0.07196178398610442,
+        //   "title": "Collection B",
+        //   "text": "&lt;edit text&gt;"
+        // },
+        // {
+        //   "yaw": 2.26222292071283,
+        //   "pitch": 0.05794020096892538,
+        //   "title": "Collection C",
+        //   "text": "&lt;edit text&gt;"
+        // }
       ]
     },
     {
@@ -2708,12 +2708,12 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -2.1874413041324843,
-          "pitch": 0.03655403982780747,
-          "title": "Collection A",
-          "text": "&lt;edit text&gt;"
-        }
+        // {
+        //   "yaw": -2.1874413041324843,
+        //   "pitch": 0.03655403982780747,
+        //   "title": "Collection A",
+        //   "text": "&lt;edit text&gt;"
+        // }
       ]
     },
     {
@@ -2766,13 +2766,13 @@ var APP_DATA = {
           "yaw": -1.177459929217429,
           "pitch": -0.01575780287916828,
           "title": "10th Floor Information",
-          "text": "&lt;edit text&gt;"
+          "text": "Popup function to be made."
         },
         {
           "yaw": -1.1582968464064738,
           "pitch": -0.2912776258193599,
           "title": "Announcements Screen",
-          "text": "&lt;edit text&gt;"
+          "text": "Announcements are displayed here."
         },
         {
           "yaw": 2.1221743102846897,
@@ -2843,13 +2843,13 @@ var APP_DATA = {
           "yaw": 1.4388659456284092,
           "pitch": 0.23456499690667165,
           "title": "Information and Reference Counter",
-          "text": "&lt;edit text&gt;"
+          "text": "If assistance is required, people here are there to help."
         },
         {
           "yaw": -2.768912430578352,
           "pitch": 0.08714675591926913,
           "title": "Exhibit Space",
-          "text": "&lt;edit text&gt;"
+          "text": "This space is usually used to showcase many of the works affiliated with DLSU."
         }
       ]
     },
@@ -2949,14 +2949,14 @@ var APP_DATA = {
           "yaw": 2.257694637536858,
           "pitch": 0.05663674644689465,
           "title": "Computer Terminals",
-          "text": "&lt;edit text&gt;"
+          "text": "Guests may use these to browse the internet."
         },
-        {
-          "yaw": 0.6830861595424391,
-          "pitch": 0.0811615199942679,
-          "title": "Area Information",
-          "text": "&lt;edit text&gt;"
-        }
+        // {
+        //   "yaw": 0.6830861595424391,
+        //   "pitch": 0.0811615199942679,
+        //   "title": "Area Information",
+        //   "text": "&lt;edit text&gt;"
+        // }
       ]
     },
     {
@@ -2998,12 +2998,12 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -0.11701654772963366,
-          "pitch": 0.09299949297006194,
-          "title": "Area Information",
-          "text": "&lt;edit text&gt;"
-        },
+        // {
+        //   "yaw": -0.11701654772963366,
+        //   "pitch": 0.09299949297006194,
+        //   "title": "Area Information",
+        //   "text": "&lt;edit text&gt;"
+        // },
         {
           "yaw": 2.5792407059355345,
           "pitch": -0.2998957320931801,
@@ -3120,7 +3120,7 @@ var APP_DATA = {
           "yaw": -0.5666583577292705,
           "pitch": -0.09169648214706427,
           "title": "Quiet Room",
-          "text": "&lt;edit text&gt;"
+          "text": "These special rooms are designed to cater those who seek silence when working as the room removes most noises from the outside."
         },
         {
           "yaw": 0.5009236744697709,
@@ -3132,7 +3132,7 @@ var APP_DATA = {
           "yaw": -1.817778268713937,
           "pitch": -0.1873513252978789,
           "title": "Discussion Rooms",
-          "text": "&lt;edit text&gt;"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         }
       ]
     },
@@ -3179,7 +3179,7 @@ var APP_DATA = {
           "yaw": -1.5795534067616899,
           "pitch": -0.3179012041155129,
           "title": "Discussion Rooms",
-          "text": "&lt;edit text&gt;"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         }
       ]
     },
@@ -3574,13 +3574,13 @@ var APP_DATA = {
           "yaw": -2.091599341550177,
           "pitch": -0.12163768269980757,
           "title": "12th Floor Information",
-          "text": "&lt;edit text&gt;"
+          "text": "Popup function to be made."
         },
         {
           "yaw": -1.1361495002460238,
           "pitch": -0.2981109543449598,
           "title": "Announcements Screen",
-          "text": "&lt;edit text&gt;"
+          "text": "Announcements are displayed here."
         },
         {
           "yaw": 2.106961430034165,
@@ -3645,7 +3645,7 @@ var APP_DATA = {
           "yaw": -2.424686046443732,
           "pitch": 0.027385649246612687,
           "title": "Information and Reference Counter",
-          "text": "&lt;edit text&gt;"
+          "text": "If assistance is required, people here are there to help."
         }
       ]
     },
@@ -3745,13 +3745,13 @@ var APP_DATA = {
           "yaw": 2.024882494689793,
           "pitch": 0.10384715171487002,
           "title": "Information and Reference Counter",
-          "text": "&lt;edit text&gt;"
+          "text": "If assistance is required, people here are there to help."
         },
         {
           "yaw": 2.4254454703162773,
           "pitch": 0.04228708919475821,
           "title": "Navigation Terminals",
-          "text": "&lt;edit text&gt;"
+          "text": "These terminals are used to locate materials within the libraries."
         },
         {
           "yaw": -2.1600432560399163,
@@ -3769,7 +3769,7 @@ var APP_DATA = {
           "yaw": -1.2550860147623233,
           "pitch": -0.07406661402050752,
           "title": "F. Sionil Jose Collection",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         }
       ]
     },
@@ -3816,7 +3816,7 @@ var APP_DATA = {
           "yaw": 1.3971695291470354,
           "pitch": 0.15526686488975372,
           "title": "Computer Terminals",
-          "text": "&lt;edit text&gt;"
+          "text": "Guests may use these to browse the internet."
         },
         {
           "yaw": -1.7005365533629693,
@@ -3863,7 +3863,7 @@ var APP_DATA = {
           "yaw": -0.7350428328357435,
           "pitch": 0.05860631152689599,
           "title": "Area under Maintenance",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         },
         {
           "yaw": 2.0303086117630382,
@@ -3965,6 +3965,12 @@ var APP_DATA = {
           "pitch": -0.12027533204470231,
           "title": "Restrooms",
           "text": "Icon to be changed."
+        },
+        {
+          "yaw": 2.792966701774736,
+          "pitch": -0.082089763904861,
+          "title": "Fire Exit",
+          "text": "Icon to be changed."
         }
       ]
     },
@@ -4017,19 +4023,19 @@ var APP_DATA = {
           "yaw": -0.32092899750171355,
           "pitch": -0.17534017393229462,
           "title": "Don Francisco Ortigas Seminar Room",
-          "text": "&lt;edit text&gt;"
-        },
-        {
-          "yaw": 0.7607531953682862,
-          "pitch": -0.06752540900164838,
-          "title": "Room 1401?",
-          "text": "&lt;edit text&gt;"
-        },
-        {
-          "yaw": 2.7000662628626557,
-          "pitch": -0.02086587177515753,
-          "title": "Collection Information",
-          "text": "&lt;edit text&gt;"
+          "text": ""
+        // },
+        // {
+        //   "yaw": 0.7607531953682862,
+        //   "pitch": -0.06752540900164838,
+        //   "title": "Room 1401?",
+        //   "text": "&lt;edit text&gt;"
+        // },
+        // {
+        //   "yaw": 2.7000662628626557,
+        //   "pitch": -0.02086587177515753,
+        //   "title": "Collection Information",
+        //   "text": "&lt;edit text&gt;"
         }
       ]
     },
@@ -4082,7 +4088,7 @@ var APP_DATA = {
           "yaw": -1.266635444239288,
           "pitch": -0.21122618772633217,
           "title": "American Corner A",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         }
       ]
     },
@@ -4135,13 +4141,13 @@ var APP_DATA = {
           "yaw": -2.212195985965172,
           "pitch": -0.18842341319767364,
           "title": "American Corner B",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         },
         {
           "yaw": 0.7961262498956305,
           "pitch": 0.08919442840073444,
           "title": "Brother Andrew Gonzales FSC Collection",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         },
         {
           "yaw": 2.7215837852212577,
@@ -4265,7 +4271,7 @@ var APP_DATA = {
           "yaw": -2.559915048816231,
           "pitch": -0.18835618008612087,
           "title": "European Documentation Room",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         },
         {
           "yaw": 0.45527856231883135,
@@ -4324,7 +4330,7 @@ var APP_DATA = {
           "yaw": -2.212469538295638,
           "pitch": -0.030482848081671676,
           "title": "Asian Corner",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         }
       ]
     },
@@ -4373,12 +4379,12 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -1.2408534125661745,
-          "pitch": -0.11832410279024863,
-          "title": "Collection Information",
-          "text": "&lt;edit text&gt;"
-        }
+        // {
+        //   "yaw": -1.2408534125661745,
+        //   "pitch": -0.11832410279024863,
+        //   "title": "Collection Information",
+        //   "text": "&lt;edit text&gt;"
+        // }
       ]
     },
     {
@@ -4605,8 +4611,22 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.8356265680908788,
+          "pitch": 0.49956471437526595,
+          "rotation": 0,
+          "target": "75-14-d"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.7583918151109046,
+          "pitch": 0.2819217306773574,
+          "title": "American Corner",
+          "text": ""
+        }
+      ]
     },
     {
       "id": "86-14-s2",
@@ -4645,7 +4665,7 @@ var APP_DATA = {
           "yaw": -0.815515292513755,
           "pitch": 0.2072082212434232,
           "title": "American Corner",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         }
       ]
     },
@@ -4686,7 +4706,7 @@ var APP_DATA = {
           "yaw": 1.8579987583220836,
           "pitch": 0.18772596311815093,
           "title": "European Documentation Room",
-          "text": "&lt;edit text&gt;"
+          "text": ""
         }
       ]
     },
