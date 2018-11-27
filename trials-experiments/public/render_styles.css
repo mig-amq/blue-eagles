@@ -46,10 +46,14 @@ body, html {
     cursor: pointer;
     text-align: center;
     position: relative;
-    color: #fff;
-    background-color: #012701;
-    padding: 6px 15px;
     list-style-type: none;
+}
+
+.header nav ul li > span a {
+    display: block;
+    color: #fff;
+    background-color: #054705;
+    padding: 6px 15px;
 }
 
 .header nav ul > li:hover ul {

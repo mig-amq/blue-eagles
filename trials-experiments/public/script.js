@@ -1,11 +1,16 @@
 function generateLinks (scenes) {
+    $("#location").click((e) => {
+        e.preventDefault();
+        $("#frame")[0].contentWindow.resetScene();
+    });
+
     scenes.forEach(({data, scene, view}, i, a) => {
         if (data.initial) {
             let link = $(`<li><a data-scene="${data.id}">${data.name}</a></li>`);
 
             link.click((e) => {
                 e.preventDefault();
-                $("span#location").text(data.name);
+                $("#location").text(data.name);
                 $("#frame")[0].contentWindow.switchScene({data, scene, view});
             });
 
@@ -14,8 +19,8 @@ function generateLinks (scenes) {
     });
 }
 
-function changeFloor(name) {
-    $("span#location").text(name);
+function changeFloor(name, id) {
+    $("#location").text(name);
 }
 
 // $(document).ready(function(){
@@ -25,7 +30,7 @@ function changeFloor(name) {
 //         $(o).click((e) => {
 //             e.preventDefault();
 //             var scene = $("#frame")[0].contentWindow.findSceneById($(o).attr("data-scene"));
-//             $("span#location").text($(o).text());
+//             $("#location").text($(o).text());
 //             $("#frame")[0].contentWindow.switchScene(scene);
 //         });
 //     });

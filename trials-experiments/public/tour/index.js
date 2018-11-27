@@ -29,6 +29,7 @@
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
 
+  var currScene;
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
     var setMode = function() {
@@ -170,8 +171,17 @@
   }
 
   function switchScene(scene) {
+    currScene = scene;
     scene.view.setParameters(scene.data.initialViewParameters);
     scene.scene.switchTo();
+  }
+
+  function resetScene() {
+    switchScene(currScene);
+  }
+
+  function reset(){
+    switchScene(findSceneById("1-6-a"));
   }
 
   function createLinkHotspotElement(hotspot) {
