@@ -172,6 +172,10 @@
 
   function switchScene(scene) {
     currScene = scene;
+
+    if (parent.changeFloor)
+      parent.changeFloor(scene.data.name);
+
     scene.view.setParameters(scene.data.initialViewParameters);
     scene.scene.switchTo();
   }
@@ -206,9 +210,6 @@
     wrapper.addEventListener('click', function() {
       let scene = findSceneById(hotspot.target);
       switchScene(scene);
-
-      if (parent.changeFloor)
-        parent.changeFloor(scene.data.name);
     });
 
     // Prevent touch and scroll events from reaching the parent element.

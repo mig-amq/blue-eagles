@@ -10,7 +10,6 @@ function generateLinks (scenes) {
 
             link.click((e) => {
                 e.preventDefault();
-                $("#location").text(data.name);
                 $("#frame")[0].contentWindow.switchScene({data, scene, view});
             });
 
