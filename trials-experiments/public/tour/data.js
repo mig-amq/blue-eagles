@@ -3345,11 +3345,42 @@ var APP_DATA = {
       ],
       "faceSize": 752,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 3.070726048120969,
+        "pitch": 0.275533545141041,
+        "fov": 1.3687812585745385
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 3.0840791085522232,
+          "pitch": 0.2552442361823548,
+          "rotation": 0,
+          "target": "1-m10-b"
+        },
+        {
+          "yaw": -0.12623436647358766,
+          "pitch": 0.2546273262174239,
+          "rotation": 0,
+          "target": "0-m10-a"
+        }
+      ],"initialViewParameters": {
+        "yaw": 3.070726048120969,
+        "pitch": 0.275533545141041,
+        "fov": 1.3687812585745385
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.0840791085522232,
+          "pitch": 0.2552442361823548,
+          "rotation": 0,
+          "target": "62-m10-b"
+        },
+        {
+          "yaw": -0.12623436647358766,
+          "pitch": 0.2546273262174239,
+          "rotation": 0,
+          "target": "51-10-b"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -3372,11 +3403,24 @@ var APP_DATA = {
       ],
       "faceSize": 752,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.383955322372824,
+        "pitch": 0.33330710997507396,
+        "fov": 1.3687812585745385
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 1.524378162932937,
+          "pitch": 0.22815704115379631,
+          "rotation": 4.71238898038469,
+          "target": "55-10-f"
+        },
+        {
+          "yaw": -3.0849817455410395,
+          "pitch": 0.32062049688395255,
+          "rotation": 0,
+          "target": "61-m10-a"
+        }
+      ],
       "infoHotspots": []
     },
     {
