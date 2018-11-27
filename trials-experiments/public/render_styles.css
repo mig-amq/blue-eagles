@@ -27,7 +27,7 @@ body, html {
     align-items: center;
 }
 
-.header nav > * {
+.header > * {
     min-width: 33vw;
 }
 
@@ -94,8 +94,9 @@ body, html {
 }
 
 .header > div {
-    transform: translateX(-40%);
+    text-align: center;
 }
+
 .header img {
     height: 100%;
     padding: 10px;
