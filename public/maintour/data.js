@@ -560,7 +560,7 @@ var APP_DATA = {
           "yaw": 1.968013550818279,
           "pitch": -0.28604816454005544,
           "title": "Announcements Screen",
-          "text": "edit-ann"
+          "text": "Announcements and special events are displayed here."
         },
         // {
         //   "yaw": 1.1043648388773466,
@@ -577,8 +577,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "1-7-b",
-      "name": "7-B",
+      "id": "9-7-b",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -609,19 +609,19 @@ var APP_DATA = {
           "yaw": -2.8280692505239102,
           "pitch": 0.22050141094949183,
           "rotation": 0.7853981633974483,
-          "target": "0-7-a"
+          "target": "8-7-a"
         },
         {
           "yaw": 2.249405084454409,
           "pitch": 0.3030534111658909,
           "rotation": 5.497787143782138,
-          "target": "2-7-c"
+          "target": "10-7-c"
         },
         {
           "yaw": 1.4346235367005393,
           "pitch": -0.23720338490486625,
           "rotation": 0,
-          "target": "11-7m-a"
+          "target": "19-7m-a"
         }
       ],
       "infoHotspots": [
@@ -629,25 +629,25 @@ var APP_DATA = {
           "yaw": 2.6158244055761166,
           "pitch": -0.08952481526743128,
           "title": "Information and Reference Counter",
-          "text": "edit-irc"
+          "text": "If assistance is required, people here are there to help."
         },
         {
           "yaw": 0.775372112736882,
           "pitch": -0.2254893663281834,
           "title": "New Acquisitions Showcase",
-          "text": "edit-as"
+          "text": "New materials acquired by the libraries are displayed here."
         },
         {
           "yaw": 1.8243785875647776,
           "pitch": -0.037182240661897126,
           "title": "Online Public Access Catalog",
-          "text": "edit-opac"
+          "text": "These computers can be used to locate certain materials or resources within the library."
         }
       ]
     },
     {
-      "id": "2-7-c",
-      "name": "7-C",
+      "id": "10-7-c",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -678,19 +678,19 @@ var APP_DATA = {
           "yaw": 1.1277413661664717,
           "pitch": 0.22547320659005443,
           "rotation": 0,
-          "target": "3-7-d"
+          "target": "11-7-d"
         },
         {
           "yaw": -1.338399998739332,
           "pitch": -0.21672891460695354,
           "rotation": 0,
-          "target": "11-7m-a"
+          "target": "19-7m-a"
         },
         {
           "yaw": -1.9167601217580987,
           "pitch": 0.24306516736435313,
           "rotation": 0,
-          "target": "1-7-b"
+          "target": "9-7-b"
         }
       ],
       "infoHotspots": [
@@ -710,19 +710,19 @@ var APP_DATA = {
           "yaw": 0.39512781964674737,
           "pitch": -0.05038322241364668,
           "title": "Computer Terminals",
-          "text": "edit-ct"
+          "text": "Guests may use these to browse the internet."
         },
         {
           "yaw": -2.5579033795035997,
           "pitch": -0.26696245994349965,
           "title": "Meeting Room",
-          "text": "edit-mr"
+          "text": ""
         }
       ]
     },
     {
-      "id": "3-7-d",
-      "name": "7-D",
+      "id": "11-7-d",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -753,13 +753,13 @@ var APP_DATA = {
           "yaw": -0.11955813136017746,
           "pitch": 0.24110814250625623,
           "rotation": 0,
-          "target": "4-7-e"
+          "target": "12-7-e"
         },
         {
           "yaw": -2.071376403043269,
           "pitch": 0.24493704618000756,
           "rotation": 0,
-          "target": "2-7-c"
+          "target": "10-7-c"
         }
       ],
       "infoHotspots": [
@@ -779,7 +779,7 @@ var APP_DATA = {
           "yaw": -1.4022616523186322,
           "pitch": -0.0376367544777807,
           "title": "Computer Terminals",
-          "text": "edit-ct"
+          "text": "Guests may use these to browse the internet."
         },
         {
           "yaw": 0.06471419705420622,
@@ -790,8 +790,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "4-7-e",
-      "name": "7-E",
+      "id": "12-7-e",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -822,13 +822,13 @@ var APP_DATA = {
           "yaw": 0.019996277460631262,
           "pitch": 0.26326805838371925,
           "rotation": 0,
-          "target": "5-7-f"
+          "target": "13-7-f"
         },
         {
           "yaw": 2.5664472064880375,
           "pitch": 0.34566901786565474,
           "rotation": 0.7853981633974483,
-          "target": "3-7-d"
+          "target": "11-7-d"
         }
       ],
       "infoHotspots": [
@@ -842,7 +842,7 @@ var APP_DATA = {
           "yaw": -2.4375702776750128,
           "pitch": -0.041885598197762164,
           "title": "Computer Terminals",
-          "text": "Text"
+          "text": "Guests may use these to browse the internet."
         },
         {
           "yaw": 2.8353426153574937,
@@ -859,8 +859,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "5-7-f",
-      "name": "7-F",
+      "id": "13-7-f",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -891,33 +891,33 @@ var APP_DATA = {
           "yaw": -1.5538622526376926,
           "pitch": 0.24924144500331735,
           "rotation": 0,
-          "target": "10-7-k"
+          "target": "18-7-k"
         },
         {
           "yaw": -0.4204975844614367,
           "pitch": -0.24247191761398668,
           "rotation": 0,
-          "target": "13-7m-c"
+          "target": "21-7m-c"
         },
         {
           "yaw": 0.03643756813287524,
           "pitch": 0.37571422433164514,
           "rotation": 0,
-          "target": "6-7-g"
+          "target": "14-7-g"
         },
         {
           "yaw": 2.9694143443711756,
           "pitch": 0.3098456479022751,
           "rotation": 0,
-          "target": "4-7-e"
+          "target": "12-7-e"
         }
       ],
       "infoHotspots": [
         {
           "yaw": 1.1679889715722087,
           "pitch": -0.17561613219399064,
-          "title": "Pillar Ferrero Lim Rooms",
-          "text": "edit-dr"
+          "title": "Pillar Ferrero Lim Discussion Rooms",
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         },
         {
           "yaw": 2.771317410359732,
@@ -928,8 +928,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "6-7-g",
-      "name": "7-G",
+      "id": "14-7-g",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
