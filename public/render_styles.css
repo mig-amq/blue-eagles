@@ -10,44 +10,50 @@ body, html {
 /* the style for the header */
 .header {
     height: 50px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
     display: flex;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header nav {
+    display: flex;
     color:#fff;
     padding: 10px;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header > * {
-    min-width: 33%;
-}
-
-.header > div {
-    text-align: center;
+    min-width: 33vw;
 }
 
 .header nav #location {
+    font-family: "Open Sans";
     text-align: center;
 }
 
 .header nav span > ul {
     margin-left: 25px;
+    min-width: 250px !important;
     display: inline-block !important;
 }
 
-.header nav span > ul > li {
+.header nav ul > li {
     cursor: pointer;
+    text-align: center;
     position: relative;
-    color: #fff;
     list-style-type: none;
-    padding: 5px 10px;
-    background-color: #337c16;
-    border-radius: 2px;
+}
+
+.header nav ul li > span a {
+    display: block;
+    color: #fff;
+    background-color: #054705;
+    padding: 6px 15px;
 }
 
 .header nav ul > li:hover ul {
@@ -60,39 +66,40 @@ body, html {
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 100%;
-    text-align: center;
+    width: 100%;
     padding: 0;
-    background-color: #fff;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    font-size: 14px;
+    max-height: 300px !important;
+    overflow-y: scroll;
 }
 
 .header nav ul li ul li:hover {
-    background-color: #2b6912;
+    background-color: #337c16;
 }
 
-.header nav ul li ul li:last-child:hover {
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-}
-
-.header nav ul li ul li:not(:last-child) {
-    border-bottom: 1px solid #2b6912;
-}
 .header nav ul li ul li:hover a{
     color: #ffffff;
 }
 
+.header nav ul li ul li {
+    padding: 0;
+    background-color: #004d00;
+}
+
 .header nav ul li ul li a {
-    color: #2b6912;
+    color: #fff;
     display: block;
-    padding: 10px 15px;
+    padding: 10px;
     text-decoration: none;
 }
 
-.header div img{
-    height: 35px;
+.header > div {
+    text-align: center;
+}
+
+.header img {
+    height: 100%;
+    padding: 10px;
 }
 /* the style for the iframe */
 .frame{
@@ -101,4 +108,8 @@ body, html {
     border: 0;
     display: block;
     z-index: -1;
+}
+
+.list{
+    font-family: sans-serif
 }

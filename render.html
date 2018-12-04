@@ -1,6 +1,10 @@
 <html>
     <head>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="render_styles.css">
+        <script src="script.js">
+        </script>
     </head>
     <body>
         <!-- the div to contain both the header with the logo -->
@@ -9,11 +13,9 @@
                 <span>
                     <ul id="buildings">
                         <li>
-                            <span id="location">Gokongwei Building, 1F</span>
+                            <span><a data-scene="1-6-a" id="location">HSSH, 6F</a></span>
                             <ul>
-                            <li><a href="#">Gokongwei Hall, 2F</a></li>
-                            <li><a href="#">Gokongwei Hall, 3F</a></li>
-                            <li><a href="#">Gokongwei Hall, 4F</a></li>
+                            
                             </ul>
                         </li>
                     </ul>
@@ -24,8 +26,7 @@
             <span id="space"></span>
         </div>
         <!-- it is supposed to contain the tour which is in the index.html file -->
-        <iframe class="frame" src="
-        /app-files/index.html"></iframe>
+        <iframe class="frame" id="frame" src="/tour/index.html"></iframe>
         
     </body>
 </html>
