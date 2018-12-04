@@ -1,0 +1,11 @@
+edit-ann
+Announcements and special events are displayed here.
+
+edit-opac
+These computers can be used to locate certain materials or resources within the library.
+
+edit-exhibit
+This space is used to showcase works affiliated with DLSU.
+
+edit-sct
+Guests may use these as self service of checking out books.

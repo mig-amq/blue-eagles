@@ -1,8 +1,53 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-6-a",
-      "name": "6-A",
+      "id": "0-5-a",
+      "name": "Chill at the 5th",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7942031736354007,
+          "pitch": 0.15177960689597292,
+          "rotation": 0,
+          "target": "5-6-e"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.623405150703686,
+          "pitch": 0.057434589459258945,
+          "title": "Student Space",
+          "text": "This area is dedicated for a social space for students. Board games and other activities are available here."
+        }
+      ]
+    },
+    {
+      "id": "1-6-a",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -33,15 +78,15 @@ var APP_DATA = {
           "yaw": -0.22172525274198307,
           "pitch": 0.3553046500960306,
           "rotation": 0,
-          "target": "1-6-b"
+          "target": "2-6-b"
         }
       ],
       "infoHotspots": [
         {
           "yaw": -0.6168468845450334,
           "pitch": 0.04863415519658254,
-          "title": "Security",
-          "text": "edit-text"
+          "title": "Security Station",
+          "text": "Security personnel are stationed here to check entering guests and students to ensure safety of the libraries as it contains numerous valuable collections."
         },
         {
           "yaw": -1.5141392194189986,
@@ -60,12 +105,18 @@ var APP_DATA = {
           "pitch": -0.06888839598137331,
           "title": "Drinking Fountain",
           "text": ""
+        },
+        {
+          "yaw": 2.332508628819684,
+          "pitch": 0.24303024383051053,
+          "title": "Exhibit Hallway",
+          "text": "<div style=\"color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;\"><span style=\"color: #ce9178;\">This space is used to showcase works affiliated with DLSU.</span></div>"
         }
       ]
     },
     {
-      "id": "1-6-b",
-      "name": "6-B",
+      "id": "2-6-b",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -96,13 +147,19 @@ var APP_DATA = {
           "yaw": 1.2215014217845823,
           "pitch": 0.17773592263678495,
           "rotation": 0,
-          "target": "3-6-d"
+          "target": "4-6-d"
         },
         {
           "yaw": -2.066540600076321,
           "pitch": 0.3828758406480439,
           "rotation": 0,
           "target": "7-6-t"
+        },
+        {
+          "yaw": 3.099020594942287,
+          "pitch": 0.23111032500802864,
+          "rotation": 0,
+          "target": "1-6-a"
         }
       ],
       "infoHotspots": [
@@ -139,8 +196,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "2-6-c",
-      "name": "6-C",
+      "id": "3-6-c",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -171,13 +228,13 @@ var APP_DATA = {
           "yaw": 0.11589103677750856,
           "pitch": 0.3573024707625603,
           "rotation": 0,
-          "target": "2-6-c"
+          "target": "3-6-c"
         },
         {
           "yaw": 1.4304631673998625,
           "pitch": 0.22198707834055043,
           "rotation": 0,
-          "target": "4-6-e"
+          "target": "5-6-e"
         },
         {
           "yaw": -3.0823024333596347,
@@ -202,8 +259,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "3-6-d",
-      "name": "6-D",
+      "id": "4-6-d",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -234,13 +291,13 @@ var APP_DATA = {
           "yaw": -2.0039328975828052,
           "pitch": 0.284414184967261,
           "rotation": 0,
-          "target": "1-6-b"
+          "target": "2-6-b"
         },
         {
           "yaw": -0.12118302531629155,
           "pitch": 0.29418844040655756,
           "rotation": 0,
-          "target": "4-6-e"
+          "target": "5-6-e"
         }
       ],
       "infoHotspots": [
@@ -260,7 +317,7 @@ var APP_DATA = {
           "yaw": 2.052087437377769,
           "pitch": -0.13472145718221817,
           "title": "Self Checkout Terminals",
-          "text": "edit-text"
+          "text": "Guests may use these as self service of checking out books."
         },
         {
           "yaw": 3.111963822460474,
@@ -271,8 +328,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "4-6-e",
-      "name": "6-E",
+      "id": "5-6-e",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -303,19 +360,19 @@ var APP_DATA = {
           "yaw": -1.025351215541784,
           "pitch": 0.32054783914938767,
           "rotation": 0,
-          "target": "5-5-a"
+          "target": "0-5-a"
         },
         {
           "yaw": -1.4817489113432014,
           "pitch": 0.25670178441330194,
           "rotation": 0,
-          "target": "2-6-c"
+          "target": "3-6-c"
         },
         {
           "yaw": 3.0462167643746074,
           "pitch": 0.2019844004042639,
           "rotation": 0,
-          "target": "3-6-d"
+          "target": "4-6-d"
         },
         {
           "yaw": 1.0446816522496931,
@@ -340,39 +397,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "5-5-a",
-      "name": "5-A",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "6-6-f",
-      "name": "6-F",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -403,7 +429,7 @@ var APP_DATA = {
           "yaw": -1.9501991382636206,
           "pitch": 0.25979401781220623,
           "rotation": 0,
-          "target": "4-6-e"
+          "target": "5-6-e"
         }
       ],
       "infoHotspots": [
@@ -417,7 +443,7 @@ var APP_DATA = {
     },
     {
       "id": "7-6-t",
-      "name": "6-T",
+      "name": "HSSH, 6F",
       "levels": [
         {
           "tileSize": 256,
@@ -448,33 +474,36 @@ var APP_DATA = {
           "yaw": -0.07233446535056842,
           "pitch": 0.32580646009098935,
           "rotation": 0,
-          "target": "2-6-c"
+          "target": "3-6-c"
         },
         {
           "yaw": 1.4614205506343723,
           "pitch": 0.34907714577854776,
           "rotation": 0,
-          "target": "1-6-b"
+          "target": "2-6-b"
         },
         {
           "yaw": -3.1363554461866237,
           "pitch": 0.060616137562851335,
           "rotation": 0,
-          "target": "12-7-a"
+          "target": "8-7-a"
         }
       ],
       "infoHotspots": [
         {
           "yaw": -0.6288902039029978,
           "pitch": -0.13280202541240982,
-          "title": "Activities Corner",
+          "title": "Activities Area",
           "text": "This area is often used for various activities and presentations. Or the area is set up as a student space."
         }
       ]
     },
+    /****************************************************
+     * 7th Floor                                        *
+     ****************************************************/
     {
-      "id": "8-6-x1",
-      "name": "6-X1",
+      "id": "8-7-a",
+      "name": "HSSH, 7F",
       "levels": [
         {
           "tileSize": 256,
@@ -500,135 +529,55 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-6-x2",
-      "name": "6-X2",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 0.2172813324519094,
+          "pitch": 0.362031671169202,
+          "rotation": 0,
+          "target": "7-6-t"
         },
         {
-          "tileSize": 512,
-          "size": 512
+          "yaw": -0.770597224384101,
+          "pitch": 0.2919711811221184,
+          "rotation": 0.7853981633974483,
+          "target": "23-7-t1"
         },
         {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 1.4520177074302207,
+          "pitch": 0.3335648521392116,
+          "rotation": 0,
+          "target": "9-7-b"
         }
       ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -0.8952894606837489,
+          "pitch": -0.12722232394765065,
+          "title": "Restroom",
+          "text": ""
+        },
+        {
+          "yaw": 1.968013550818279,
+          "pitch": -0.28604816454005544,
+          "title": "Announcements Screen",
+          "text": "edit-ann"
+        },
+        // {
+        //   "yaw": 1.1043648388773466,
+        //   "pitch": -0.14515163507058482,
+        //   "title": "Popup",
+        //   "text": "library_hours"
+        // },
+        // {
+        //   "yaw": 1.9197068688754282,
+        //   "pitch": 0.0806952166030861,
+        //   "title": "PopUp",
+        //   "text": "floor_info"
+        // }
+      ]
     },
     {
-      "id": "10-6-z1",
-      "name": "6-Z1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-6-z2",
-      "name": "6-Z2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-7-a",
-      "name": "7-A",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-7-b",
+      "id": "1-7-b",
       "name": "7-B",
       "levels": [
         {
@@ -655,11 +604,49 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -2.8280692505239102,
+          "pitch": 0.22050141094949183,
+          "rotation": 0.7853981633974483,
+          "target": "0-7-a"
+        },
+        {
+          "yaw": 2.249405084454409,
+          "pitch": 0.3030534111658909,
+          "rotation": 5.497787143782138,
+          "target": "2-7-c"
+        },
+        {
+          "yaw": 1.4346235367005393,
+          "pitch": -0.23720338490486625,
+          "rotation": 0,
+          "target": "11-7m-a"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.6158244055761166,
+          "pitch": -0.08952481526743128,
+          "title": "Information and Reference Counter",
+          "text": "edit-irc"
+        },
+        {
+          "yaw": 0.775372112736882,
+          "pitch": -0.2254893663281834,
+          "title": "New Acquisitions Showcase",
+          "text": "edit-as"
+        },
+        {
+          "yaw": 1.8243785875647776,
+          "pitch": -0.037182240661897126,
+          "title": "Online Public Access Catalog",
+          "text": "edit-opac"
+        }
+      ]
     },
     {
-      "id": "14-7-c",
+      "id": "2-7-c",
       "name": "7-C",
       "levels": [
         {
@@ -686,11 +673,55 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.1277413661664717,
+          "pitch": 0.22547320659005443,
+          "rotation": 0,
+          "target": "3-7-d"
+        },
+        {
+          "yaw": -1.338399998739332,
+          "pitch": -0.21672891460695354,
+          "rotation": 0,
+          "target": "11-7m-a"
+        },
+        {
+          "yaw": -1.9167601217580987,
+          "pitch": 0.24306516736435313,
+          "rotation": 0,
+          "target": "1-7-b"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.4407050561266388,
+          "pitch": -0.1184328178560019,
+          "title": "Restrooms",
+          "text": ""
+        },
+        {
+          "yaw": 1.7700691550607779,
+          "pitch": -0.11018779627344344,
+          "title": "Drinking Fountain",
+          "text": ""
+        },
+        {
+          "yaw": 0.39512781964674737,
+          "pitch": -0.05038322241364668,
+          "title": "Computer Terminals",
+          "text": "edit-ct"
+        },
+        {
+          "yaw": -2.5579033795035997,
+          "pitch": -0.26696245994349965,
+          "title": "Meeting Room",
+          "text": "edit-mr"
+        }
+      ]
     },
     {
-      "id": "15-7-d",
+      "id": "3-7-d",
       "name": "7-D",
       "levels": [
         {
@@ -717,11 +748,49 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -0.11955813136017746,
+          "pitch": 0.24110814250625623,
+          "rotation": 0,
+          "target": "4-7-e"
+        },
+        {
+          "yaw": -2.071376403043269,
+          "pitch": 0.24493704618000756,
+          "rotation": 0,
+          "target": "2-7-c"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.396646140060735,
+          "pitch": -0.3006672244545836,
+          "title": "Restrooms",
+          "text": ""
+        },
+        {
+          "yaw": 2.8575287815564128,
+          "pitch": -0.13372111918810248,
+          "title": "Drinking Fountain",
+          "text": ""
+        },
+        {
+          "yaw": -1.4022616523186322,
+          "pitch": -0.0376367544777807,
+          "title": "Computer Terminals",
+          "text": "edit-ct"
+        },
+        {
+          "yaw": 0.06471419705420622,
+          "pitch": -0.21137786236156764,
+          "title": "Fire Exit",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "16-7-e",
+      "id": "4-7-e",
       "name": "7-E",
       "levels": [
         {
@@ -748,11 +817,49 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.019996277460631262,
+          "pitch": 0.26326805838371925,
+          "rotation": 0,
+          "target": "5-7-f"
+        },
+        {
+          "yaw": 2.5664472064880375,
+          "pitch": 0.34566901786565474,
+          "rotation": 0.7853981633974483,
+          "target": "3-7-d"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.1726007180289137,
+          "pitch": -0.29780524355123106,
+          "title": "Fire Exit",
+          "text": ""
+        },
+        {
+          "yaw": -2.4375702776750128,
+          "pitch": -0.041885598197762164,
+          "title": "Computer Terminals",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.8353426153574937,
+          "pitch": -0.08252772309845113,
+          "title": "Restrooms",
+          "text": ""
+        },
+        {
+          "yaw": 2.9795726710113666,
+          "pitch": -0.07769440398858762,
+          "title": "Drinking Fountain",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "17-7-f",
+      "id": "5-7-f",
       "name": "7-F",
       "levels": [
         {
@@ -779,11 +886,49 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -1.5538622526376926,
+          "pitch": 0.24924144500331735,
+          "rotation": 0,
+          "target": "10-7-k"
+        },
+        {
+          "yaw": -0.4204975844614367,
+          "pitch": -0.24247191761398668,
+          "rotation": 0,
+          "target": "13-7m-c"
+        },
+        {
+          "yaw": 0.03643756813287524,
+          "pitch": 0.37571422433164514,
+          "rotation": 0,
+          "target": "6-7-g"
+        },
+        {
+          "yaw": 2.9694143443711756,
+          "pitch": 0.3098456479022751,
+          "rotation": 0,
+          "target": "4-7-e"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.1679889715722087,
+          "pitch": -0.17561613219399064,
+          "title": "Pillar Ferrero Lim Rooms",
+          "text": "edit-dr"
+        },
+        {
+          "yaw": 2.771317410359732,
+          "pitch": -0.16897462263677632,
+          "title": "Fire Exit",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "18-7-g",
+      "id": "6-7-g",
       "name": "7-G",
       "levels": [
         {
@@ -810,11 +955,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -1.4904833903330736,
+          "pitch": 0.2647944973425673,
+          "rotation": 0,
+          "target": "7-7-h"
+        },
+        {
+          "yaw": -3.0275461550009553,
+          "pitch": 0.31725841680122,
+          "rotation": 0,
+          "target": "5-7-f"
+        },
+        {
+          "yaw": -0.44039238348749166,
+          "pitch": 0.32338615657315195,
+          "rotation": 0,
+          "target": "6-7-g"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.048358774265574,
+          "pitch": -0.11538570586915142,
+          "title": "Pillar Ferrero Lim Rooms",
+          "text": "edit-dr"
+        }
+      ]
     },
     {
-      "id": "19-7-h",
+      "id": "7-7-h",
       "name": "7-H",
       "levels": [
         {
@@ -841,11 +1012,30 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 1.5185875414313177,
+          "pitch": 0.271930231131714,
+          "rotation": 0,
+          "target": "6-7-g"
+        },
+        {
+          "yaw": 1.7025022058361108,
+          "pitch": -0.052679475499758155,
+          "rotation": 0,
+          "target": "13-7m-c"
+        },
+        {
+          "yaw": -1.564790481421527,
+          "pitch": 0.3389018519272682,
+          "rotation": 0,
+          "target": "8-7-i"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "20-7-i",
+      "id": "8-7-i",
       "name": "7-I",
       "levels": [
         {
@@ -872,11 +1062,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.4859600207938417,
+          "pitch": 0.25848172967942595,
+          "rotation": 0,
+          "target": "7-7-h"
+        },
+        {
+          "yaw": 3.068625362465178,
+          "pitch": 0.3984256957277701,
+          "rotation": 0,
+          "target": "9-7-j"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 3.0828307737229945,
+          "pitch": -0.012306428631505995,
+          "title": "Reading Area",
+          "text": ""
+        },
+        {
+          "yaw": -2.175054352058453,
+          "pitch": -0.164941764132033,
+          "title": "Viewing Rooms",
+          "text": "edit-vr"
+        }
+      ]
     },
     {
-      "id": "21-7-j",
+      "id": "9-7-j",
       "name": "7-J",
       "levels": [
         {
@@ -903,11 +1119,61 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -0.035459616109131176,
+          "pitch": 0.4195651960803737,
+          "rotation": 0,
+          "target": "8-7-i"
+        },
+        {
+          "yaw": 1.6986254674897392,
+          "pitch": 0.308160775014489,
+          "rotation": 0,
+          "target": "10-7-k"
+        },
+        {
+          "yaw": -1.05207074587023,
+          "pitch": 0.23205685668639653,
+          "rotation": 0,
+          "target": "14-7-s-vr"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.009067829359779012,
+          "pitch": 0.02112640691945522,
+          "title": "Reading Area",
+          "text": ""
+        },
+        {
+          "yaw": 1.7002993607564907,
+          "pitch": 0.04298939503373056,
+          "title": "Reading Area",
+          "text": ""
+        },
+        {
+          "yaw": -2.2085715680581153,
+          "pitch": -0.10532379620634558,
+          "title": "Fire Exit",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.308103894159654,
+          "pitch": -0.17245033642555185,
+          "title": "Viewing Rooms",
+          "text": "edit-vr"
+        },
+        {
+          "yaw": -2.960200748721663,
+          "pitch": 0.09793490300534202,
+          "title": "Reading Area",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "22-7-k",
+      "id": "10-7-k",
       "name": "7-K",
       "levels": [
         {
@@ -934,40 +1200,25 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "23-7-l",
-      "name": "7-L",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": -1.5385133879611974,
+          "pitch": 0.2604085853307119,
+          "rotation": 0,
+          "target": "9-7-j"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 1.5943641387597456,
+          "pitch": 0.23764499625593238,
+          "rotation": 0,
+          "target": "5-7-f"
         }
       ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 7th Mezzanine Floor                              *
+     ****************************************************/
     {
       "id": "24-7m-a",
       "name": "7M-A",
@@ -1061,6 +1312,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 7th Floor Specials                               *
+     ****************************************************/
     {
       "id": "27-7-s-vr",
       "name": "7-S-VR",
@@ -1092,6 +1346,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 7th Floor Transitions                            *
+     ****************************************************/
     {
       "id": "28-7-t1",
       "name": "7-T1",
@@ -1154,6 +1411,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 8th Floor                                        *
+     ****************************************************/
     {
       "id": "30-8-a",
       "name": "8-A",
@@ -1557,6 +1817,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 8th Floor Mezzanine                              *
+     ****************************************************/
     {
       "id": "43-8m-a",
       "name": "8M-A",
@@ -1712,6 +1975,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 8th Floor Specials                               *
+     ****************************************************/
     {
       "id": "48-8-s-dr",
       "name": "8-S-DR",
@@ -1867,6 +2133,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 8th Floor Transitions                            *
+     ****************************************************/
     {
       "id": "53-8-t1",
       "name": "8-T1",
@@ -1929,6 +2198,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 9th Floor                                        *
+     ****************************************************/
     {
       "id": "55-9-a",
       "name": "9-A",
@@ -2332,6 +2604,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 9th Floor Mezannine                              *
+     ****************************************************/
     {
       "id": "68-9m-a",
       "name": "9M-A",
@@ -2425,6 +2700,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 9th Floor Transitions                            *
+     ****************************************************/
     {
       "id": "71-9-t1",
       "name": "9-T1",
@@ -2487,6 +2765,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 10th Floor                                       *
+     ****************************************************/
     {
       "id": "73-10-a",
       "name": "10-A",
@@ -2797,6 +3078,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 10th Floor Mezzanine                             *
+     ****************************************************/
     {
       "id": "83-10m-a",
       "name": "10M-A",
@@ -2921,6 +3205,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 10th Floor Specials                              *
+     ****************************************************/
     {
       "id": "87-10-s-gsr",
       "name": "10-S-GSR",
@@ -3045,6 +3332,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 10th Floor Trasitions                            *
+     ****************************************************/
     {
       "id": "91-10-t1",
       "name": "10-T1",
@@ -3107,6 +3397,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 11th Floor                                       *
+     ****************************************************/
     {
       "id": "93-11-a",
       "name": "11-A",
@@ -3138,6 +3431,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 11th Floor Transitions                           *
+     ****************************************************/
     {
       "id": "94-11-t1",
       "name": "11-T1",
@@ -3200,6 +3496,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 12th Floor                                       *
+     ****************************************************/
     {
       "id": "96-12-a",
       "name": "12-A",
@@ -3479,6 +3778,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 12th Floor Specials                              *
+     ****************************************************/
     {
       "id": "105-12-qr",
       "name": "12-QR",
@@ -3603,6 +3905,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 12th Floor Transitions                           *
+     ****************************************************/
     {
       "id": "109-12-t1",
       "name": "12-T1",
@@ -3665,6 +3970,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 14th Floor                                       *
+     ****************************************************/
     {
       "id": "111-14-a",
       "name": "14-A",
@@ -4223,6 +4531,72 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    
+    {
+      "id": "135-14-u",
+      "name": "14-U",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "136-14-v",
+      "name": "14-V",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    /****************************************************
+     * 12th Floor Specials                              *
+     ****************************************************/
     {
       "id": "129-14-s-ac1",
       "name": "14-S-AC1",
@@ -4347,6 +4721,9 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    /****************************************************
+     * 12th Floor Transitions                           *
+     ****************************************************/
     {
       "id": "133-14-t1",
       "name": "14-T1",
@@ -4381,99 +4758,6 @@ var APP_DATA = {
     {
       "id": "134-14-t2",
       "name": "14-T2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "135-14-u",
-      "name": "14-U",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "136-14-v",
-      "name": "14-V",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "137-14-x",
-      "name": "14-X",
       "levels": [
         {
           "tileSize": 256,
