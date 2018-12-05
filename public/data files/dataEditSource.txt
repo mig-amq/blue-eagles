@@ -24,3 +24,13 @@ These rooms are available for student groups who wish to conduct collaborative a
 
 edit-vr
 Borrowed viewing materials from the Instructional Media Services (6F) can be viewed here.
+
+edit-qr
+These special rooms are designed to cater those who seek silence when working as the room removes most noises from the outside.
+
+edit-fc
+This room is made for the faculty of DLSU as a work space in the library.
+
+edit-nm
+Articles and Materials from different media sources are displayed here.
+

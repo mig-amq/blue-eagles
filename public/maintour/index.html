@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>maintour</title>
+<title>Learning Commons Tour</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
@@ -9,9 +9,28 @@
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="multiple-scenes ">
+<body class="multiple-scenes view-control-buttons">
 
 <div id="pano"></div>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="#" class="viewControlButton viewControlButton-5" onclick="resetScene();">
+  <img src="img/reset.svg" alt="Reset" class="icon">
+</a>
+<a href="#" class="viewControlButton viewControlButton-6" onclick="reset();">
+    <img src="img/home.png" alt="Reset" class="icon">
+  </a>
 
 <div id="sceneList">
   <ul class="scenes">
@@ -543,16 +562,16 @@
   </ul>
 </div>
 
-<div id="titleBar">
+<!-- <div id="titleBar">
   <h1 class="sceneName"></h1>
-</div>
+</div> -->
 
-<a href="#" id="autorotateToggle">
+<!-- <a href="#" id="autorotateToggle">
   <img class="icon off" src="img/play.png">
   <img class="icon on" src="img/pause.png">
-</a>
+</a> -->
 
-<a href="#" id="fullscreenToggle">
+<!-- <a href="#" id="fullscreenToggle">
   <img class="icon off" src="img/fullscreen.png">
   <img class="icon on" src="img/windowed.png">
 </a>
@@ -560,26 +579,7 @@
 <a href="#" id="sceneListToggle">
   <img class="icon off" src="img/expand.png">
   <img class="icon on" src="img/collapse.png">
-</a>
-
-<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="img/up.png">
-</a>
-<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="img/down.png">
-</a>
-<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="img/left.png">
-</a>
-<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="img/right.png">
-</a>
-<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="img/plus.png">
-</a>
-<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="img/minus.png">
-</a>
+</a> -->
 
 <script src="vendor/es5-shim.js"></script>
 <script src="vendor/eventShim.js"></script>
