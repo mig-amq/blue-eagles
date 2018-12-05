@@ -1357,8 +1357,8 @@ var APP_DATA = {
      * 7th Floor Specials                               *
      ****************************************************/
     {
-      "id": "22-7-s-vr",
-      "name": "Viewing Room",
+      "id": "27-7-s-vr",
+      "name": "7-S-VR",
       "levels": [
         {
           "tileSize": 256,
@@ -1384,22 +1384,15 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [
-        {
-          "yaw": -1.9138069516042275,
-          "pitch": 0.4749842973043048,
-          "rotation": 0,
-          "target": "17-7-j"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     /****************************************************
      * 7th Floor Transitions                            *
      ****************************************************/
     {
-      "id": "23-7-t1",
-      "name": "HSSH, 7F",
+      "id": "28-7-t1",
+      "name": "7-T1",
       "levels": [
         {
           "tileSize": 256,
@@ -1425,38 +1418,12 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [
-        {
-          "yaw": 0.11168583432954371,
-          "pitch": 0.30020625532199574,
-          "rotation": 0.7853981633974483,
-          "target": "24-7-t2"
-        },
-        {
-          "yaw": -3.120687080432514,
-          "pitch": 0.36376122154631574,
-          "rotation": 0,
-          "target": "8-7-a"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -2.801516090245528,
-          "pitch": -0.15391598156979747,
-          "title": "Restrooms",
-          "text": ""
-        },
-        {
-          "yaw": -0.1383912034064636,
-          "pitch": -0.15159647943433363,
-          "title": "Fire Exit",
-          "text": ""
-        }
-      ]
+      "linkHotspots": [],
+      "infoHotspots": []
     },
     {
-      "id": "24-7-t2",
-      "name": "HSSH, 7F",
+      "id": "29-7-t2",
+      "name": "7-T2",
       "levels": [
         {
           "tileSize": 256,
@@ -1482,34 +1449,8 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [
-        {
-          "yaw": -2.9853130881992076,
-          "pitch": 0.2200604214776245,
-          "rotation": 0,
-          "target": "30-8-a"
-        },
-        {
-          "yaw": -2.409854485860791,
-          "pitch": 0.3102334218865348,
-          "rotation": 5.497787143782138,
-          "target": "23-7-t1"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.3591054496992427,
-          "pitch": -0.17903037961736068,
-          "title": "Fire Exit",
-          "text": ""
-        },
-        {
-          "yaw": -2.7318150265171504,
-          "pitch": -0.0828022754257507,
-          "title": "Restrooms",
-          "text": ""
-        }
-      ]
+      "linkHotspots": [],
+      "infoHotspots": []
     },
     /****************************************************
      * 8th Floor                                        *
@@ -4887,7 +4828,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "maintour",
+  "name": "tour",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,

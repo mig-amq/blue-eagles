@@ -18,3 +18,9 @@ New materials acquired by the libraries are displayed here.
 
 edit-ct
 Guests may use these to browse the internet.
+
+edit-dr
+These rooms are available for student groups who wish to conduct collaborative academic activities.
+
+edit-vr
+Borrowed viewing materials from the Instructional Media Services (6F) can be viewed here.
