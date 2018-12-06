@@ -1,6 +1,9 @@
 var APP_DATA = {
   "scenes": [
     {
+    /****************************************************
+     * 5th Floor                                        *
+     ****************************************************/
       "id": "0-5-a",
       "name": "Chill at the 5th",
       "initial": true,
@@ -41,11 +44,14 @@ var APP_DATA = {
         {
           "yaw": -1.623405150703686,
           "pitch": 0.057434589459258945,
-          "title": "Student Space",
-          "text": "This area is dedicated for a social space for students. Board games and other activities are available here."
+          "title": "Chill at the 5th",
+          "text": "This area is made for students to relax, rest, socialize and play with board games."
         }
       ]
     },
+    /****************************************************
+     * 6th Floor                                        *
+     ****************************************************/
     {
       "id": "1-6-a",
       "name": "HSSH, 6F",
@@ -103,8 +109,8 @@ var APP_DATA = {
           "text": ""
         },
         {
-          "yaw": 1.6900949730097539,
-          "pitch": -0.06888839598137331,
+          "yaw": 1.6600949730097539,
+          "pitch": 0.00788839598137331,
           "title": "Drinking Fountain",
           "text": ""
         },
@@ -226,12 +232,12 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
-        {
-          "yaw": 0.11589103677750856,
-          "pitch": 0.3573024707625603,
-          "rotation": 0,
-          "target": "3-6-c"
-        },
+        // {  //Going to tables and chairs
+        //   "yaw": 0.11589103677750856,
+        //   "pitch": 0.3573024707625603,
+        //   "rotation": 0,
+        //   "target": "3-6-c"
+        // },
         {
           "yaw": 1.4304631673998625,
           "pitch": 0.22198707834055043,
@@ -256,7 +262,7 @@ var APP_DATA = {
           "yaw": -0.6646513341945024,
           "pitch": -0.07678704609089415,
           "title": "Cyberspace",
-          "text": "The computers in this area are available for use to browse the internet."
+          "text": "The computers in this area are available for use to browse the Internet."
         }
       ]
     },
@@ -394,7 +400,7 @@ var APP_DATA = {
           "yaw": 0.5060574930098038,
           "pitch": -0.05224632864907264,
           "title": "Cyberspace",
-          "text": "The computers in this area are available for use to browse the internet."
+          "text": "The computers in this area are available for use to browse the Internet."
         }
       ]
     },
@@ -443,6 +449,9 @@ var APP_DATA = {
         }
       ]
     },
+    /****************************************************
+     * 6th Floor Transition                             *
+     ****************************************************/
     {
       "id": "7-6-t",
       "name": "HSSH, 6F",
@@ -485,7 +494,7 @@ var APP_DATA = {
           "target": "2-6-b"
         },
         {
-          "yaw": -3.1363554461866237,
+          "yaw": -3.0163554461866237,
           "pitch": 0.060616137562851335,
           "rotation": 0,
           "target": "8-7-a"
@@ -712,7 +721,7 @@ var APP_DATA = {
           "yaw": 0.39512781964674737,
           "pitch": -0.05038322241364668,
           "title": "Computer Terminals",
-          "text": "Guests may use these to browse the internet."
+          "text": "Guests may use these to browse the Internet."
         },
         {
           "yaw": -2.5579033795035997,
@@ -781,7 +790,7 @@ var APP_DATA = {
           "yaw": -1.4022616523186322,
           "pitch": -0.0376367544777807,
           "title": "Computer Terminals",
-          "text": "Guests may use these to browse the internet."
+          "text": "Guests may use these to browse the Internet."
         },
         {
           "yaw": 0.06471419705420622,
@@ -844,7 +853,7 @@ var APP_DATA = {
           "yaw": -2.4375702776750128,
           "pitch": -0.041885598197762164,
           "title": "Computer Terminals",
-          "text": "Guests may use these to browse the internet."
+          "text": "Guests may use these to browse the Internet."
         },
         {
           "yaw": 2.8353426153574937,
@@ -3171,7 +3180,7 @@ var APP_DATA = {
           "yaw": 1.4920431518927364,
           "pitch": -0.060754719226091325,
           "title": "Computer Terminals",
-          "text": "Guests may use these to browse the internet."
+          "text": "Guests may use these to browse the Internet."
         },
         {
           "yaw": 0.4021914724774813,
@@ -4268,7 +4277,7 @@ var APP_DATA = {
           "yaw": 2.859986369408059,
           "pitch": 0.12742604357330656,
           "title": "Computer Terminals",
-          "text": "Guests may use these to browse the internet."
+          "text": "Guests may use these to browse the Internet."
         },
         {
           "yaw": 2.853460797884794,
