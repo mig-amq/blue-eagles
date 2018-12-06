@@ -34,3 +34,8 @@ This room is made for the faculty of DLSU as a work space in the library.
 edit-nm
 Articles and Materials from different media sources are displayed here.
 
+edit-gsr
+This room is dedicated to students taking graduate studies in DLSU. Isolated work spaces and computer terminals are available here.
+
+edit-archives
+The entirety of this floor is restricted as it contains the archives of different studies in DLSU. Assistance by authorized library personnel is required.

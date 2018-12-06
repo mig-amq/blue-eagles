@@ -1493,7 +1493,7 @@ var APP_DATA = {
           "yaw": -2.9853130881992076,
           "pitch": 0.2200604214776245,
           "rotation": 0,
-          "target": "30-8-a"
+          "target": "25-8-a"
         },
         {
           "yaw": -2.409854485860791,
@@ -3523,7 +3523,7 @@ var APP_DATA = {
           "yaw": -2.5075779443563135,
           "pitch": -0.21758037288331167,
           "rotation": 0,
-          "target": "15-9m-c"
+          "target": "64-9m-c"
         },
         {
           "yaw": -1.6654557132127437,
@@ -3702,7 +3702,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "62-9m-b",
+      "id": "63-9m-b",
       "name": "HSSH, 9M",
       "levels": [
         {
@@ -4380,7 +4380,7 @@ var APP_DATA = {
           "yaw": -2.605828549401542,
           "pitch": 0.003021978813666948,
           "rotation": 0,
-          "target": "70-10m-d"
+          "target": "80-10m-d"
         },
         {
           "yaw": -2.7280595327330595,
@@ -4581,7 +4581,7 @@ var APP_DATA = {
           "yaw": 0.6610664682441811,
           "pitch": 0.13981955173352212,
           "rotation": 0,
-          "target": "8-10-i"
+          "target": "75-10-i"
         }
       ],
       "infoHotspots": [
@@ -4685,7 +4685,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "80-10m-c",
+      "id": "79-10m-c",
       "name": "HSSH, 10M",
       "levels": [
         {
@@ -4852,7 +4852,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "16-10-s-sc",
+      "id": "83-10-s-sc",
       "name": "10-S-SC",
       "levels": [
         {
@@ -4890,7 +4890,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "17-10-s-sh",
+      "id": "84-10-s-sh",
       "name": "10-S-SH",
       "levels": [
         {
@@ -5225,8 +5225,8 @@ var APP_DATA = {
      * 12th Floor                                       *
      ****************************************************/
     {
-      "id": "3-12-a",
-      "name": "12-A",
+      "id": "90-12-a",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5257,19 +5257,19 @@ var APP_DATA = {
           "yaw": 0.22221341103773184,
           "pitch": 0.2880261096622405,
           "rotation": 0,
-          "target": "2-11-t2"
+          "target": "89-11-t2"
         },
         {
           "yaw": -0.7974494006115496,
           "pitch": 0.2677862090453331,
           "rotation": 0.7853981633974483,
-          "target": "16-12-t1"
+          "target": "103-12-t1"
         },
         {
           "yaw": 1.4310190248098102,
           "pitch": 0.2623851213691104,
           "rotation": 0,
-          "target": "4-12-b"
+          "target": "91-12-b"
         }
       ],
       "infoHotspots": [
@@ -5283,19 +5283,19 @@ var APP_DATA = {
           "yaw": 1.952645641202217,
           "pitch": -0.3204583087208235,
           "title": "Announcements Screen",
-          "text": "edit-as"
+          "text": "Announcements and special events are displayed here."
         },
-        {
-          "yaw": 1.1098588860572214,
-          "pitch": 0.027603461419762,
-          "title": "PopUp",
-          "text": "floor_info"
-        }
+        // {
+        //   "yaw": 1.1098588860572214,
+        //   "pitch": 0.027603461419762,
+        //   "title": "PopUp",
+        //   "text": "floor_info"
+        // }
       ]
     },
     {
-      "id": "4-12-b",
-      "name": "12-B",
+      "id": "91-12-b",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5326,19 +5326,19 @@ var APP_DATA = {
           "yaw": -2.6133267578695154,
           "pitch": 0.27875311263805,
           "rotation": 0.7853981633974483,
-          "target": "14-12-s-sh"
+          "target": "101-12-s-sh"
         },
         {
           "yaw": 1.3329266078181181,
           "pitch": 0.39405819611585,
           "rotation": 0,
-          "target": "5-12-c"
+          "target": "92-12-c"
         },
         {
           "yaw": -1.5689554576900715,
           "pitch": 0.36839119512191587,
           "rotation": 0,
-          "target": "3-12-a"
+          "target": "90-12-a"
         }
       ],
       "infoHotspots": [
@@ -5346,13 +5346,13 @@ var APP_DATA = {
           "yaw": -2.616416920553217,
           "pitch": -0.0007349648171484091,
           "title": "Study Hall",
-          "text": "edit-sh"
+          "text": ""
         }
       ]
     },
     {
-      "id": "5-12-c",
-      "name": "12-C",
+      "id": "92-12-c",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5383,13 +5383,13 @@ var APP_DATA = {
           "yaw": 1.308186022397292,
           "pitch": 0.2772896334792083,
           "rotation": 6.283185307179586,
-          "target": "6-12-d"
+          "target": "93-12-d"
         },
         {
           "yaw": -1.6704553887882163,
           "pitch": 0.41323630490124863,
           "rotation": 0,
-          "target": "4-12-b"
+          "target": "91-12-b"
         }
       ],
       "infoHotspots": [
@@ -5397,13 +5397,13 @@ var APP_DATA = {
           "yaw": -0.41358863741593943,
           "pitch": -0.029661617433113463,
           "title": "University Archives",
-          "text": "edit_archives"
+          "text": "The entirety of this floor is restricted as it contains the archives of different studies in DLSU. Assistance by authorized library personnel is required."
         },
         {
           "yaw": 0.30680581628907966,
           "pitch": 0.1533009757275945,
           "title": "Information and Reference Counter",
-          "text": "edit_irc"
+          "text": "If assistance is required, people here are there to help."
         },
         {
           "yaw": 1.2327863853194572,
@@ -5414,8 +5414,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "6-12-d",
-      "name": "12-D",
+      "id": "93-12-d",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5446,19 +5446,19 @@ var APP_DATA = {
           "yaw": -1.5000285726137292,
           "pitch": 0.3583397540267832,
           "rotation": 0,
-          "target": "5-12-c"
+          "target": "92-12-c"
         },
         {
           "yaw": 0.14941522770534732,
           "pitch": 0.33903871425893506,
           "rotation": 0,
-          "target": "7-12-e"
+          "target": "94-12-e"
         },
         {
           "yaw": 2.0648392049803164,
           "pitch": 0.28809559510136395,
           "rotation": 0,
-          "target": "13-12-s-fsjc"
+          "target": "100-12-s-fsjc"
         }
       ],
       "infoHotspots": [
@@ -5501,8 +5501,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "7-12-e",
-      "name": "12-E",
+      "id": "94-12-e",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5533,22 +5533,22 @@ var APP_DATA = {
           "yaw": 3.121911820045595,
           "pitch": 0.43893910036361383,
           "rotation": 0,
-          "target": "6-12-d"
+          "target": "93-12-d"
         },
         {
           "yaw": -0.0030121532914186844,
           "pitch": 0.18453136131427783,
           "rotation": 0,
-          "target": "8-12-f"
+          "target": "95-12-f"
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -2.044192962248893,
-          "pitch": 0.06035535505869838,
-          "title": "???",
-          "text": "edit_???"
-        },
+        // {
+        //   "yaw": -2.044192962248893,
+        //   "pitch": 0.06035535505869838,
+        //   "title": "???",
+        //   "text": "edit_???"
+        // },
         {
           "yaw": -1.2492522154117331,
           "pitch": 0.039232511733086284,
@@ -5570,8 +5570,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "8-12-f",
-      "name": "12-F",
+      "id": "95-12-f",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5602,13 +5602,13 @@ var APP_DATA = {
           "yaw": 3.0786464558750897,
           "pitch": 0.20894348743420643,
           "rotation": 0,
-          "target": "7-12-e"
+          "target": "94-12-e"
         },
         {
           "yaw": -0.023560959619109312,
           "pitch": 0.2173737987889659,
           "rotation": 0,
-          "target": "9-12-g"
+          "target": "96-12-g"
         }
       ],
       "infoHotspots": [
@@ -5627,8 +5627,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "9-12-g",
-      "name": "12-G",
+      "id": "96-12-g",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5659,13 +5659,13 @@ var APP_DATA = {
           "yaw": -1.5750804056096825,
           "pitch": 0.22464552931086423,
           "rotation": 0,
-          "target": "10-12-h"
+          "target": "97-12-h"
         },
         {
           "yaw": 3.011426905691601,
           "pitch": 0.2701629959104146,
           "rotation": 0,
-          "target": "8-12-f"
+          "target": "95-12-f"
         }
       ],
       "infoHotspots": [
@@ -5679,13 +5679,13 @@ var APP_DATA = {
           "yaw": -0.6202401817456114,
           "pitch": -0.10490329630193429,
           "title": "Discussion Rooms",
-          "text": "edit_dr"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         },
         {
           "yaw": -2.690854187467451,
           "pitch": 0.02126147542332646,
           "title": "University Archives",
-          "text": "edit_archives"
+          "text": "The entirety of this floor is restricted as it contains the archives of different studies in DLSU. Assistance by authorized library personnel is required."
         },
         {
           "yaw": 2.2022291129143525,
@@ -5696,8 +5696,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "10-12-h",
-      "name": "12-H",
+      "id": "97-12-h",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5728,13 +5728,13 @@ var APP_DATA = {
           "yaw": -1.521042138246587,
           "pitch": 0.2785680650375397,
           "rotation": 0,
-          "target": "11-12-i"
+          "target": "98-12-i"
         },
         {
           "yaw": 1.5503892507478145,
           "pitch": 0.3235022191200656,
           "rotation": 0,
-          "target": "9-12-g"
+          "target": "96-12-g"
         }
       ],
       "infoHotspots": [
@@ -5742,13 +5742,13 @@ var APP_DATA = {
           "yaw": 0.10273529945537518,
           "pitch": -0.2742071605396905,
           "title": "Discussion Rooms",
-          "text": "edit_dr"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         }
       ]
     },
     {
-      "id": "11-12-i",
-      "name": "12-I",
+      "id": "98-12-i",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5779,13 +5779,13 @@ var APP_DATA = {
           "yaw": -1.2682472674252665,
           "pitch": 0.07863420813829514,
           "rotation": 0,
-          "target": "12-12-qr"
+          "target": "99-12-s-qr"
         },
         {
           "yaw": 1.5349612411535887,
           "pitch": 0.24381070151158113,
           "rotation": 0,
-          "target": "10-12-h"
+          "target": "97-12-h"
         }
       ],
       "infoHotspots": [
@@ -5799,13 +5799,13 @@ var APP_DATA = {
           "yaw": -1.2819282832010632,
           "pitch": -0.2090358087266111,
           "title": "Quiet Room",
-          "text": "edit_qr"
+          "text": "These special rooms are designed to cater those who seek silence when working as the room removes most noises from the outside."
         },
         {
           "yaw": 0.011507581784991672,
           "pitch": -0.09905752555900271,
           "title": "Discussion Rooms",
-          "text": "edit_dr"
+          "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         }
       ]
     },
@@ -5813,8 +5813,46 @@ var APP_DATA = {
      * 12th Floor Specials                              *
      ****************************************************/
     {
-      "id": "105-12-qr",
-      "name": "12-QR",
+      "id": "99-12-s-qr",
+      "name": "Quiet Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.4578484895196144,
+          "pitch": 0.024177375088068942,
+          "rotation": 0,
+          "target": "98-12-i"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "100-12-s-fsjc",
+      "name": "F. Sionil Jose Collection",
       "levels": [
         {
           "tileSize": 256,
@@ -5844,8 +5882,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "106-12-s-fsjc",
-      "name": "12-S-FSJC",
+      "id": "101-12-s-sh",
+      "name": "Study Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -5871,12 +5909,19 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 1.7171245112543696,
+          "pitch": 0.3153300629810829,
+          "rotation": 5.497787143782138,
+          "target": "91-12-b"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "107-12-s-sh",
-      "name": "12-S-SH",
+      "id": "102-12-s-tl",
+      "name": "The Lasalliana",
       "levels": [
         {
           "tileSize": 256,
@@ -5902,46 +5947,22 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "108-12-s-tl",
-      "name": "12-S-TL",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 2.583661603883521,
+          "pitch": -0.009227644837645599,
+          "rotation": 0,
+          "target": "104-12-t2"
         }
       ],
-      "faceSize": 1728,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
     /****************************************************
      * 12th Floor Transitions                           *
      ****************************************************/
     {
-      "id": "109-12-t1",
-      "name": "12-T1",
+      "id": "103-12-t1",
+      "name": "HSSH, 12F",
       "levels": [
         {
           "tileSize": 256,
@@ -5967,11 +5988,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.22615296925393302,
+          "pitch": 0.29005122469466116,
+          "rotation": 0.7853981633974483,
+          "target": "104-12-t2"
+        },
+        {
+          "yaw": -3.088937666233516,
+          "pitch": 0.21243129445561237,
+          "rotation": 18.06415775814132,
+          "target": "90-12-a"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.12556189591369282,
+          "pitch": -0.1797230412864188,
+          "title": "Fire Exit",
+          "text": ""
+        },
+        {
+          "yaw": -2.6737910004660836,
+          "pitch": -0.1678123884060554,
+          "title": "Restrooms",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "110-12-t2",
+      "id": "104-12-t2",
       "name": "12-T2",
       "levels": [
         {
@@ -5998,14 +6045,52 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -0.3768602981099498,
+          "pitch": 0.10935587801274771,
+          "rotation": 0,
+          "target": "102-12-s-tl"
+        },
+        {
+          "yaw": -2.9357004956373576,
+          "pitch": 0.1279630166561354,
+          "rotation": 0,
+          "target": "105-14-a"
+        },
+        {
+          "yaw": -2.137696554957561,
+          "pitch": 0.394849238505131,
+          "rotation": 5.497787143782138,
+          "target": "103-12-t1"
+        }
+      ],
+      "infoHotspots": [
+        // {
+        //   "yaw": 0.6209118106811413,
+        //   "pitch": 0.3158918509178221,
+        //   "title": "PopUp",
+        //   "text": "the_lasalliana"
+        // },
+        {
+          "yaw": -1.2213033983634585,
+          "pitch": -0.1389681135049461,
+          "title": "Fire Exit",
+          "text": ""
+        },
+        {
+          "yaw": -2.5874805922039883,
+          "pitch": -0.06682015596917701,
+          "title": "Restrooms",
+          "text": ""
+        }
+      ]
     },
     /****************************************************
      * 14th Floor                                       *
      ****************************************************/
     {
-      "id": "111-14-a",
+      "id": "105-14-a",
       "name": "14-A",
       "levels": [
         {
@@ -6032,11 +6117,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.30299702230311176,
+          "pitch": 0.40210315371656336,
+          "rotation": 0,
+          "target": "105-14-a"
+        },
+        {
+          "yaw": -0.8522776073926526,
+          "pitch": 0.3515797926557198,
+          "rotation": 0.7853981633974483,
+          "target": "127-14-t1"
+        },
+        {
+          "yaw": 1.5651529419259598,
+          "pitch": 0.3395951451541652,
+          "rotation": 0,
+          "target": "106-14-b"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.8905586244227308,
+          "pitch": -0.14157463145581062,
+          "title": "Restrooms",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "112-14-b",
+      "id": "106-14-b",
       "name": "14-B",
       "levels": [
         {
@@ -6063,11 +6174,55 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.6645391050353258,
+          "pitch": 0.3697104133022986,
+          "rotation": 0,
+          "target": "107-14-c"
+        },
+        {
+          "yaw": 0.21880033140925725,
+          "pitch": 0.3967712903173002,
+          "rotation": 0,
+          "target": "115-14-k"
+        },
+        {
+          "yaw": -1.54779862951316,
+          "pitch": 0.3490010256236378,
+          "rotation": 0,
+          "target": "105-14-a"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.635358826714464,
+          "pitch": -0.15285891335605228,
+          "title": "Don Francisco Ortigas Meeting Room",
+          "text": ""
+        },
+        {
+          "yaw": -0.018602429742021087,
+          "pitch": -0.074200246157055,
+          "title": "Collection of Museum Artifacts",
+          "text": "by Daniel W. Tantioco Jr."
+        },
+        {
+          "yaw": -0.6524989898160687,
+          "pitch": -0.08033226979595298,
+          "title": "Collection of Pre-Historic Philippine Pottery",
+          "text": "by Alicia Sandoval Laya"
+        },
+        {
+          "yaw": -2.5417487726597905,
+          "pitch": -0.1508009672091184,
+          "title": "Special Archives Collection",
+          "text": "Works from:<div>Araneta<br>Zaragoza</div><div>Roxas</div><div>Rebullida</div>"
+        }
+      ]
     },
     {
-      "id": "113-14-c",
+      "id": "107-14-c",
       "name": "14-C",
       "levels": [
         {
@@ -6094,11 +6249,43 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.5526316359964545,
+          "pitch": 0.4546316511114856,
+          "rotation": 0,
+          "target": "108-14-d"
+        },
+        {
+          "yaw": -1.5605302570228456,
+          "pitch": 0.34970664249586214,
+          "rotation": 0,
+          "target": "106-14-b"
+        },
+        {
+          "yaw": -0.5613719433984041,
+          "pitch": 0.15017277664213324,
+          "rotation": 0,
+          "target": "124-14-s-ac2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.8492483681459984,
+          "pitch": -0.09587284568171839,
+          "title": "American Corner",
+          "text": "edit-text"
+        },
+        {
+          "yaw": 2.19688233682089,
+          "pitch": -0.15749230500419742,
+          "title": "Special Archive Collections",
+          "text": "Works from:<br>Brother Rafael Donato FSC<br>Brother Armin Luistro FSC<br>Brother Ricardo Laguda FSC"
+        }
+      ]
     },
     {
-      "id": "114-14-d",
+      "id": "108-14-d",
       "name": "14-D",
       "levels": [
         {
@@ -6125,11 +6312,61 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -0.931613381564734,
+          "pitch": 0.19217661160513444,
+          "rotation": 0,
+          "target": "123-14-s-ac1"
+        },
+        {
+          "yaw": -1.602033850961087,
+          "pitch": 0.3336104695833857,
+          "rotation": 0,
+          "target": "107-14-c"
+        },
+        {
+          "yaw": -0.04362797477020486,
+          "pitch": 0.36448574853664084,
+          "rotation": 0,
+          "target": "109-14-e"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -3.1139990740704953,
+          "pitch": -0.20819896161892615,
+          "title": "Special Archive Collection",
+          "text": "Works from:<br>Brother Andrew Gonzales FSC"
+        },
+        {
+          "yaw": -0.9440946611342529,
+          "pitch": -0.06396328759089442,
+          "title": "American Corner",
+          "text": "edit-text"
+        },
+        {
+          "yaw": 0.09397304033519127,
+          "pitch": -0.1610347618302015,
+          "title": "Restrooms",
+          "text": ""
+        },
+        {
+          "yaw": 0.3531375374829171,
+          "pitch": -0.005184948858408589,
+          "title": "Drinking Fountain",
+          "text": ""
+        },
+        {
+          "yaw": 1.3160651667100591,
+          "pitch": -0.37014239796523896,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Dr. Leoncio Lopez Rizal"
+        }
+      ]
     },
     {
-      "id": "115-14-e",
+      "id": "109-14-e",
       "name": "14-E",
       "levels": [
         {
@@ -6156,11 +6393,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -3.0971144947860942,
+          "pitch": 0.30299921772266103,
+          "rotation": 0,
+          "target": "108-14-d"
+        },
+        {
+          "yaw": -0.005012563254680913,
+          "pitch": 0.25258811025125993,
+          "rotation": 0,
+          "target": "110-14-f"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.7884091640704938,
+          "pitch": -0.163546105068324,
+          "title": "Restrooms",
+          "text": ""
+        },
+        {
+          "yaw": 0.20020220374873077,
+          "pitch": -0.15850640559019702,
+          "title": "Fire Exit",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "116-14-f",
+      "id": "110-14-f",
       "name": "14-F",
       "levels": [
         {
@@ -6187,11 +6450,43 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 2.958755172351987,
+          "pitch": 0.329597795244176,
+          "rotation": 0,
+          "target": "109-14-e"
+        },
+        {
+          "yaw": -1.571316867031996,
+          "pitch": 0.45907496383447466,
+          "rotation": 0,
+          "target": "111-14-g"
+        },
+        {
+          "yaw": -0.333388078978075,
+          "pitch": 0.09688727450841128,
+          "rotation": 0,
+          "target": "125-14-s-edc"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.2895496792064387,
+          "pitch": -0.18687943559151776,
+          "title": "Fire Exit",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.02759773113766073,
+          "pitch": -0.143388071198018,
+          "title": "European Documentation Center",
+          "text": "edit-text"
+        }
+      ]
     },
     {
-      "id": "117-14-g",
+      "id": "111-14-g",
       "name": "14-G",
       "levels": [
         {
@@ -6218,11 +6513,49 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.3239742585106402,
+          "pitch": 0.28263740950198013,
+          "rotation": 0,
+          "target": "130-14-v"
+        },
+        {
+          "yaw": 1.5394822902522183,
+          "pitch": 0.4407373417023148,
+          "rotation": 0,
+          "target": "110-14-f"
+        },
+        {
+          "yaw": -0.6061941961460917,
+          "pitch": 0.3843349416672872,
+          "rotation": 0,
+          "target": "111-14-g"
+        },
+        {
+          "yaw": -1.490338849613849,
+          "pitch": 0.40430216671513364,
+          "rotation": 0,
+          "target": "112-14-h"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.6087258384763512,
+          "pitch": -0.0010772802525931269,
+          "title": "Asian Corner",
+          "text": "edit-text"
+        },
+        {
+          "yaw": 2.1396635440056766,
+          "pitch": -0.1320723326195079,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Lorenzo M. Tanada"
+        }
+      ]
     },
     {
-      "id": "118-14-h",
+      "id": "112-14-h",
       "name": "14-H",
       "levels": [
         {
@@ -6249,11 +6582,31 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.5133565634120183,
+          "pitch": 0.4677540231031223,
+          "rotation": 0,
+          "target": "111-14-g"
+        },
+        {
+          "yaw": -1.537698508911875,
+          "pitch": 0.5246196499133955,
+          "rotation": 0,
+          "target": "113-14-i"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.321721025385637,
+          "pitch": -0.28067197962978696,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Dr. Luis Camara Dery<br>Aurelio B. Calderon<br>Julio C. Teehankee<br>Remigio E. Agpalo<div>War Years</div><div>Dr. Wilfredo V. Villacorta<br>Josefina C. Baui<br>M.L. Krainz<br>Victor M. Ordonez</div>"
+        }
+      ]
     },
     {
-      "id": "119-14-i",
+      "id": "113-14-i",
       "name": "14-I",
       "levels": [
         {
@@ -6280,11 +6633,49 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 3.1015839556743927,
+          "pitch": 0.4018521662603245,
+          "rotation": 0,
+          "target": "114-14-j"
+        },
+        {
+          "yaw": 1.49268283245347,
+          "pitch": 0.42131922731167926,
+          "rotation": 0,
+          "target": "112-14-h"
+        },
+        {
+          "yaw": -1.570040203404643,
+          "pitch": 0.40737021011967656,
+          "rotation": 0,
+          "target": "116-14-l"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.11147200150486114,
+          "pitch": -0.35336760222603125,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Clodualdo Del&nbsp; Mundo Jr.<br>Clodualdo Del Mundo Sr.<div>Jose Javier Reyes<br>Peque Gallaga</div>"
+        },
+        {
+          "yaw": -2.1887716732913933,
+          "pitch": -0.09901728276494737,
+          "title": "Collection of Pre-Historic Philippine Pottery",
+          "text": "by Alicia Sandoval Laya"
+        },
+        {
+          "yaw": -3.0199747616086334,
+          "pitch": -0.07005798124752616,
+          "title": "Collection of Museum Artifacts",
+          "text": "by Daniel W. Tantoco Jr."
+        }
+      ]
     },
     {
-      "id": "120-14-j",
+      "id": "114-14-j",
       "name": "14-J",
       "levels": [
         {
@@ -6311,11 +6702,24 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.03899226236178421,
+          "pitch": 0.44325368910343954,
+          "rotation": 0,
+          "target": "113-14-i"
+        },
+        {
+          "yaw": -3.05952866570858,
+          "pitch": 0.3520209816846158,
+          "rotation": 0,
+          "target": "115-14-k"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "121-14-k",
+      "id": "115-14-k",
       "name": "14-K",
       "levels": [
         {
@@ -6342,11 +6746,43 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -3.0235247524952733,
+          "pitch": 0.3444332302043165,
+          "rotation": 0,
+          "target": "106-14-b"
+        },
+        {
+          "yaw": -0.002193194811926702,
+          "pitch": 0.41257921369575357,
+          "rotation": 0,
+          "target": "114-14-j"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.2422416414485564,
+          "pitch": -0.1632183409441108,
+          "title": "PopUp",
+          "text": "collection_info_plaque"
+        },
+        {
+          "yaw": -1.2419575298240382,
+          "pitch": -0.10146280308045874,
+          "title": "Collection of Pre-Historic<div>Philippine Pottery</div>",
+          "text": "by Alicia Sandoval Laya"
+        },
+        {
+          "yaw": -0.4466308107104915,
+          "pitch": -0.1511134223344346,
+          "title": "Collection of Museum Artifacts",
+          "text": "by Daniel W. Tantoco Jr."
+        }
+      ]
     },
     {
-      "id": "122-14-l",
+      "id": "116-14-l",
       "name": "14-L",
       "levels": [
         {
@@ -6373,11 +6809,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.008090503311896313,
+          "pitch": 0.12983281297157845,
+          "rotation": 0,
+          "target": "126-14-s-kdc"
+        },
+        {
+          "yaw": 1.5860086858349254,
+          "pitch": 0.4452019230699449,
+          "rotation": 0,
+          "target": "113-14-i"
+        },
+        {
+          "yaw": -1.5663625164877129,
+          "pitch": 0.39176373414834487,
+          "rotation": 0,
+          "target": "117-14-m"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.7120389183044136,
+          "pitch": -0.2151532986295308,
+          "title": "Knowledge Development Community (KDC)",
+          "text": "edit-text"
+        }
+      ]
     },
     {
-      "id": "123-14-m",
+      "id": "117-14-m",
       "name": "14-M",
       "levels": [
         {
@@ -6404,11 +6866,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.9826375958392557,
+          "pitch": 0.46404034368483593,
+          "rotation": 0,
+          "target": "116-14-l"
+        },
+        {
+          "yaw": 0.07483832646319755,
+          "pitch": 0.362433886765821,
+          "rotation": 0,
+          "target": "118-14-n"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.7659489244642863,
+          "pitch": -0.03200279087386626,
+          "title": "Fire Exit",
+          "text": ""
+        },
+        {
+          "yaw": -0.3297029779229117,
+          "pitch": -0.11970779005558185,
+          "title": "Audio Visual Room",
+          "text": "edit-text"
+        }
+      ]
     },
     {
-      "id": "124-14-n",
+      "id": "118-14-n",
       "name": "14-N",
       "levels": [
         {
@@ -6435,11 +6923,31 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -3.105940061115131,
+          "pitch": 0.3915489274925541,
+          "rotation": 0,
+          "target": "117-14-m"
+        },
+        {
+          "yaw": 1.635028581475087,
+          "pitch": 0.37449767236060794,
+          "rotation": 0,
+          "target": "119-14-o"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.204798513759341,
+          "pitch": -0.24541507057957546,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Felipe Liao<br>Numismatic Collection"
+        }
+      ]
     },
     {
-      "id": "125-14-o",
+      "id": "119-14-o",
       "name": "14-O",
       "levels": [
         {
@@ -6466,11 +6974,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.5014722680151493,
+          "pitch": 0.3842629793867669,
+          "rotation": 0,
+          "target": "120-14-p"
+        },
+        {
+          "yaw": -1.6140379765093602,
+          "pitch": 0.5055750546347859,
+          "rotation": 0,
+          "target": "118-14-n"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.4476367082652626,
+          "pitch": -0.21946375111541983,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Agustin \"Hammy\" Sotto<div>Doreen Gamboa Fernandez</div>"
+        },
+        {
+          "yaw": 3.072331007226893,
+          "pitch": -0.3004997647774683,
+          "title": "Special Archives Collection",
+          "text": "Works from:<div>Alfredo Litiatco</div><div>Bonifacio P. Sibayan Collection</div><div>NiPa Hut</div><div>Cirilio F. Bautista<br>CESP Collection<br>Efren R. Abueg</div><div>Renato Agustin Q. Sibayan</div><div>Judy Freya Sibayan</div>"
+        }
+      ]
     },
     {
-      "id": "126-14-p",
+      "id": "120-14-p",
       "name": "14-P",
       "levels": [
         {
@@ -6497,11 +7031,31 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.5576726407648342,
+          "pitch": 0.3983270946669535,
+          "rotation": 0,
+          "target": "121-14-q"
+        },
+        {
+          "yaw": -1.550514793249059,
+          "pitch": 0.4317805785341182,
+          "rotation": 0,
+          "target": "119-14-o"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.2453378294847539,
+          "pitch": -0.20290564288906587,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Isagani R. Cruz"
+        }
+      ]
     },
     {
-      "id": "127-14-q",
+      "id": "121-14-q",
       "name": "14-Q",
       "levels": [
         {
@@ -6528,11 +7082,31 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -1.5889790864788225,
+          "pitch": 0.4099092207959849,
+          "rotation": 0,
+          "target": "120-14-p"
+        },
+        {
+          "yaw": 1.500191116583431,
+          "pitch": 0.5558140191036394,
+          "rotation": 0,
+          "target": "122-14-r"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.4182952965409488,
+          "pitch": -0.1503566333392925,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Justice Teodoro Padilla"
+        }
+      ]
     },
     {
-      "id": "128-14-r",
+      "id": "122-14-r",
       "name": "14-R",
       "levels": [
         {
@@ -6559,12 +7133,32 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.5476304115479698,
+          "pitch": 0.4445509677161166,
+          "rotation": 0,
+          "target": "129-14-u"
+        },
+        {
+          "yaw": -1.5777249253100702,
+          "pitch": 0.4836761021154601,
+          "rotation": 0,
+          "target": "121-14-q"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.21743249032320833,
+          "pitch": -0.25600080574748496,
+          "title": "Bienvenido N. Santos Meseum Collection",
+          "text": ""
+        }
+      ]
     },
     
     {
-      "id": "135-14-u",
+      "id": "129-14-u",
       "name": "14-U",
       "levels": [
         {
@@ -6591,11 +7185,31 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 1.9304266102532326,
+          "pitch": 0.39685608908619585,
+          "rotation": 0.7853981633974483,
+          "target": "130-14-v"
+        },
+        {
+          "yaw": -1.5518572567630997,
+          "pitch": 0.5799923511759353,
+          "rotation": 0,
+          "target": "122-14-r"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.907429507422071,
+          "pitch": -0.361026793854073,
+          "title": "Special Archives Collection",
+          "text": "Works from:<br>Emerita S. Quito<div>Marcelino A. Foronda</div><div>Roberto C. Salazar</div><div>Tereso S. Tullao</div><div>Zeus Salazar</div>"
+        }
+      ]
     },
     {
-      "id": "136-14-v",
+      "id": "130-14-v",
       "name": "14-V",
       "levels": [
         {
@@ -6622,14 +7236,34 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -3.1316249187216645,
+          "pitch": 0.28239510849451754,
+          "rotation": 0,
+          "target": "111-14-g"
+        },
+        {
+          "yaw": -0.8420933925537533,
+          "pitch": 0.4990229684160905,
+          "rotation": 5.497787143782138,
+          "target": "129-14-u"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.0010005982515384204,
+          "pitch": -0.06398553552547881,
+          "title": "Phillippe Jones Lhuiller Conference Room",
+          "text": "Found inside the European Documentation Center (EDC)"
+        }
+      ]
     },
     /****************************************************
-     * 12th Floor Specials                              *
+     * 14th Floor Specials                              *
      ****************************************************/
     {
-      "id": "129-14-s-ac1",
+      "id": "123-14-s-ac1",
       "name": "14-S-AC1",
       "levels": [
         {
@@ -6656,11 +7290,18 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.5797775160034337,
+          "pitch": 0.0881535303360188,
+          "rotation": 0,
+          "target": "108-14-d"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "130-14-s-ac2",
+      "id": "124-14-s-ac2",
       "name": "14-S-AC2",
       "levels": [
         {
@@ -6691,7 +7332,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "131-14-s-edc",
+      "id": "125-14-s-edc",
       "name": "14-S-EDC",
       "levels": [
         {
@@ -6718,11 +7359,18 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.2843235135318274,
+          "pitch": 0.04996683043511041,
+          "rotation": 0,
+          "target": "110-14-f"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "132-14-s-kdc",
+      "id": "126-14-s-kdc",
       "name": "14-S-KDC",
       "levels": [
         {
@@ -6753,10 +7401,10 @@ var APP_DATA = {
       "infoHotspots": []
     },
     /****************************************************
-     * 12th Floor Transitions                           *
+     * 14th Floor Transitions                           *
      ****************************************************/
     {
-      "id": "133-14-t1",
+      "id": "127-14-t1",
       "name": "14-T1",
       "levels": [
         {
@@ -6783,11 +7431,37 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.08803424735335952,
+          "pitch": 0.3338366097577534,
+          "rotation": 0.7853981633974483,
+          "target": "128-14-t2"
+        },
+        {
+          "yaw": -3.0919074818251726,
+          "pitch": 0.312842042358076,
+          "rotation": 5.497787143782138,
+          "target": "105-14-a"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.18512030845668725,
+          "pitch": -0.1427078253546199,
+          "title": "Fire Exit",
+          "text": ""
+        },
+        {
+          "yaw": -2.7157294412502715,
+          "pitch": -0.12751337018346298,
+          "title": "Restrooms",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "134-14-t2",
+      "id": "128-14-t2",
       "name": "14-T2",
       "levels": [
         {
@@ -6814,9 +7488,35 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    }
+      "linkHotspots": [
+        {
+          "yaw": -1.8689926080409602,
+          "pitch": 0.3788352845992371,
+          "rotation": 5.497787143782138,
+          "target": "127-14-t1"
+        },
+        {
+          "yaw": 1.9944408846048436,
+          "pitch": 0.43537385968925335,
+          "rotation": 0.7853981633974483,
+          "target": "105-14-a"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.30289635029445,
+          "pitch": -0.171473552534124,
+          "title": "Fire Exit",
+          "text": ""
+        },
+        {
+          "yaw": -2.5705602766953266,
+          "pitch": -0.04797699240770115,
+          "title": "Restrooms",
+          "text": ""
+        }
+      ]
+    },
   ],
   "name": "maintour",
   "settings": {
