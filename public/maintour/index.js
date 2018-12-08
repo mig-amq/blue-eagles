@@ -299,7 +299,11 @@
     };
 
     // Show content when hotspot is clicked.
-    wrapper.querySelector('.info-hotspot-header').addEventListener('click', (hotspot.text) ? toggle : {});
+    if(hotspot.type){
+      wrapper.querySelector('.info-hotspot-header').addEventListener('click', parent.displayModal);
+    }else{
+      wrapper.querySelector('.info-hotspot-header').addEventListener('click', (hotspot.text) ? toggle : {});
+    }
 
     // Hide content when close icon is clicked.
     // modal.querySelector('.info-hotspot-close-wrapper').addEventListener('click', toggle);

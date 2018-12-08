@@ -44,6 +44,7 @@ var APP_DATA = {
         {
           "yaw": -1.623405150703686,
           "pitch": 0.057434589459258945,
+          "type": "hello",
           "title": "Chill at the 5th",
           "text": "This area is made for students to relax, rest, socialize and play with board games."
         }
