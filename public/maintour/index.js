@@ -172,13 +172,22 @@
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
   }
 
+  var prevView;
+
   function switchScene(scene) {
+    prevView = currScene;
     currScene = scene;
 
+    var params = Object.assign({}, scene.data.initialViewParameters);
+
+    if (prevView && !currScene.data.specialYaw) {
+      params.yaw = prevView.view._yaw;
+    }
+    
     if (parent.changeFloor)
       parent.changeFloor(scene.data.name);
 
-    scene.view.setParameters(scene.data.initialViewParameters);
+    scene.view.setParameters(params);
     scene.scene.switchTo();
   }
 
