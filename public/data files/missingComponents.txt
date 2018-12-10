@@ -7,9 +7,7 @@
 
 7th Floor:
 7-C: 7-S-MR link
-7-C: Brochures info
 7-F: 7-S-PFLR link
-7-G: 7-S-PFLR link
 7-G: 7-S-O link
 7-G: 7M-C link
 7-I: 7-S-VR link

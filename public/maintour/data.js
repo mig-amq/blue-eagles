@@ -37,14 +37,15 @@ var APP_DATA = {
           "yaw": 1.7942031736354007,
           "pitch": 0.15177960689597292,
           "rotation": 0,
-          "target": "5-6-e"
+          "target": "5-6-e",
+          "icon": "img/link_stairs_up.png"
         }
       ],
       "infoHotspots": [
         {
           "yaw": -1.623405150703686,
           "pitch": 0.057434589459258945,
-          "type": "hello",
+          "popup": true,
           "title": "Chill at the 5th",
           "text": "This area is made for students to relax, rest, socialize and play with board games."
         }
@@ -190,7 +191,7 @@ var APP_DATA = {
         {
           "yaw": -1.5960535473181103,
           "pitch": 0.11592023351945002,
-          "title": "Online Publications Access Computer",
+          "title": "Online Public Access Computer",
           "text": "These computers can be used to locate certain materials or resources within the library."
         },
         {
@@ -329,7 +330,7 @@ var APP_DATA = {
           "yaw": 2.052087437377769,
           "pitch": -0.13472145718221817,
           "title": "Self Checkout Terminals",
-          "text": "Guests may use these as self service of checking out books."
+          "text": "Guests may use these for self service book borrowing."
         },
         {
           "yaw": 3.111963822460474,
@@ -372,7 +373,8 @@ var APP_DATA = {
           "yaw": -1.025351215541784,
           "pitch": 0.32054783914938767,
           "rotation": 0,
-          "target": "0-5-a"
+          "target": "0-5-a",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -1.4817489113432014,
@@ -410,7 +412,7 @@ var APP_DATA = {
     },
     {
       "id": "6-6-f",
-      "name": "HSSH, 6F",
+      "name": "Coffee Bean and Tea Leaf",
       "levels": [
         {
           "tileSize": 256,
@@ -447,9 +449,10 @@ var APP_DATA = {
       "infoHotspots": [
         {
           "yaw": 2.358933485623699,
-          "pitch": -0.22423828841864868,
+          "pitch": -0.32423828841864868,
           "title": "Coffee Bean and Tea Leaf",
-          "text": ""
+          "text": "",
+          "icon": "img/cbtl_logo.png"
         }
       ]
     },
@@ -501,7 +504,8 @@ var APP_DATA = {
           "yaw": -3.0163554461866237,
           "pitch": 0.060616137562851335,
           "rotation": 0,
-          "target": "8-7-a"
+          "target": "8-7-a",
+          "icon": "img/link_stairs_up.png"
         }
       ],
       "infoHotspots": [
@@ -550,7 +554,8 @@ var APP_DATA = {
           "yaw": 0.2172813324519094,
           "pitch": 0.362031671169202,
           "rotation": 0,
-          "target": "7-6-t"
+          "target": "7-6-t",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.770597224384101,
@@ -570,7 +575,8 @@ var APP_DATA = {
           "yaw": -0.8952894606837489,
           "pitch": -0.12722232394765065,
           "title": "Restroom",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 1.968013550818279,
@@ -578,17 +584,11 @@ var APP_DATA = {
           "title": "Announcements Screen",
           "text": "Announcements and special events are displayed here."
         },
-        // {
-        //   "yaw": 1.1043648388773466,
-        //   "pitch": -0.14515163507058482,
-        //   "title": "Popup",
-        //   "text": "library_hours"
-        // },
-        // {
+        // { POPUP - Floor Information
         //   "yaw": 1.9197068688754282,
         //   "pitch": 0.0806952166030861,
-        //   "title": "PopUp",
-        //   "text": "floor_info"
+        //   "title": "Floor Information",
+        //   "text": ""
         // }
       ]
     },
@@ -637,7 +637,9 @@ var APP_DATA = {
           "yaw": 1.4346235367005393,
           "pitch": -0.23720338490486625,
           "rotation": 0,
-          "target": "19-7m-a"
+          "target": "19-7m-a",
+          "icon": "img/link_stairs_up.png"
+          
         }
       ],
       "infoHotspots": [
@@ -700,13 +702,21 @@ var APP_DATA = {
           "yaw": -1.338399998739332,
           "pitch": -0.21672891460695354,
           "rotation": 0,
-          "target": "19-7m-a"
+          "target": "19-7m-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -1.9167601217580987,
           "pitch": 0.24306516736435313,
           "rotation": 0,
           "target": "9-7-b"
+        },
+        {
+          "yaw": -2.4306880595072045,
+          "pitch": 0.03961237391158967,
+          "rotation": 0,
+          "target": "131-7-s-mr",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -714,25 +724,21 @@ var APP_DATA = {
           "yaw": 1.4407050561266388,
           "pitch": -0.1184328178560019,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 1.7700691550607779,
           "pitch": -0.11018779627344344,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         },
         {
           "yaw": 0.39512781964674737,
           "pitch": -0.05038322241364668,
           "title": "Computer Terminals",
           "text": "Guests may use these to browse the Internet."
-        },
-        {
-          "yaw": -2.5579033795035997,
-          "pitch": -0.26696245994349965,
-          "title": "Meeting Room",
-          "text": ""
         }
       ]
     },
@@ -783,13 +789,15 @@ var APP_DATA = {
           "yaw": 2.396646140060735,
           "pitch": -0.3006672244545836,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 2.8575287815564128,
           "pitch": -0.13372111918810248,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         },
         {
           "yaw": -1.4022616523186322,
@@ -801,7 +809,8 @@ var APP_DATA = {
           "yaw": 0.06471419705420622,
           "pitch": -0.21137786236156764,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -852,7 +861,8 @@ var APP_DATA = {
           "yaw": 2.1726007180289137,
           "pitch": -0.29780524355123106,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.4375702776750128,
@@ -864,13 +874,15 @@ var APP_DATA = {
           "yaw": 2.8353426153574937,
           "pitch": -0.08252772309845113,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 2.9795726710113666,
           "pitch": -0.07769440398858762,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         }
       ]
     },
@@ -913,7 +925,8 @@ var APP_DATA = {
           "yaw": -0.4204975844614367,
           "pitch": -0.24247191761398668,
           "rotation": 0,
-          "target": "21-7m-c"
+          "target": "21-7m-c",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": 0.03643756813287524,
@@ -926,12 +939,19 @@ var APP_DATA = {
           "pitch": 0.3098456479022751,
           "rotation": 0,
           "target": "12-7-e"
+        },
+        {
+          "yaw": 1.2894346344522596,
+          "pitch": 0.07183790219230524,
+          "rotation": 0,
+          "target": "132-7-s-pflr",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.1679889715722087,
-          "pitch": -0.17561613219399064,
+          "yaw": 1.1700992319917773,
+          "pitch": -0.17660004266781648,
           "title": "Pillar Ferrero Lim Discussion Rooms",
           "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         },
@@ -939,7 +959,8 @@ var APP_DATA = {
           "yaw": 2.771317410359732,
           "pitch": -0.16897462263677632,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -983,13 +1004,21 @@ var APP_DATA = {
           "pitch": 0.31725841680122,
           "rotation": 0,
           "target": "13-7-f"
+        },
+        {
+          "yaw": -0.4462153965449378,
+          "pitch": 0.11444790351465173,
+          "rotation": 0,
+          "target": "133-7-s-o",
+          "icon": "img/link_door.png"
+        },
+        {
+          "yaw": -2.330712007826035,
+          "pitch": -0.36451874800604855,
+          "rotation": 0,
+          "target": "21-7m-c",
+          "icon": "img/link_stairs_up.png"
         }
-        // {
-        //   "yaw": -0.44039238348749166,
-        //   "pitch": 0.32338615657315195,
-        //   "rotation": 0,
-        //   "target": "7-s-o"
-        // }
       ],
       "infoHotspots": [
         {
@@ -1039,7 +1068,8 @@ var APP_DATA = {
           "yaw": 1.7025022058361108,
           "pitch": -0.052679475499758155,
           "rotation": 0,
-          "target": "21-7m-c"
+          "target": "21-7m-c",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -1.564790481421527,
@@ -1090,15 +1120,16 @@ var APP_DATA = {
           "pitch": 0.3984256957277701,
           "rotation": 0,
           "target": "17-7-j"
+        },
+        {
+          "yaw": -2.00204158795351,
+          "pitch": 0.048871646997925566,
+          "rotation": 0,
+          "target": "22-7-s-vr",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": 3.0828307737229945,
-          "pitch": -0.012306428631505995,
-          "title": "Reading Area",
-          "text": ""
-        },
         {
           "yaw": -2.175054352058453,
           "pitch": -0.164941764132033,
@@ -1149,43 +1180,27 @@ var APP_DATA = {
           "target": "18-7-k"
         },
         {
-          "yaw": -1.05207074587023,
-          "pitch": 0.23205685668639653,
+          "yaw": -0.8207717237633947,
+          "pitch": 0.03477874175218787,
           "rotation": 0,
-          "target": "22-7-s-vr"
+          "target": "22-7-s-vr",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.009067829359779012,
-          "pitch": 0.02112640691945522,
-          "title": "Reading Area",
-          "text": ""
-        },
-        {
-          "yaw": 1.7002993607564907,
-          "pitch": 0.04298939503373056,
-          "title": "Reading Area",
-          "text": ""
-        },
-        {
-          "yaw": -2.2085715680581153,
-          "pitch": -0.10532379620634558,
+          "yaw": -2.211516381818811,
+          "pitch": -0.12880039616410421,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
-          "yaw": -1.308103894159654,
-          "pitch": -0.17245033642555185,
+          "yaw": -1.2708207007078727,
+          "pitch": -0.26993093544059477,
           "title": "Viewing Rooms",
           "text": "Borrowed viewing materials from the Instructional Media Services (6F) can be viewed here."
         },
-        {
-          "yaw": -2.960200748721663,
-          "pitch": 0.09793490300534202,
-          "title": "Reading Area",
-          "text": ""
-        }
       ]
     },
     {
@@ -1272,10 +1287,18 @@ var APP_DATA = {
           "target": "20-7m-b"
         },
         {
-          "yaw": -3.089870371026077,
-          "pitch": 0.27723564147850865,
+          "yaw": 3.061002849989821,
+          "pitch": 0.09508080384052775,
           "rotation": 0,
-          "target": "9-7-b"
+          "target": "9-7-b",
+          "icon": "img/link_stairs_down.png"
+        },
+        {
+          "yaw": -2.988681532090242,
+          "pitch": 0.105118929806995,
+          "rotation": 0,
+          "target": "27-8-c",
+          "icon": "img/link_stairs_up.png"
         }
       ],
       "infoHotspots": []
@@ -1357,13 +1380,15 @@ var APP_DATA = {
           "yaw": 1.2866517861466171,
           "pitch": 0.607843520171361,
           "rotation": 0,
-          "target": "13-7-f"
+          "target": "13-7-f",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": 0.7861265130748372,
           "pitch": 0.14598898161130158,
           "rotation": 0,
-          "target": "34-8-j"
+          "target": "34-8-j",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.3004741953458243,
@@ -1407,13 +1432,138 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.9138069516042275,
-          "pitch": 0.4749842973043048,
+          "yaw": -1.6879724138132008,
+          "pitch": -0.004278165096359032,
           "rotation": 0,
-          "target": "17-7-j"
+          "target": "16-7-i",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
+    },
+    {
+      "id": "132-7-s-pflr",
+      "name": "Pillar Ferrero Lim",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.1490828078404203,
+          "pitch": 0.09634986738289264,
+          "rotation": 0,
+          "target": "13-7-f",
+          "icon": "img/link_door.png"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "131-7-s-mr",
+      "name": "7th Floor Meeting Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "yaw": 0.013895707888906372,
+        "pitch": -0.0028874932477815918,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9160601975346463,
+          "pitch": 0.091136699583382,
+          "rotation": 0,
+          "target": "10-7-c",
+          "icon": "img/link_door.png"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "133-7-s-o",
+      "name": "7th Floor Outdoor Area",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.045083499617874,
+          "pitch": 0.13492762223724775,
+          "rotation": 0,
+          "target": "14-7-g",
+          "icon": "img/link_door.png"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.3768013649332858,
+          "pitch": 0.24749381623323252,
+          "title": "Photocopying Station",
+          "text": "The Learning Commons has dedicated areas for photocopying reading materials and other documents."
+        }
+      ]
     },
     /****************************************************
      * 7th Floor Transitions                            *
@@ -1465,13 +1615,15 @@ var APP_DATA = {
           "yaw": -2.801516090245528,
           "pitch": -0.15391598156979747,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": -0.1383912034064636,
           "pitch": -0.15159647943433363,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -1508,7 +1660,8 @@ var APP_DATA = {
           "yaw": -2.9853130881992076,
           "pitch": 0.2200604214776245,
           "rotation": 0,
-          "target": "25-8-a"
+          "target": "25-8-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.409854485860791,
@@ -1522,13 +1675,15 @@ var APP_DATA = {
           "yaw": -1.3591054496992427,
           "pitch": -0.17903037961736068,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.7318150265171504,
           "pitch": -0.0828022754257507,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -1569,7 +1724,8 @@ var APP_DATA = {
           "yaw": 0.2677915030841653,
           "pitch": 0.41622109698192133,
           "rotation": 0,
-          "target": "24-7-t2"
+          "target": "24-7-t2",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.8517654439671105,
@@ -1589,7 +1745,8 @@ var APP_DATA = {
           "yaw": -0.9599348405663477,
           "pitch": -0.12852705909126527,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 2.11673572922873,
@@ -1597,18 +1754,12 @@ var APP_DATA = {
           "title": "Announcements Screen",
           "text": "Announcements and special events are displayed here."
         }
-        // {
+        // { POPUP - Floor Information
         //   "yaw": 2.089098817325601,
         //   "pitch": 0.07375889621488163,
-        //   "title": "PopUp",
-        //   "text": "floor_info"
+        //   "title": "Floor Information",
+        //   "text": ""
         // },
-        // {
-        //   "yaw": 1.2600163790382748,
-        //   "pitch": -0.15146366959890756,
-        //   "title": "PopUp",
-        //   "text": "library_hours"
-        // }
       ]
     },
     {
@@ -1650,7 +1801,8 @@ var APP_DATA = {
           "yaw": 2.1994768314683473,
           "pitch": 0.10918533739469538,
           "rotation": 12.566370614359176,
-          "target": "44-8-s-mr"
+          "target": "44-8-s-mr",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": 1.4515318682698544,
@@ -1669,19 +1821,13 @@ var APP_DATA = {
         {
           "yaw": 0.33778071578295155,
           "pitch": 0.2428239152218481,
-          "title": "Information and Reference Counter",
+          "title": "Circulation Counter",
           "text": "If assistance is required, people here are there to help."
         },
         {
           "yaw": -3.044897440758451,
           "pitch": -0.0952602738840973,
           "title": "Study Hall",
-          "text": ""
-        },
-        {
-          "yaw": 2.211232942604468,
-          "pitch": -0.26830636840916,
-          "title": "Conference Room",
           "text": ""
         }
       ]
@@ -1719,13 +1865,15 @@ var APP_DATA = {
           "yaw": 0.1527240261145426,
           "pitch": 0.09347751647574043,
           "rotation": 0,
-          "target": "38-8m-a"
+          "target": "38-8m-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -0.11713430372508071,
           "pitch": 0.14715362847009317,
           "rotation": 0,
-          "target": "19-7m-a"
+          "target": "19-7m-a",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -1.6312935479753818,
@@ -1744,7 +1892,7 @@ var APP_DATA = {
         {
           "yaw": -0.7706072763874712,
           "pitch": 0.18893900011789988,
-          "title": "Information and Reference Counter",
+          "title": "Circulation Counter",
           "text": "If assistance is required, people here are there to help."
         },
         {
@@ -1807,6 +1955,12 @@ var APP_DATA = {
           "pitch": 0.3968894728434389,
           "rotation": 0,
           "target": "30-8-f"
+        },
+        {
+          "yaw": -1.5480614446956963,
+          "pitch": 0.2625021433922672,
+          "rotation": 0,
+          "target": "27-8-c"
         }
       ],
       "infoHotspots": [
@@ -1826,7 +1980,7 @@ var APP_DATA = {
           "yaw": -2.528130870073724,
           "pitch": 0.3441532625860191,
           "title": "Self Checkout Terminal",
-          "text": "Guests may use these as self service of checking out books."
+          "text": "Guests may use these for self service book borrowing."
         }
       ]
     },
@@ -1877,13 +2031,15 @@ var APP_DATA = {
           "yaw": 0.31086193455144695,
           "pitch": 0.11086133854927738,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         },
         {
           "yaw": 0.06359694228458501,
           "pitch": -0.18658190482557657,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -1958,13 +2114,14 @@ var APP_DATA = {
           "yaw": -2.9504005284447654,
           "pitch": 0.08635579890406575,
           "title": "Self Checkout Terminal",
-          "text": "Guests may use these as self service of checking out books."
+          "text": "Guests may use these for self service book borrowing."
         },
         {
           "yaw": 1.6470832440471312,
           "pitch": -0.14899647783366454,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -2021,19 +2178,22 @@ var APP_DATA = {
           "yaw": 1.610386152057898,
           "pitch": -0.14013658561698428,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 2.9889505998751673,
           "pitch": 0.06893179604469601,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         },
         {
           "yaw": 0.14933654386757134,
           "pitch": -0.14319098746859282,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -2084,7 +2244,8 @@ var APP_DATA = {
           "yaw": 1.4129956244032549,
           "pitch": -0.1869561899721397,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -2141,7 +2302,8 @@ var APP_DATA = {
           "yaw": 1.767239110226404,
           "pitch": -0.36379164516514706,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -2184,19 +2346,22 @@ var APP_DATA = {
           "yaw": -2.414847554264565,
           "pitch": 0.02983870129741817,
           "rotation": 0,
-          "target": "41-8m-d"
+          "target": "41-8m-d",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.3845916875437165,
           "pitch": 0.4971795896543565,
           "rotation": 0,
-          "target": "21-7m-c"
+          "target": "21-7m-c",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": 0.8454353620324166,
           "pitch": 0.12243544506531379,
           "rotation": 0,
-          "target": "45-8-s-qr"
+          "target": "45-8-s-qr",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": -1.5366331049992912,
@@ -2217,12 +2382,6 @@ var APP_DATA = {
           "pitch": -0.1984410126356746,
           "title": "Discussion Rooms",
           "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
-        },
-        {
-          "yaw": -1.1096582570550169,
-          "pitch": 0.12228440134654583,
-          "title": "Circulation Information Counter",
-          "text": ""
         }
       ]
     },
@@ -2259,7 +2418,8 @@ var APP_DATA = {
           "yaw": -0.5045197108594053,
           "pitch": 0.0775722499174023,
           "rotation": 0,
-          "target": "42-8-s-dr"
+          "target": "42-8-s-dr",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": 1.546947533511947,
@@ -2322,7 +2482,8 @@ var APP_DATA = {
           "yaw": -1.158990263064009,
           "pitch": 0.05894806610849557,
           "rotation": 0,
-          "target": "43-8-s-fc"
+          "target": "43-8-s-fc",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": 1.5636894696628172,
@@ -2343,12 +2504,6 @@ var APP_DATA = {
           "pitch": -0.199866162719621,
           "title": "Discussion Rooms",
           "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
-        },
-        {
-          "yaw": -2.405766207833441,
-          "pitch": -0.06609585662547524,
-          "title": "Reading Area",
-          "text": ""
         }
       ]
     },
@@ -2388,14 +2543,7 @@ var APP_DATA = {
           "target": "36-8-l"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -2.3203144605633828,
-          "pitch": 0.2925017804168899,
-          "title": "Reading Area",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     /****************************************************
      * 8th Floor Mezzanine                              *
@@ -2440,7 +2588,8 @@ var APP_DATA = {
           "yaw": -2.6978704304289582,
           "pitch": 0.6767664207659863,
           "rotation": 0,
-          "target": "27-8-c"
+          "target": "27-8-c",
+          "icon": "img/link_stairs_down.png"
         }
       ],
       "infoHotspots": []
@@ -2572,7 +2721,8 @@ var APP_DATA = {
           "yaw": 1.160199801095132,
           "pitch": 0.6033786720888621,
           "rotation": 0,
-          "target": "34-8-j"
+          "target": "34-8-j",
+          "icon": "img/link_stairs_down.png"
         }
       ],
       "infoHotspots": []
@@ -2582,7 +2732,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "42-8-s-dr",
-      "name": "Discussion Room",
+      "name": "8th Floor Discussion Room",
       "levels": [
         {
           "tileSize": 256,
@@ -2613,7 +2763,8 @@ var APP_DATA = {
           "yaw": -3.1106576411234386,
           "pitch": 0.11488853277863242,
           "rotation": 0,
-          "target": "35-8-k"
+          "target": "35-8-k",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
@@ -2651,14 +2802,16 @@ var APP_DATA = {
           "yaw": 1.2841676915666955,
           "pitch": 0.05944522801170038,
           "rotation": 0,
-          "target": "36-8-l"
+          "target": "36-8-l",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "44-8-s-mr",
-      "name": "Meeting Room",
+      "name": "8th Floor Meeting Room",
+      "specialYaw": true,
       "levels": [
         {
           "tileSize": 256,
@@ -2689,14 +2842,15 @@ var APP_DATA = {
           "yaw": -1.9789280238439702,
           "pitch": 0.1701587960926716,
           "rotation": 0,
-          "target": "26-8-b"
+          "target": "26-8-b",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "45-8-s-qr",
-      "name": "Quiet Room",
+      "name": "8th Floor Quiet Room",
       "levels": [
         {
           "tileSize": 256,
@@ -2727,14 +2881,15 @@ var APP_DATA = {
           "yaw": -1.4572439750852428,
           "pitch": 0.07353461698038188,
           "rotation": 0,
-          "target": "34-8-j"
+          "target": "34-8-j",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "46-8-s-sh",
-      "name": "Study Hall",
+      "name": "8th Floor Study Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -2820,13 +2975,15 @@ var APP_DATA = {
           "yaw": -2.754659388087614,
           "pitch": -0.18826356318670356,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": -0.11867275952930001,
           "pitch": -0.16161804115879974,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -2863,7 +3020,8 @@ var APP_DATA = {
           "yaw": -2.9658437977484873,
           "pitch": 0.2717849305095612,
           "rotation": 0,
-          "target": "49-9-a"
+          "target": "49-9-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.220916462795614,
@@ -2877,13 +3035,15 @@ var APP_DATA = {
           "yaw": -1.299731949896314,
           "pitch": -0.20296302784160503,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.6479864291849466,
           "pitch": -0.085841583253778,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -2924,7 +3084,8 @@ var APP_DATA = {
           "yaw": 0.24975757851470348,
           "pitch": 0.3640100775854229,
           "rotation": 0,
-          "target": "48-8-t2"
+          "target": "48-8-t2",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.885691524832076,
@@ -2944,19 +3105,14 @@ var APP_DATA = {
           "yaw": -0.9175912081158248,
           "pitch": -0.11309630656428205,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
-        // {
-        //   "yaw": 1.1807455177061073,
-        //   "pitch": -0.11167537780555215,
-        //   "title": "Popup",
-        //   "text": "library_hours"
-        // },
-        // {
+        // { POPUP - Floor Information
         //   "yaw": 2.0023150858592995,
         //   "pitch": 0.08595460323305382,
-        //   "title": "Popup",
-        //   "text": "floor_info"
+        //   "title": "Floor Information",
+        //   "text": ""
         // },
         {
           "yaw": 1.9777765743001154,
@@ -3012,7 +3168,7 @@ var APP_DATA = {
         {
           "yaw": -0.19556532117888992,
           "pitch": 0.2237541811638284,
-          "title": "Information and Reference Counter",
+          "title": "Periodicals Counter",
           "text": "If assistance is required, people here are there to help."
         }
       ]
@@ -3050,7 +3206,8 @@ var APP_DATA = {
           "yaw": -1.0721120675463265,
           "pitch": -0.14706757255377312,
           "rotation": 0,
-          "target": "62-9m-a"
+          "target": "62-9m-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": 0.5099067031142255,
@@ -3088,13 +3245,14 @@ var APP_DATA = {
           "yaw": 3.0975184352505387,
           "pitch": -0.08603365941227992,
           "title": "Newspapers and Magazines",
-          "text": "Articles and Materials from different media sources are displayed here."
+          "text": "Articles and materials from different media sources are displayed here."
         },
         {
           "yaw": 1.291844900228483,
           "pitch": -0.1060133116896047,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -3195,13 +3353,15 @@ var APP_DATA = {
           "yaw": 0.4021914724774813,
           "pitch": 0.04583888488356891,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         },
         {
           "yaw": 0.09940928882448574,
           "pitch": -0.20217699423470847,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -3258,13 +3418,15 @@ var APP_DATA = {
           "yaw": 1.7342495528196178,
           "pitch": -0.08904990101755494,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 2.991441076149492,
           "pitch": -0.01753183426592564,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         }
       ]
     },
@@ -3321,7 +3483,8 @@ var APP_DATA = {
           "yaw": 1.086783839131483,
           "pitch": -0.26406399775681955,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -3370,21 +3533,23 @@ var APP_DATA = {
           "yaw": -0.4086379489396741,
           "pitch": -0.11037777783208469,
           "rotation": 0,
-          "target": "64-9m-c"
+          "target": "64-9m-c",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -3.0279927307641508,
           "pitch": 0.4961168055004066,
           "rotation": 0,
           "target": "55-9-g"
-        }
+        },
       ],
       "infoHotspots": [
         {
           "yaw": 2.8225730735245733,
           "pitch": -0.18448092986402997,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": 1.6464399097988416,
@@ -3485,6 +3650,13 @@ var APP_DATA = {
           "pitch": 0.46453830128856666,
           "rotation": 0,
           "target": "57-9-i"
+        },
+        {
+          "yaw": 2.8304428855022286,
+          "pitch": 0.07376078472672454,
+          "rotation": 0,
+          "target": "134-9-s-dr",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -3531,17 +3703,12 @@ var APP_DATA = {
           "rotation": 0,
           "target": "58-9-j"
         },
-        // {
-        //   "yaw": -0.6667103525983151,
-        //   "pitch": 0.34882157030262917,
-        //   "rotation": 0,
-        //   "target": "outside"
-        // },
         {
           "yaw": -2.5075779443563135,
           "pitch": -0.21758037288331167,
           "rotation": 0,
-          "target": "64-9m-c"
+          "target": "64-9m-c",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -1.6654557132127437,
@@ -3554,6 +3721,13 @@ var APP_DATA = {
           "pitch": 0.29434124840842735,
           "rotation": 0,
           "target": "56-9-h"
+        },
+        {
+          "yaw": -0.6672089823998242,
+          "pitch": 0.10761235802475078,
+          "rotation": 0,
+          "target": "135-9-s-o",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -3643,7 +3817,8 @@ var APP_DATA = {
           "pitch": 0.21234044026392773,
           "rotation": 0,
           "target": "60-9-l"
-        }
+        },
+        // MISSING - Discussion Room Link
       ],
       "infoHotspots": [
         {
@@ -3652,11 +3827,93 @@ var APP_DATA = {
           "title": "Discussion Rooms",
           "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         },
+      ]
+    },
+    /****************************************************
+     * 9th Floor Specials                               *
+     ****************************************************/
+    {
+      "id": "134-9-s-dr",
+      "name": "9th Floor Discussion Room",
+      "levels": [
         {
-          "yaw": 2.9888846623522625,
-          "pitch": -0.02161006602453952,
-          "title": "Reading Area",
-          "text": ""
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.614202951709025,
+          "pitch": 0.09339470207634903,
+          "rotation": 0,
+          "target": "58-9-j",
+          "icon": "img/link_door.png"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "135-9-s-o",
+      "name": "9th Floor Outdoor Area",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.072715925458697,
+          "pitch": 0.11341207843061696,
+          "rotation": 0,
+          "target": "59-9-k",
+          "icon": "img/link_door.png"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.1843935017004767,
+          "pitch": 0.1392196064924036,
+          "title": "Copier Info",
+          "text": "asdasd"
         }
       ]
     },
@@ -3697,7 +3954,8 @@ var APP_DATA = {
           "yaw": -0.36687683502582935,
           "pitch": 0.2564791318168034,
           "rotation": 0,
-          "target": "63-9m-b"
+          "target": "63-9m-b",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": 0.6102060544249888,
@@ -3709,7 +3967,8 @@ var APP_DATA = {
           "yaw": -3.0204994469722344,
           "pitch": 0.05822201480714995,
           "rotation": 0,
-          "target": "69-10-c"
+          "target": "69-10-c",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": 3.0353753023967904,
@@ -3797,13 +4056,15 @@ var APP_DATA = {
           "yaw": 1.1206742684609736,
           "pitch": 0.6078310019701796,
           "rotation": 0,
-          "target": "59-9-k"
+          "target": "59-9-k",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": 0.6714275878213165,
           "pitch": 0.1058647527642318,
           "rotation": 0,
-          "target": "73-10-g"
+          "target": "73-10-g",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.087848312069431,
@@ -3870,13 +4131,15 @@ var APP_DATA = {
           "yaw": -0.22390650250369504,
           "pitch": -0.13809025563853083,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.8169597317175104,
           "pitch": -0.17992362926397476,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -3913,7 +4176,8 @@ var APP_DATA = {
           "yaw": -2.983953927693758,
           "pitch": 0.14213350151501913,
           "rotation": 0,
-          "target": "67-10-a"
+          "target": "67-10-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.272185431073968,
@@ -3927,13 +4191,15 @@ var APP_DATA = {
           "yaw": -1.3856310866036452,
           "pitch": -0.21970516968122666,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.6452293975637566,
           "pitch": -0.08913510091355548,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -3974,7 +4240,8 @@ var APP_DATA = {
           "yaw": 0.19096254725473827,
           "pitch": 0.37520590452018254,
           "rotation": 0,
-          "target": "66-9-t2"
+          "target": "66-9-t2",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.9201636153406341,
@@ -3994,26 +4261,21 @@ var APP_DATA = {
           "yaw": -0.9815261290410362,
           "pitch": -0.14274101371558245,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
-        // {
-        //   "yaw": 1.9850392420865974,
-        //   "pitch": 0.07170752003944081,
-        //   "title": "PopUp",
-        //   "text": "floor_info"
-        // },
         {
           "yaw": 1.9727260704858827,
           "pitch": -0.28219816245263374,
           "title": "Announcements Screen",
           "text": "Announcements and special events are displayed here."
         },
-        // {
-        //   "yaw": 1.1165728023972505,
-        //   "pitch": -0.159188081632065,
-        //   "title": "PopUp",
-        //   "text": "library_hours"
-        // }
+        // { POPUP - floor information
+        //   "yaw": 1.9850392420865974,
+        //   "pitch": 0.07170752003944081,
+        //   "title": "Floor Information",
+        //   "text": "floor_info"
+        // },
       ]
     },
     {
@@ -4074,7 +4336,7 @@ var APP_DATA = {
         {
           "yaw": -0.0055165407933746025,
           "pitch": 0.21154050411659142,
-          "title": "Information and Reference Counter",
+          "title": "Filipiniana Counter",
           "text": "If assistance is required, people here are there to help."
         },
         {
@@ -4118,13 +4380,15 @@ var APP_DATA = {
           "yaw": 0.22023920849535905,
           "pitch": 0.1116398800744367,
           "rotation": 0,
-          "target": "77-10m-a"
+          "target": "77-10m-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -0.1577443770081608,
           "pitch": 0.3358648826071633,
           "rotation": 0,
-          "target": "69-10-c"
+          "target": "62-9m-a",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": 1.5399811607549072,
@@ -4149,7 +4413,7 @@ var APP_DATA = {
         {
           "yaw": -1.511149192005659,
           "pitch": 0.2792589110938195,
-          "title": "Information and Reference Counter",
+          "title": "Filipiniana Counter",
           "text": "If assistance is required, people here are there to help."
         },
         {
@@ -4162,7 +4426,8 @@ var APP_DATA = {
           "yaw": 1.4139379192555381,
           "pitch": -0.09589440314198505,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         // {
         //   "yaw": 1.0068449443983365,
@@ -4225,13 +4490,15 @@ var APP_DATA = {
           "yaw": 0.8150140027299937,
           "pitch": -0.07950540143736262,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 1.6232869056073165,
           "pitch": 0.030393179146006588,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         }
       ]
     },
@@ -4294,13 +4561,15 @@ var APP_DATA = {
           "yaw": 2.853460797884794,
           "pitch": -0.0984435568337787,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 1.3593227119636921,
           "pitch": -0.23848038434648444,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -4337,13 +4606,15 @@ var APP_DATA = {
           "yaw": -1.2369264214437479,
           "pitch": 0.054041236130348835,
           "rotation": 0,
-          "target": "80-10m-d"
+          "target": "80-10m-d",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -0.6026053634444768,
           "pitch": 0.29966169427219924,
           "rotation": 0,
-          "target": "64-9m-c"
+          "target": "64-9m-c",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.1672989556461406,
@@ -4358,14 +4629,7 @@ var APP_DATA = {
           "target": "71-10-e"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 1.5945428647396565,
-          "pitch": -0.06388175518443262,
-          "title": "Reading Area",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "73-10-g",
@@ -4400,13 +4664,15 @@ var APP_DATA = {
           "yaw": -2.605828549401542,
           "pitch": 0.003021978813666948,
           "rotation": 0,
-          "target": "80-10m-d"
+          "target": "80-10m-d",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.7280595327330595,
           "pitch": 0.4953125244745795,
           "rotation": 0,
-          "target": "64-9m-c"
+          "target": "64-9m-c",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": 2.9052790609241477,
@@ -4418,7 +4684,8 @@ var APP_DATA = {
           "yaw": 0.9224588095728823,
           "pitch": 0.07234735066126241,
           "rotation": 0,
-          "target": "82-10-s-qr"
+          "target": "82-10-s-qr",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": -1.6398273533717074,
@@ -4439,12 +4706,6 @@ var APP_DATA = {
           "pitch": -0.11451808040093248,
           "title": "Discussion Rooms",
           "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
-        },
-        {
-          "yaw": 2.0831163072715633,
-          "pitch": -0.09606442330680487,
-          "title": "Reading Area",
-          "text": ""
         }
       ]
     },
@@ -4488,6 +4749,13 @@ var APP_DATA = {
           "pitch": 0.29852605044998093,
           "rotation": 0,
           "target": "75-10-i"
+        },
+        {
+          "yaw": 0.8058850270357372,
+          "pitch": 0.06999123648534677,
+          "rotation": 0,
+          "target": "136-10-s-dr",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -4532,7 +4800,8 @@ var APP_DATA = {
           "yaw": -1.015117411880496,
           "pitch": 0.054200437209857455,
           "rotation": 0,
-          "target": "81-10-s-gsr"
+          "target": "81-10-s-gsr",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": 1.4678649809496012,
@@ -4560,12 +4829,6 @@ var APP_DATA = {
           "title": "Discussion Rooms",
           "text": "These rooms are available for student groups who wish to conduct collaborative academic activities."
         },
-        {
-          "yaw": -2.5803195718135736,
-          "pitch": -0.1053626252598523,
-          "title": "Reading Area",
-          "text": ""
-        }
       ]
     },
     {
@@ -4604,14 +4867,7 @@ var APP_DATA = {
           "target": "75-10-i"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -1.5984142848272036,
-          "pitch": -0.15907863508626008,
-          "title": "Reading Area",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     /****************************************************
      * 10th Floor Mezzanine                             *
@@ -4650,7 +4906,8 @@ var APP_DATA = {
           "yaw": -2.627321365809319,
           "pitch": 0.7470369136917103,
           "rotation": 0,
-          "target": "69-10-c"
+          "target": "69-10-c",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.011676311559206454,
@@ -4782,7 +5039,8 @@ var APP_DATA = {
           "yaw": 1.11253101941654,
           "pitch": 0.6780510639915676,
           "rotation": 0,
-          "target": "73-10-g"
+          "target": "73-10-g",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -2.024944280249631,
@@ -4829,14 +5087,15 @@ var APP_DATA = {
           "yaw": 1.9345730512040422,
           "pitch": 0.20199283113987931,
           "rotation": 0,
-          "target": "75-10-i"
+          "target": "75-10-i",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "82-10-s-qr",
-      "name": "Quiet Room",
+      "name": "10th Floor Quiet Room",
       "levels": [
         {
           "tileSize": 256,
@@ -4867,14 +5126,15 @@ var APP_DATA = {
           "yaw": -2.1201631059065953,
           "pitch": 0.058888034031152614,
           "rotation": 0,
-          "target": "73-10-g"
+          "target": "73-10-g",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "83-10-s-sc",
-      "name": "10-S-SC",
+      "name": "HSSH, 10F",
       "levels": [
         {
           "tileSize": 256,
@@ -4912,7 +5172,7 @@ var APP_DATA = {
     },
     {
       "id": "84-10-s-sh",
-      "name": "10-S-SH",
+      "name": "10th Floor Study Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -4944,6 +5204,44 @@ var APP_DATA = {
           "pitch": 0.2405069323668947,
           "rotation": 5.497787143782138,
           "target": "68-10-b"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "136-10-s-dr",
+      "name": "10th Floor Discussion Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.881019283549758,
+          "pitch": 0.01758755698843295,
+          "rotation": 0,
+          "target": "74-10-h"
         }
       ],
       "infoHotspots": []
@@ -4998,13 +5296,15 @@ var APP_DATA = {
           "yaw": -0.17626187957591277,
           "pitch": -0.15744953883753254,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.805554385763065,
           "pitch": -0.15769247871769565,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -5041,7 +5341,8 @@ var APP_DATA = {
           "yaw": -3.034412338457626,
           "pitch": 0.1831309589915442,
           "rotation": 0,
-          "target": "87-11-a"
+          "target": "87-11-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.346372012616804,
@@ -5055,13 +5356,15 @@ var APP_DATA = {
           "yaw": -1.4302697208693402,
           "pitch": -0.17821905826765239,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.740128234513591,
           "pitch": -0.08025229166738512,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -5101,7 +5404,8 @@ var APP_DATA = {
           "yaw": 0.2926050991221345,
           "pitch": 0.3644338896885415,
           "rotation": 0,
-          "target": "86-10-t2"
+          "target": "86-10-t2",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.912808032044758,
@@ -5121,7 +5425,8 @@ var APP_DATA = {
           "yaw": -0.9463345417262712,
           "pitch": -0.16806757875997036,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -5176,13 +5481,15 @@ var APP_DATA = {
           "yaw": -0.2228557811261993,
           "pitch": -0.1763620075827248,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.7473832254828565,
           "pitch": -0.17225809199915254,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -5219,7 +5526,8 @@ var APP_DATA = {
           "yaw": -2.9632767017588133,
           "pitch": 0.07405817854240127,
           "rotation": 0,
-          "target": "90-12-a"
+          "target": "90-12-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.2019931393972207,
@@ -5233,13 +5541,15 @@ var APP_DATA = {
           "yaw": -1.3405304922353274,
           "pitch": -0.19965990666644373,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.599461029838018,
           "pitch": -0.10260966955297235,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -5280,7 +5590,8 @@ var APP_DATA = {
           "yaw": 0.22221341103773184,
           "pitch": 0.2880261096622405,
           "rotation": 0,
-          "target": "89-11-t2"
+          "target": "89-11-t2",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.7974494006115496,
@@ -5300,7 +5611,8 @@ var APP_DATA = {
           "yaw": -0.8476579940142024,
           "pitch": -0.1561867074365395,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 1.952645641202217,
@@ -5308,11 +5620,11 @@ var APP_DATA = {
           "title": "Announcements Screen",
           "text": "Announcements and special events are displayed here."
         },
-        // {
+        // { POPUP - Floor Information
         //   "yaw": 1.1098588860572214,
         //   "pitch": 0.027603461419762,
-        //   "title": "PopUp",
-        //   "text": "floor_info"
+        //   "title": "Floor Information",
+        //   "text": ""
         // }
       ]
     },
@@ -5370,6 +5682,18 @@ var APP_DATA = {
           "pitch": -0.0007349648171484091,
           "title": "Study Hall",
           "text": ""
+        },
+        {
+          "yaw": 0.9614113341498367,
+          "pitch": 0.12938125465531058,
+          "title": "Archives Counter",
+          "text": "If assistance is required, people here are there to help."
+        },
+        {
+          "yaw": 0.4701992559908845,
+          "pitch": -0.18690318123678296,
+          "title": "University Archives",
+          "text": "The entirety of this floor is restricted as it contains the archives of different studies in DLSU. Assistance by authorized library personnel is required."
         }
       ]
     },
@@ -5425,14 +5749,15 @@ var APP_DATA = {
         {
           "yaw": 0.30680581628907966,
           "pitch": 0.1533009757275945,
-          "title": "Information and Reference Counter",
+          "title": "Archives Counter",
           "text": "If assistance is required, people here are there to help."
         },
         {
           "yaw": 1.2327863853194572,
           "pitch": -0.08343148426828861,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -5488,38 +5813,41 @@ var APP_DATA = {
         {
           "yaw": -1.037846840004196,
           "pitch": 0.101189443657562,
-          "title": "Information and Reference Counter",
-          "text": "edit_irc"
+          "title": "Archives Counter",
+          "text": "If assistance is required, people here are there to help."
         },
         {
           "yaw": -0.7230474684622905,
           "pitch": 0.13049650642910215,
           "title": "Online Public Access Catalog",
-          "text": "edit_opac"
+          "text": "These computers can be used to locate certain materials or resources within the library."
         },
         {
           "yaw": 2.06018364283298,
           "pitch": 0.001551452586848967,
           "title": "F. Sionil Jose Collection",
-          "text": "edit_fsjc"
+          "text": "The works of F. Sionil Jose collected by the university are available here for viewing."
         },
         {
           "yaw": 1.3473610854396671,
           "pitch": -0.053274734093935905,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         },
         {
           "yaw": 0.6785749300074464,
           "pitch": -0.14048368592236748,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 0.33186408576524684,
           "pitch": -0.09138131215036438,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -5576,19 +5904,21 @@ var APP_DATA = {
           "yaw": -1.2492522154117331,
           "pitch": 0.039232511733086284,
           "title": "Computer Terminals",
-          "text": "edit_ct"
+          "text": "Guests may use these to browse the Internet."
         },
         {
           "yaw": 0.7413290402518431,
           "pitch": -0.1283175575809281,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": 2.4513432524600116,
           "pitch": -0.12976342470159352,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -5639,13 +5969,8 @@ var APP_DATA = {
           "yaw": 2.7974276053534846,
           "pitch": -0.12941763360937308,
           "title": "Fire Exit",
-          "text": ""
-        },
-        {
-          "yaw": 1.3263252494656275,
-          "pitch": -0.0771419948974792,
-          "title": "Reading Area",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -5695,8 +6020,8 @@ var APP_DATA = {
         {
           "yaw": 0.7989582903325569,
           "pitch": -0.16728680593542578,
-          "title": "Makers Thing",
-          "text": "edit_maker"
+          "title": "Maker Space",
+          "text": "This function room is designed as a workshop for creative activities."
         },
         {
           "yaw": -0.6202401817456114,
@@ -5709,12 +6034,6 @@ var APP_DATA = {
           "pitch": 0.02126147542332646,
           "title": "University Archives",
           "text": "The entirety of this floor is restricted as it contains the archives of different studies in DLSU. Assistance by authorized library personnel is required."
-        },
-        {
-          "yaw": 2.2022291129143525,
-          "pitch": -0.08942142250880636,
-          "title": "Reading Area",
-          "text": ""
         }
       ]
     },
@@ -5758,6 +6077,12 @@ var APP_DATA = {
           "pitch": 0.3235022191200656,
           "rotation": 0,
           "target": "96-12-g"
+        },
+        {
+          "yaw": 0.6612933283226603,
+          "pitch": 0.08736514509122806,
+          "rotation": 0,
+          "target": "137-12-s-dr"
         }
       ],
       "infoHotspots": [
@@ -5802,7 +6127,8 @@ var APP_DATA = {
           "yaw": -1.2682472674252665,
           "pitch": 0.07863420813829514,
           "rotation": 0,
-          "target": "99-12-s-qr"
+          "target": "99-12-s-qr",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": 1.5349612411535887,
@@ -5837,7 +6163,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "99-12-s-qr",
-      "name": "Quiet Room",
+      "name": "12th Floor Quiet Room",
       "levels": [
         {
           "tileSize": 256,
@@ -5868,7 +6194,8 @@ var APP_DATA = {
           "yaw": 1.4578484895196144,
           "pitch": 0.024177375088068942,
           "rotation": 0,
-          "target": "98-12-i"
+          "target": "98-12-i",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
@@ -5901,12 +6228,19 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.185143333499111,
+          "pitch": 0.371108791753878,
+          "rotation": 0,
+          "target": "93-12-d"
+        }
+      ],
       "infoHotspots": []
     },
     {
       "id": "101-12-s-sh",
-      "name": "Study Hall",
+      "name": "12th Floor Study Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -5975,7 +6309,47 @@ var APP_DATA = {
           "yaw": 2.583661603883521,
           "pitch": -0.009227644837645599,
           "rotation": 0,
-          "target": "104-12-t2"
+          "target": "104-12-t2",
+          "icon": "img/link_door.png"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "137-12-s-dr",
+      "name": "12th Floor Discussion Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.759695247577289,
+          "pitch": 0.07451421667855129,
+          "rotation": 0,
+          "target": "97-12-h",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
@@ -6030,13 +6404,15 @@ var APP_DATA = {
           "yaw": -0.12556189591369282,
           "pitch": -0.1797230412864188,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.6737910004660836,
           "pitch": -0.1678123884060554,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -6073,7 +6449,8 @@ var APP_DATA = {
           "yaw": -0.3768602981099498,
           "pitch": 0.10935587801274771,
           "rotation": 0,
-          "target": "102-12-s-tl"
+          "target": "102-12-s-tl",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": -2.9357004956373576,
@@ -6085,27 +6462,30 @@ var APP_DATA = {
           "yaw": -2.137696554957561,
           "pitch": 0.394849238505131,
           "rotation": 5.497787143782138,
-          "target": "103-12-t1"
+          "target": "105-14-a",
+          "icon": "img/link_stairs_up.png"
         }
       ],
       "infoHotspots": [
-        // {
+        // { POPUP - The Lasalliana
         //   "yaw": 0.6209118106811413,
         //   "pitch": 0.3158918509178221,
-        //   "title": "PopUp",
-        //   "text": "the_lasalliana"
+        //   "title": "The Lasalliana",
+        //   "text": ""
         // },
         {
           "yaw": -1.2213033983634585,
           "pitch": -0.1389681135049461,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.5874805922039883,
           "pitch": -0.06682015596917701,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -6146,7 +6526,8 @@ var APP_DATA = {
           "yaw": 0.30299702230311176,
           "pitch": 0.40210315371656336,
           "rotation": 0,
-          "target": "105-14-a"
+          "target": "90-12-a",
+          "icon": "img/link_stairs_down.png"
         },
         {
           "yaw": -0.8522776073926526,
@@ -6166,7 +6547,8 @@ var APP_DATA = {
           "yaw": -0.8905586244227308,
           "pitch": -0.14157463145581062,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -6290,7 +6672,8 @@ var APP_DATA = {
           "yaw": -0.5613719433984041,
           "pitch": 0.15017277664213324,
           "rotation": 0,
-          "target": "124-14-s-ac2"
+          "target": "124-14-s-ac2",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -6298,7 +6681,7 @@ var APP_DATA = {
           "yaw": -0.8492483681459984,
           "pitch": -0.09587284568171839,
           "title": "American Corner",
-          "text": "edit-text"
+          "text": "Also known as the American Studies Resource Center (ASRC). This collection consists of donated reading materials from the Thomas Jefferson Information Center of the U.S. Embassy in Manila."
         },
         {
           "yaw": 2.19688233682089,
@@ -6341,7 +6724,8 @@ var APP_DATA = {
           "yaw": -0.931613381564734,
           "pitch": 0.19217661160513444,
           "rotation": 0,
-          "target": "123-14-s-ac1"
+          "target": "123-14-s-ac1",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": -1.602033850961087,
@@ -6367,19 +6751,21 @@ var APP_DATA = {
           "yaw": -0.9440946611342529,
           "pitch": -0.06396328759089442,
           "title": "American Corner",
-          "text": "edit-text"
+          "text": "Also known as the American Studies Resource Center (ASRC). This collection consists of donated reading materials from the Thomas Jefferson Information Center of the U.S. Embassy in Manila."
         },
         {
           "yaw": 0.09397304033519127,
           "pitch": -0.1610347618302015,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 0.3531375374829171,
           "pitch": -0.005184948858408589,
           "title": "Drinking Fountain",
-          "text": ""
+          "text": "",
+          "icon": "img/fountain.png"
         },
         {
           "yaw": 1.3160651667100591,
@@ -6436,13 +6822,15 @@ var APP_DATA = {
           "yaw": 2.7884091640704938,
           "pitch": -0.163546105068324,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         },
         {
           "yaw": 0.20020220374873077,
           "pitch": -0.15850640559019702,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         }
       ]
     },
@@ -6491,7 +6879,8 @@ var APP_DATA = {
           "yaw": -0.333388078978075,
           "pitch": 0.09688727450841128,
           "rotation": 0,
-          "target": "125-14-s-edc"
+          "target": "125-14-s-edc",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -6499,13 +6888,14 @@ var APP_DATA = {
           "yaw": 2.2895496792064387,
           "pitch": -0.18687943559151776,
           "title": "Fire Exit",
-          "text": "Text"
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -0.02759773113766073,
           "pitch": -0.143388071198018,
           "title": "European Documentation Center",
-          "text": "edit-text"
+          "text": "A project of the European Commission in collaboration with the European Studies Consortium of the Philippines to promote European studies among other Philippine high level academic institutions."
         }
       ]
     },
@@ -6561,6 +6951,13 @@ var APP_DATA = {
           "pitch": 0.40430216671513364,
           "rotation": 0,
           "target": "112-14-h"
+        },
+        {
+          "yaw": -0.6014184764228148,
+          "pitch": 0.12691029497015194,
+          "rotation": 0,
+          "target": "138-14-s-acc",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -6568,7 +6965,7 @@ var APP_DATA = {
           "yaw": -0.6087258384763512,
           "pitch": -0.0010772802525931269,
           "title": "Asian Corner",
-          "text": "edit-text"
+          "text": "This area is a collection of reading materials about Asian culture. "
         },
         {
           "yaw": 2.1396635440056766,
@@ -6785,12 +7182,12 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": 1.2422416414485564,
-          "pitch": -0.1632183409441108,
-          "title": "PopUp",
-          "text": "collection_info_plaque"
-        },
+        // { POPUP - Collection Plaque
+        //   "yaw": 1.2422416414485564,
+        //   "pitch": -0.1632183409441108,
+        //   "title": "Collection Plaque",
+        //   "text": ""
+        // },
         {
           "yaw": -1.2419575298240382,
           "pitch": -0.10146280308045874,
@@ -6838,7 +7235,8 @@ var APP_DATA = {
           "yaw": 0.008090503311896313,
           "pitch": 0.12983281297157845,
           "rotation": 0,
-          "target": "126-14-s-kdc"
+          "target": "126-14-s-kdc",
+          "icon": "img/link_door.png"
         },
         {
           "yaw": 1.5860086858349254,
@@ -6858,7 +7256,7 @@ var APP_DATA = {
           "yaw": -0.7120389183044136,
           "pitch": -0.2151532986295308,
           "title": "Knowledge Development Community (KDC)",
-          "text": "edit-text"
+          "text": "A dedicated area for people who work in partnership with the World Bank to promote knowledge sharing and citizen engagement about developmental issues."
         }
       ]
     },
@@ -6909,13 +7307,14 @@ var APP_DATA = {
           "yaw": -1.7659489244642863,
           "pitch": -0.03200279087386626,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -0.3297029779229117,
           "pitch": -0.11970779005558185,
           "title": "Audio Visual Room",
-          "text": "edit-text"
+          "text": "A room for viewing audiovisuals typically films, videos and documentaries. "
         }
       ]
     },
@@ -7288,7 +7687,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "123-14-s-ac1",
-      "name": "14-S-AC1",
+      "name": "American Corner",
       "levels": [
         {
           "tileSize": 256,
@@ -7319,14 +7718,15 @@ var APP_DATA = {
           "yaw": 2.5797775160034337,
           "pitch": 0.0881535303360188,
           "rotation": 0,
-          "target": "108-14-d"
+          "target": "108-14-d",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "124-14-s-ac2",
-      "name": "14-S-AC2",
+      "name": "American Corner",
       "levels": [
         {
           "tileSize": 256,
@@ -7352,12 +7752,20 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.2797775160034337,
+          "pitch": 0.0881535303360188,
+          "rotation": 0,
+          "target": "107-14-c",
+          "icon": "img/link_door.png"
+        }
+      ],
       "infoHotspots": []
     },
     {
       "id": "125-14-s-edc",
-      "name": "14-S-EDC",
+      "name": "European Documentation Center (EDC)",
       "levels": [
         {
           "tileSize": 256,
@@ -7388,14 +7796,15 @@ var APP_DATA = {
           "yaw": -2.2843235135318274,
           "pitch": 0.04996683043511041,
           "rotation": 0,
-          "target": "110-14-f"
+          "target": "110-14-f",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "126-14-s-kdc",
-      "name": "14-S-KDC",
+      "name": "Knowledge Development Community",
       "levels": [
         {
           "tileSize": 256,
@@ -7421,7 +7830,54 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.1797775160034337,
+          "pitch": 0.0881535303360188,
+          "rotation": 0,
+          "target": "116-14-l",
+          "icon": "img/link_door.png"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "138-14-s-acc",
+      "name": "Asian Corner",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1728,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.1184090179463793,
+          "pitch": 0.07678204115265785,
+          "rotation": 0,
+          "target": "111-14-g",
+          "icon": "img/link_door.png"
+        }
+      ],
       "infoHotspots": []
     },
     /****************************************************
@@ -7474,13 +7930,15 @@ var APP_DATA = {
           "yaw": -0.18512030845668725,
           "pitch": -0.1427078253546199,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.7157294412502715,
           "pitch": -0.12751337018346298,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
     },
@@ -7531,16 +7989,18 @@ var APP_DATA = {
           "yaw": -1.30289635029445,
           "pitch": -0.171473552534124,
           "title": "Fire Exit",
-          "text": ""
+          "text": "",
+          "icon": "img/fireexit.png"
         },
         {
           "yaw": -2.5705602766953266,
           "pitch": -0.04797699240770115,
           "title": "Restrooms",
-          "text": ""
+          "text": "",
+          "icon": "img/restroom.png"
         }
       ]
-    },
+    }
   ],
   "name": "maintour",
   "settings": {

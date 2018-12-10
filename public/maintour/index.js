@@ -207,7 +207,12 @@
     wrapper.classList.add('link-hotspot');
     // Create image element.
     var icon = document.createElement('img');
-    icon.src = 'img/link.png';
+
+    if(hotspot.icon)
+      icon.src = hotspot.icon;
+    else
+      icon.src = 'img/link.png';
+
     icon.classList.add('link-hotspot-icon');
 
     // Set rotation transform.
@@ -308,7 +313,7 @@
     };
 
     // Show content when hotspot is clicked.
-    if(hotspot.type){
+    if(hotspot.popup){
       wrapper.querySelector('.info-hotspot-header').addEventListener('click', parent.displayModal);
     }else{
       wrapper.querySelector('.info-hotspot-header').addEventListener('click', (hotspot.text) ? toggle : {});
