@@ -1,0 +1,26 @@
+5th Floor:
+5-A: Stair link to 6-E is too low
+
+6th Floor:
+
+7th Floor:
+7-J: 7-S-VR link is too low
+
+8th Floor:
+8-J: Circulation Information Counter is not needed.
+8-L: Reading Area info is too low.
+
+9th Floor:
+9-M: Discussion Room info is a bit low.
+9-E: Computer Terminals info is too low.
+
+10th Floor:
+
+
+12th Floor:
+
+12-B: Info spots should be seen from here (Information center, univ archives, restrooms)
+
+14F:
+American room doesn't have a hotspot to exit the room
+
