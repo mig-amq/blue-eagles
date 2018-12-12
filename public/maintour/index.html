@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="multiple-scenes view-control-buttons">
-
 <div id="pano"></div>
 
 <a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
@@ -27,7 +26,11 @@
 </a>
 <a href="#" class="viewControlButton viewControlButton-5" onclick="reset();">
     <img src="img/home.png" alt="Reset" class="icon">
-  </a>
+</a>
+<a href="javascript:alert('id: ' + currScene.data.id + '\nyaw: ' + currScene.view._yaw)" class="viewControlButton viewControlButton-5">
+  Click Me!
+</a>
+
 
 <!-- <div id="titleBar">
   <h1 class="sceneName"></h1>

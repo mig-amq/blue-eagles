@@ -71,7 +71,6 @@
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
   
-  console.log(data.scenes[0])
   // Create scenes.
   var scenes = data.scenes.map(function(data) {
     var urlPrefix = "tiles";
@@ -174,7 +173,7 @@
 
   var prevView;
 
-  function switchScene(scene) {
+  function switchScene(scene, yaw) {
     prevView = currScene;
     currScene = scene;
 
@@ -183,12 +182,19 @@
     if (prevView && !currScene.data.specialYaw) {
       params.yaw = prevView.view._yaw;
     }
-    
+
+    if (yaw != null)
+      params.yaw = yaw;
+
     if (parent.changeFloor)
-      parent.changeFloor(scene.data.name);
+      parent.changeFloor(scene.data.name, scene.data.floor);
 
     scene.view.setParameters(params);
     scene.scene.switchTo();
+  }
+
+  function minimapClick(sceneId, yaw) {
+    switchScene(findSceneById(sceneId), yaw)
   }
 
   function resetScene() {
@@ -236,7 +242,6 @@
     var tooltip = document.createElement('div');
     tooltip.classList.add('hotspot-tooltip');
     tooltip.classList.add('link-hotspot-tooltip');
-    console.log(hotspot.target)
     tooltip.innerHTML = findSceneDataById(hotspot.target).name;
 
     wrapper.appendChild(icon);

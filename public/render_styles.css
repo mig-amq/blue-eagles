@@ -7,6 +7,31 @@ body, html {
 * {
     box-sizing: border-box;
 }
+
+#map {
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    transform: translateX(93%);
+    bottom: 0;
+    height: 350px;
+    width: auto;
+    opacity: 0.8;
+    transition: all 150ms ease-out;
+}
+
+#map img {
+    height: 100%;
+    width: auto;
+}
+
+#map:hover, #map:active {
+    transform: translateX(0);
+}
+area {
+    cursor: pointer;
+}
+
 /* the style for the header */
 .header {
     height: 50px;

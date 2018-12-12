@@ -1,3 +1,5 @@
+var mappings = {}
+
 function generateLinks (scenes) {
     $("#location").click((e) => {
         e.preventDefault();
@@ -11,6 +13,7 @@ function generateLinks (scenes) {
             link.click((e) => {
                 e.preventDefault();
                 $("#frame")[0].contentWindow.switchScene({data, scene, view});
+                changeMinimap(data.floor);
             });
 
             $("#buildings li ul").append(link);
@@ -18,8 +21,40 @@ function generateLinks (scenes) {
     });
 }
 
-function changeFloor(name, id) {
+function changeFloor(name, floor) {
     $("#location").text(name);
+
+    changeMinimap(floor)
+}
+
+function changeMinimap(floor) {
+    $("img[usemap]").attr("data-target", floor);
+    
+    $("map").empty()
+    $("map").append(mappings[floor])
+
+    // adjust coordinates
+    var image=$('img[usemap]');
+    var originalWidth=image[0].naturalWidth;
+    var currentWidth=image.width();
+    var ratio=currentWidth/originalWidth;
+    $("map area").each(function(){
+        //change that to your area selector
+        var coords=$(this).attr('data-original-coords').split(',');
+        coords = coords.map(function (x) {
+            return Math.round(x*ratio);
+            //i don't know if all browsers can accept floating point so i round the result
+        });
+        $(this).attr('coords',coords.join());
+    });
+
+    if (floor.length > 2 && floor[2].toLowerCase() == 'm') {
+        $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + "M.png");
+    } else if (floor.length > 2) {
+        $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + floor[1] + ".png");
+    } else {
+        $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + ".png");
+    }
 }
 
 // When the user clicks on the button, open the modal 
@@ -32,6 +67,16 @@ function displayModal() {
 }
 
 $(document).ready(() => {
+
+    $("map area").each((i, o) => {
+        let elem = $(o);
+
+        if (mappings[elem.attr("data-group-id")])
+            mappings[elem.attr("data-group-id")].push(elem)
+        else
+            mappings[elem.attr("data-group-id")] = [elem]
+    })
+
     // Get the modal
     var modal = document.getElementById('popup');
     console.log(modal)
@@ -52,6 +97,11 @@ $(document).ready(() => {
         modal.style.display = "none";
     }
     }
+
+    $(document).click("map area", (e) => {
+        let elem = $(e.target);
+        $("#frame")[0].contentWindow.minimapClick(elem.attr("data-scene"), parseFloat(elem.attr("data-yaw")));
+    })
 });
 
 

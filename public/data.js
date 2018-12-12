@@ -401,6 +401,7 @@ var APP_DATA = {
     {
       "id": "6-6-f",
       "name": "HSSH, 6F",
+      "floor": "6f",
       "levels": [
         {
           "tileSize": 256,
@@ -3542,7 +3543,8 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "96-12-a",
-      "name": "12-A",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3573,7 +3575,8 @@ var APP_DATA = {
     },
     {
       "id": "97-12-b",
-      "name": "12-B",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3604,7 +3607,8 @@ var APP_DATA = {
     },
     {
       "id": "98-12-d",
-      "name": "12-D",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3635,7 +3639,8 @@ var APP_DATA = {
     },
     {
       "id": "99-12-e",
-      "name": "12-E",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3666,7 +3671,8 @@ var APP_DATA = {
     },
     {
       "id": "100-12-f",
-      "name": "12-F",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3697,7 +3703,8 @@ var APP_DATA = {
     },
     {
       "id": "101-12-g",
-      "name": "12-G",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3728,7 +3735,8 @@ var APP_DATA = {
     },
     {
       "id": "102-12-h",
-      "name": "12-H",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3759,7 +3767,8 @@ var APP_DATA = {
     },
     {
       "id": "103-12-i",
-      "name": "12-I",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3790,7 +3799,8 @@ var APP_DATA = {
     },
     {
       "id": "104-12-j",
-      "name": "12-J",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3948,10 +3958,11 @@ var APP_DATA = {
     },
     /****************************************************
      * 12th Floor Transitions                           *
-     ****************************************************/
+     ****************************************************/ 
     {
       "id": "109-12-t1",
-      "name": "12-T1",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -3982,7 +3993,8 @@ var APP_DATA = {
     },
     {
       "id": "110-12-t2",
-      "name": "12-T2",
+      "name": "HSSH, 12F",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,

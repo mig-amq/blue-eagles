@@ -2,9 +2,11 @@
     <head>
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="render_styles.css">
+            <link rel="stylesheet" href="render_styles.css">
+        <link rel="stylesheet" href="mapify.css">
         <script src="script.js">
         </script>
+        <script src="resizer.js"></script>
     </head>
     <body>
         <div id="popup" class="modal">
@@ -36,6 +38,37 @@
         </div>
         <!-- it is supposed to contain the tour which is in the index.html file -->
         <iframe class="frame" id="frame" src="/maintour/index.html"></iframe>
-        
+        <div id="map">
+            <img src="/maintour/img/minimaps/HSSH6.png" class="minimap active" usemap="#minimaps">
+            <map name="minimaps">
+                <area data-group-id="6f" shape="rect" data-original-coords="430,20,554,308" data-scene="1-6-a" data-yaw="0" title="Library Entrance">
+                <area data-group-id="6f" shape="rect" data-original-coords="130,154,384,306" data-scene="2-6-b" data-yaw="0" title="Lobby">
+                <area data-group-id="6f" shape="rect" data-original-coords="180,308,340,440" data-scene="3-6-c" data-yaw="-2.8417709342738036" title="TV Corner">
+                <area data-group-id="6f" shape="rect" data-original-coords="25,308,180,440" data-scene="3-6-c" data-yaw="-0.2796027906159484" title="Cyberspace 2">
+                <area data-group-id="6f" shape="rect" data-original-coords="20,105,130,150" data-scene="5-6-e" data-yaw="0.8822663704645457" title="Cyberspace 1">
+                <area data-group-id="6f" shape="rect" data-original-coords="20,155,130,280" data-scene="5-6-e" data-yaw="-0.9205757640586327" title="Staircase to Chill at the 5th">
+                <area data-group-id="6f" shape="rect" data-original-coords="20,20,132,100" data-scene="6-6-f" data-yaw="2.3825710748391344" title="Coffee Bean & Tea Leaf">
+                <area data-group-id="6f"shape="rect" data-original-coords="345,313,515,442" data-scene="7-6-t" data-yaw="3.0338982738076172" title="Escalator to the 7th floor">
+     
+                <area data-group-id="7f" shape="rect"  data-original-coords="319,95,490,196" data-scene="11-7-d" data-yaw="-1.2968388223396765" title="Computer Workstation">
+                <area data-group-id="7f" shape="rect" data-original-coords="345,313,515,442" data-scene="24-7-t2" data-yaw="-3.1220016780261233" title="Escalator to the 8th floor">
+                <area data-group-id="7f" shape="rect" data-original-coords="421,255,555,308" data-scene="9-7-b" data-yaw="2.3498294008177414" title="Information & Reference Counter">
+                <area data-group-id="7f" shape="rect" data-original-coords="91,330,340,395" data-scene="16-7-i" data-yaw="-3.114275068402872" title="Reading Area">
+                <area data-group-id="7f" shape="rect" data-original-coords="92,155,145,330" data-scene="15-7-h" data-yaw="-1.6687994116238016">
+                <area data-group-id="7f" shape="rect" data-original-coords="91,65,260,155" data-scene="13-7-f" data-yaw="0.8840972350016507">
+                <area data-group-id="7f" shape="rect" data-original-coords="240,157,403,252" data-scene="12-7-e" data-yaw="-1.553320392359307">
+    
+                <area data-group-id="8f" shape="rect" data-original-coords="345,313,515,442" data-scene="48-8-t2" data-yaw="3.0937102318480356" title="Escalator to the 9th floor">
+    
+                <area data-group-id="9f" shape="rect" data-original-coords="345,313,515,442" data-scene="66-9-t2" data-yaw="-3.0999580050448152" title="Escalator to the 10 floor">
+    
+                <area data-group-id="10f" shape="rect" data-original-coords="345,313,515,442" data-scene="86-10-t2" data-yaw="3.0464061783558183" title="Escalator to the 11th floor">
+    
+                <area data-group-id="11f" shape="rect" data-original-coords="345,313,515,442" data-scene="89-11-t2" data-yaw="-3.008334027461835" title="Escalator to the 12th floor">
+    
+                <area data-group-id="12f" shape="rect" data-original-coords="345,313,515,442" data-scene="7-6-t" data-yaw="3.0338982738076172" title="Escalator to the 14th floor">
+            </map>
+        </div>
+
     </body>
 </html>
