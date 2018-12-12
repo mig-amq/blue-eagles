@@ -14,7 +14,7 @@ body, html {
     right: 0;
     transform: translateX(93%);
     bottom: 0;
-    height: 350px;
+    height: 250px;
     width: auto;
     opacity: 0.8;
     transition: all 150ms ease-out;
@@ -61,7 +61,7 @@ area {
     text-align: center;
 }
 
-.header nav span > ul {
+.header nav > span > ul {
     margin-left: 25px;
     min-width: 250px !important;
     display: inline-block !important;
@@ -74,10 +74,21 @@ area {
     list-style-type: none;
 }
 
-.header nav ul li > span a {
-    display: block;
-    color: #fff;
+.header nav ul li > span {
+    display: flex;
     background-color: #054705;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul li > span .fas {
+    font-size: 12px;
+    margin-right: 25px;
+}
+
+.header nav ul li > span a {
+    color: #fff;
     padding: 6px 15px;
 }
 
