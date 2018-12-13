@@ -1327,6 +1327,7 @@ var APP_DATA = {
     {
       "id": "20-7m-b",
       "name": "HSSH, 7M",
+      "floor": "7fm",
       "levels": [
         {
           "tileSize": 256,
@@ -1371,6 +1372,7 @@ var APP_DATA = {
     {
       "id": "21-7m-c",
       "name": "HSSH, 7M",
+      "floor": "7fm",
       "levels": [
         {
           "tileSize": 256,
@@ -1426,6 +1428,7 @@ var APP_DATA = {
     {
       "id": "22-7-s-vr",
       "name": "Viewing Room",
+      "floor": "7f",
       "levels": [
         {
           "tileSize": 256,
@@ -1465,6 +1468,7 @@ var APP_DATA = {
     {
       "id": "132-7-s-pflr",
       "name": "Pillar Ferrero Lim",
+      "floor": "7f",
       "levels": [
         {
           "tileSize": 256,
@@ -1504,6 +1508,7 @@ var APP_DATA = {
     {
       "id": "131-7-s-mr",
       "name": "7th Floor Meeting Room",
+      "floor": "7f",
       "levels": [
         {
           "tileSize": 256,
@@ -1543,6 +1548,7 @@ var APP_DATA = {
     {
       "id": "133-7-s-o",
       "name": "7th Floor Outdoor Area",
+      "floor": "7f",
       "levels": [
         {
           "tileSize": 256,
@@ -2770,6 +2776,7 @@ var APP_DATA = {
     {
       "id": "42-8-s-dr",
       "name": "8th Floor Discussion Room",
+      "floor": "8f",
       "levels": [
         {
           "tileSize": 256,
@@ -2809,6 +2816,7 @@ var APP_DATA = {
     {
       "id": "43-8-s-fc",
       "name": "Faculty Corner",
+      "floor": "8f",
       "levels": [
         {
           "tileSize": 256,
@@ -2848,6 +2856,7 @@ var APP_DATA = {
     {
       "id": "44-8-s-mr",
       "name": "8th Floor Meeting Room",
+      "floor": "8f",
       "specialYaw": true,
       "levels": [
         {
@@ -2888,6 +2897,7 @@ var APP_DATA = {
     {
       "id": "45-8-s-qr",
       "name": "8th Floor Quiet Room",
+      "floor": "8f",
       "levels": [
         {
           "tileSize": 256,
@@ -2927,6 +2937,7 @@ var APP_DATA = {
     {
       "id": "46-8-s-sh",
       "name": "8th Floor Study Hall",
+      "floor": "8f",
       "levels": [
         {
           "tileSize": 256,
@@ -3887,6 +3898,7 @@ var APP_DATA = {
     {
       "id": "134-9-s-dr",
       "name": "9th Floor Discussion Room",
+      "floor": "9f",
       "levels": [
         {
           "tileSize": 256,
@@ -3926,6 +3938,7 @@ var APP_DATA = {
     {
       "id": "135-9-s-o",
       "name": "9th Floor Outdoor Area",
+      "floor": "9f",
       "levels": [
         {
           "tileSize": 256,
@@ -4007,8 +4020,7 @@ var APP_DATA = {
           "yaw": -0.36687683502582935,
           "pitch": 0.2564791318168034,
           "rotation": 0,
-          "target": "63-9m-b",
-          "icon": "img/link_stairs_down.png"
+          "target": "63-9m-b"
         },
         {
           "yaw": 0.6102060544249888,
@@ -4027,7 +4039,8 @@ var APP_DATA = {
           "yaw": 3.0353753023967904,
           "pitch": 0.0963186880445388,
           "rotation": 0,
-          "target": "51-9-c"
+          "target": "51-9-c",
+          "icon": "img/link_stairs_down.png"
         }
       ],
       "infoHotspots": []
@@ -4035,6 +4048,7 @@ var APP_DATA = {
     {
       "id": "63-9m-b",
       "name": "HSSH, 9M",
+      "floor": "9fm",
       "levels": [
         {
           "tileSize": 256,
@@ -4079,6 +4093,7 @@ var APP_DATA = {
     {
       "id": "64-9m-c",
       "name": "HSSH, 9M",
+      "floor": "9fm",
       "levels": [
         {
           "tileSize": 256,
@@ -4987,6 +5002,7 @@ var APP_DATA = {
     {
       "id": "78-10m-b",
       "name": "HSSH, 10M",
+      "floor": "10fm",
       "levels": [
         {
           "tileSize": 256,
@@ -5031,6 +5047,7 @@ var APP_DATA = {
     {
       "id": "79-10m-c",
       "name": "HSSH, 10M",
+      "floor": "10fm",
       "levels": [
         {
           "tileSize": 256,
@@ -5075,6 +5092,7 @@ var APP_DATA = {
     {
       "id": "80-10m-d",
       "name": "10M-D",
+      "floor": "10fm",
       "levels": [
         {
           "tileSize": 256,
@@ -5123,6 +5141,7 @@ var APP_DATA = {
     {
       "id": "81-10-s-gsr",
       "name": "Graduate Study Room",
+      "floor": "10f",
       "levels": [
         {
           "tileSize": 256,
@@ -5162,6 +5181,7 @@ var APP_DATA = {
     {
       "id": "82-10-s-qr",
       "name": "10th Floor Quiet Room",
+      "floor": "10f",
       "levels": [
         {
           "tileSize": 256,
@@ -5240,6 +5260,7 @@ var APP_DATA = {
     {
       "id": "84-10-s-sh",
       "name": "10th Floor Study Hall",
+      "floor": "10f",
       "levels": [
         {
           "tileSize": 256,
@@ -5278,6 +5299,7 @@ var APP_DATA = {
     {
       "id": "136-10-s-dr",
       "name": "10th Floor Discussion Room",
+      "floor": "10f",
       "levels": [
         {
           "tileSize": 256,
@@ -6246,6 +6268,7 @@ var APP_DATA = {
     {
       "id": "99-12-s-qr",
       "name": "12th Floor Quiet Room",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -6323,6 +6346,7 @@ var APP_DATA = {
     {
       "id": "101-12-s-sh",
       "name": "12th Floor Study Hall",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -6401,6 +6425,7 @@ var APP_DATA = {
     {
       "id": "137-12-s-dr",
       "name": "12th Floor Discussion Room",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -7793,6 +7818,7 @@ var APP_DATA = {
     {
       "id": "123-14-s-ac1",
       "name": "American Corner",
+      "floor": "14f",
       "levels": [
         {
           "tileSize": 256,
@@ -7832,6 +7858,7 @@ var APP_DATA = {
     {
       "id": "124-14-s-ac2",
       "name": "American Corner",
+      "floor": "14f",
       "levels": [
         {
           "tileSize": 256,
@@ -7871,6 +7898,7 @@ var APP_DATA = {
     {
       "id": "125-14-s-edc",
       "name": "European Documentation Center (EDC)",
+      "floor": "14f",
       "levels": [
         {
           "tileSize": 256,
@@ -7910,6 +7938,7 @@ var APP_DATA = {
     {
       "id": "126-14-s-kdc",
       "name": "Knowledge Development Community",
+      "floor": "14f",
       "levels": [
         {
           "tileSize": 256,
@@ -7949,6 +7978,7 @@ var APP_DATA = {
     {
       "id": "138-14-s-acc",
       "name": "Asian Corner",
+      "floor": "14f",
       "levels": [
         {
           "tileSize": 256,
@@ -7991,6 +8021,7 @@ var APP_DATA = {
     {
       "id": "127-14-t1",
       "name": "14-T1",
+      "floor": "14f",
       "levels": [
         {
           "tileSize": 256,
@@ -8050,6 +8081,7 @@ var APP_DATA = {
     {
       "id": "128-14-t2",
       "name": "14-T2",
+      "floor": "14f",
       "levels": [
         {
           "tileSize": 256,
