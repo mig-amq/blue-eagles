@@ -1,5 +1,5 @@
 For Blurring:
-7th:	F, G, H, I, J, K
+7th:	7|, G, H, I, J, K
 8th:	S-SH, F, I, S-FC
 9th:	B, E, J
 10th:	S-SH, C, D, S-QR, H, S-GSR, I
