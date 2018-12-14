@@ -12,7 +12,9 @@ function generateLinks (scenes) {
 
             link.click((e) => {
                 e.preventDefault();
-                $("#frame")[0].contentWindow.switchScene({data, scene, view});
+                $("#frame")[0].contentWindow.switchScene({data, scene, view}, 0.0);
+
+                adjustCoords();
             });
 
             $("#buildings li ul").append(link);
@@ -26,17 +28,15 @@ function changeFloor(name, floor) {
     changeMinimap(floor);
 }
 
-function changeMinimap(floor) {
-    $("img[usemap]").attr("data-target", floor);
+function adjustCoords(){
     
-    $("map").empty()
-    $("map").append(mappings[floor])
-
+    console.log("adjust");
     // adjust coordinates
     var image=$('img[usemap]');
     var originalWidth=image[0].naturalWidth;
     var currentWidth=image.width();
     var ratio=currentWidth/originalWidth;
+
     $("map area").each(function(){
         //change that to your area selector
         var coords=$(this).attr('data-original-coords').split(',');
@@ -46,6 +46,13 @@ function changeMinimap(floor) {
         });
         $(this).attr('coords',coords.join());
     });
+}
+
+function changeMinimap(floor) {
+    $("img[usemap]").attr("data-target", floor);
+    
+    $("map").empty()
+    $("map").append(mappings[floor])
 
     if (floor.length > 2 && floor[2].toLowerCase() == 'm') {
         $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + "M.png");
@@ -54,6 +61,8 @@ function changeMinimap(floor) {
     } else {
         $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + ".png");
     }
+
+    adjustCoords();
 }
 
 // When the user clicks on the button, open the modal 
@@ -75,6 +84,14 @@ $(document).ready(() => {
         else
             mappings[elem.attr("data-group-id")] = [elem]
     })
+    
+    
+    $(window).resize(function(){
+        adjustCoords();
+    });
+
+
+    adjustCoords();
 
     // Get the modal
     var modal = document.getElementById('popup');
