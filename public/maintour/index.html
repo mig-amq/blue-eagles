@@ -27,9 +27,14 @@
 <a href="#" class="viewControlButton viewControlButton-5" onclick="reset();">
     <img src="img/home.png" alt="Reset" class="icon">
 </a>
-<!-- <a href="javascript:alert('id: ' + currScene.data.id + '\nyaw: ' + currScene.view._yaw)" class="viewControlButton viewControlButton-5">
+<script>
+  function show() {
+    alert("<area title='' data-group-id='" + currScene.data.floor + "' data-original-coords='' data-scene='" + currScene.data.id + "' data-yaw='" + currScene.view._yaw + "' shape='rect'>")
+  }
+</script>
+<a href="javascript:show()" class="viewControlButton viewControlButton-5">
   Click Me!
-</a> -->
+</area>
 
 
 <!-- <div id="titleBar">

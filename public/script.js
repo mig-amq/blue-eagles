@@ -13,7 +13,6 @@ function generateLinks (scenes) {
             link.click((e) => {
                 e.preventDefault();
                 $("#frame")[0].contentWindow.switchScene({data, scene, view});
-                changeMinimap(data.floor);
             });
 
             $("#buildings li ul").append(link);
@@ -24,7 +23,7 @@ function generateLinks (scenes) {
 function changeFloor(name, floor) {
     $("#location").text(name);
 
-    changeMinimap(floor)
+    changeMinimap(floor);
 }
 
 function changeMinimap(floor) {
@@ -100,7 +99,9 @@ $(document).ready(() => {
 
     $(document).click("map area", (e) => {
         let elem = $(e.target);
-        $("#frame")[0].contentWindow.minimapClick(elem.attr("data-scene"), parseFloat(elem.attr("data-yaw")));
+        
+        if (elem.attr("data-scene"))
+            $("#frame")[0].contentWindow.minimapClick(elem.attr("data-scene"), parseFloat(elem.attr("data-yaw")));
     })
 });
 
