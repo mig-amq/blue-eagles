@@ -198,11 +198,12 @@
   }
 
   function resetScene() {
-    switchScene(currScene);
+    switchScene(currScene, 0);
   }
 
   function reset(){
     switchScene(findSceneById("1-6-a"));
+    resetScene();
   }
 
   function createLinkHotspotElement(hotspot) {
@@ -365,3 +366,6 @@
 
   // Display the initial scene.
   switchScene(scenes[1]);
+
+  $(".no_touch_mode").removeClass("no_touch_mode");
+  $("#pano").addClass("touch_mode_grab");
