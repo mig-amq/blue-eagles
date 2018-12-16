@@ -6581,12 +6581,12 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        // { POPUP - The Lasalliana
-        //   "yaw": 0.6209118106811413,
-        //   "pitch": 0.3158918509178221,
-        //   "title": "The Lasalliana",
-        //   "text": ""
-        // },
+        {
+          "yaw": 0.6209118106811413,
+          "pitch": 0.3158918509178221,
+          "title": "The Lasalliana",
+          "text": "This is a dedicated learning space that features the life and works of the founder, St. John Bapist de La Salle and DLSU's institutional memory."
+        },
         {
           "yaw": -1.2213033983634585,
           "pitch": -0.1389681135049461,
