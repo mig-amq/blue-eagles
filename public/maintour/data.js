@@ -2640,6 +2640,7 @@ var APP_DATA = {
     {
       "id": "39-8m-b",
       "name": "HSSH, 8M",
+      "floor": "8fm",
       "levels": [
         {
           "tileSize": 256,
@@ -2684,6 +2685,7 @@ var APP_DATA = {
     {
       "id": "40-8m-c",
       "name": "HSSH, 8M",
+      "floor": "8fm",
       "levels": [
         {
           "tileSize": 256,
@@ -5916,7 +5918,7 @@ var APP_DATA = {
         },
         {
           "yaw": -0.7230474684622905,
-          "pitch": 0.13049650642910215,
+          "pitch": -0.03049650642910215,
           "title": "Online Public Access Catalog",
           "text": "These computers can be used to locate certain materials or resources within the library."
         },
@@ -6184,7 +6186,8 @@ var APP_DATA = {
           "yaw": 0.6612933283226603,
           "pitch": 0.08736514509122806,
           "rotation": 0,
-          "target": "137-12-s-dr"
+          "target": "137-12-s-dr",
+          "icon": "img/link_door.png"
         }
       ],
       "infoHotspots": [
@@ -6308,6 +6311,7 @@ var APP_DATA = {
     {
       "id": "100-12-s-fsjc",
       "name": "F. Sionil Jose Collection",
+      "floor": "12f",
       "levels": [
         {
           "tileSize": 256,
@@ -6566,14 +6570,14 @@ var APP_DATA = {
           "yaw": -2.9357004956373576,
           "pitch": 0.1279630166561354,
           "rotation": 0,
-          "target": "105-14-a"
+          "target": "105-14-a",
+          "icon": "img/link_stairs_up.png"
         },
         {
           "yaw": -2.137696554957561,
           "pitch": 0.394849238505131,
           "rotation": 5.497787143782138,
-          "target": "105-14-a",
-          "icon": "img/link_stairs_up.png"
+          "target": "103-12-t1"
         }
       ],
       "infoHotspots": [

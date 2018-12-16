@@ -378,3 +378,6 @@ function findSceneDataById(id) {
 
 // Display the initial scene.
 switchScene(scenes[1]);
+
+$(".no_touch_mode").removeClass("no_touch_mode");
+$("#pano").addClass("touch_mode_grab");
