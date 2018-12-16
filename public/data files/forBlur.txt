@@ -1,19 +1,14 @@
-For Blurring:
-7th:	7|, G, H, I, J, K
-8th:	S-SH, F, I, S-FC
-9th:	B, E, J
-10th:	S-SH, C, D, S-QR, H, S-GSR, I
-12th:	C, D
-
-
+For Blurring: 
 
 Cleared:
 All Mezzanines
 5th Floor
 6th Floor
-
-12F: benches, 
-
-
-14-S-EDC: 
+7th Floor
+8th Floor
+9th Floor
+10th Floor
+11th Floor
+12th Floor
+14th Floor
 
