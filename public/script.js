@@ -101,6 +101,7 @@ $(document).ready(() => {
     })
 
     $(window).resize(function () {
+        $('img[usemap]').maphilight();
         adjustCoords();
     });
 

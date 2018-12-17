@@ -14,8 +14,8 @@ html {
     z-index: 99999;
     right: 0;
     bottom: 0;
-    height: 250px;
-    width: auto;
+    width: 25%;
+    /* height: auto; */
     opacity: 0;
     visibility: hidden;
     transition: all 180ms ease-out;
@@ -27,13 +27,7 @@ html {
 }
 
 #map img {
-    height: 100%;
-    width: auto;
-}
-
-#map:hover,
-#map:active {
-    transform: translateX(0);
+    width: 100%;
 }
 
 area {
@@ -61,7 +55,7 @@ area {
 }
 
 .header>* {
-    min-width: 33vw;
+    min-width: 33%;
 }
 
 .header nav #location {
@@ -70,7 +64,6 @@ area {
 }
 
 .header nav>div>ul {
-    margin-left: 25px;
     min-width: 250px !important;
     display: inline-block !important;
 }
@@ -154,7 +147,7 @@ area {
 }
 
 /* Hide controls when width is too small */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .header {
         height: auto;
         flex-direction: column;
@@ -163,6 +156,7 @@ area {
 
     .header nav {
         display: block;
+        padding: 0 10px 10px 10px;
     }
 
     .header nav #buildings {
@@ -176,6 +170,11 @@ area {
 
     .header img {
         width: 65%;
+    }
+
+    #map.show {
+        visibility: hidden;
+        opacity: 0;
     }
 }
 
