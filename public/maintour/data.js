@@ -4958,7 +4958,7 @@ var APP_DATA = {
     {
       "id": "77-10m-a",
       "name": "10th Floor Mezzanine",
-			"floor": "10fm",
+			"floor": "10m",
       "initial": true,
       "levels": [
         {
@@ -5005,7 +5005,7 @@ var APP_DATA = {
     {
       "id": "78-10m-b",
       "name": "10th Floor Mezzanine",
-      "floor": "10fm",
+      "floor": "10m",
       "levels": [
         {
           "tileSize": 256,
@@ -5050,7 +5050,7 @@ var APP_DATA = {
     {
       "id": "79-10m-c",
       "name": "10th Floor Mezzanine",
-      "floor": "10fm",
+      "floor": "10m",
       "levels": [
         {
           "tileSize": 256,
@@ -5095,7 +5095,7 @@ var APP_DATA = {
     {
       "id": "80-10m-d",
       "name": "10th Floor Mezzanine",
-      "floor": "10fm",
+      "floor": "10m",
       "levels": [
         {
           "tileSize": 256,

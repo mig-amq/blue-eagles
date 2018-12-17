@@ -59,14 +59,9 @@ function adjustCoords() {
 function changeMinimap(floor) {
     $("img[usemap]").attr("data-target", floor);
 
-    if (floor.length > 2 && floor[2].toLowerCase() == 'm') {
-        $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + "M.png");
-    } else if (floor.length > 2) {
-        $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + floor[1] + ".png");
-    } else {
-        $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor[0] + ".png");
-    }
-
+    
+    $("img[usemap]").attr("src", "/maintour/img/minimaps/HSSH" + floor + ".png");
+    
     $("map area:not([data-group-id=" + floor + "])").remove()
     $("map").append(mappings[floor])
 
