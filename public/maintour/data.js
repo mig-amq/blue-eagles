@@ -58,7 +58,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "1-6-a",
-      "name": "HSSH, 6F",
+      "name": "6th Floor",
       "floor": "6f",
       "initial": true,
       "levels": [
@@ -132,7 +132,7 @@ var APP_DATA = {
     },
     {
       "id": "2-6-b",
-      "name": "HSSH, 6F",
+      "name": "6th Floor",
       "floor": "6f",
       "levels": [
         {
@@ -195,7 +195,7 @@ var APP_DATA = {
         {
           "yaw": -1.5960535473181103,
           "pitch": 0.11592023351945002,
-          "title": "Online Public Access Computer",
+          "title": "Online Public Access Catalog",
           "text": "These computers can be used to locate certain materials or resources within the library."
         },
         {
@@ -214,7 +214,7 @@ var APP_DATA = {
     },
     {
       "id": "3-6-c",
-      "name": "HSSH, 6F",
+      "name": "6th Floor",
       "floor": "6f",
       "levels": [
         {
@@ -278,7 +278,7 @@ var APP_DATA = {
     },
     {
       "id": "4-6-d",
-      "name": "HSSH, 6F",
+      "name": "6th Floor",
       "floor": "6f",
       "levels": [
         {
@@ -348,7 +348,7 @@ var APP_DATA = {
     },
     {
       "id": "5-6-e",
-      "name": "HSSH, 6F",
+      "name": "6th Floor",
       "floor": "6f",
       "levels": [
         {
@@ -469,7 +469,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "7-6-t",
-      "name": "HSSH, 6F",
+      "name": "6th Floor",
       "floor": "6f",
       "levels": [
         {
@@ -531,7 +531,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "8-7-a",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "initial": true,
       "levels": [
@@ -604,7 +604,7 @@ var APP_DATA = {
     },
     {
       "id": "9-7-b",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -676,7 +676,7 @@ var APP_DATA = {
     },
     {
       "id": "10-7-c",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -756,7 +756,7 @@ var APP_DATA = {
     },
     {
       "id": "11-7-d",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -829,7 +829,7 @@ var APP_DATA = {
     },
     {
       "id": "12-7-e",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -902,7 +902,7 @@ var APP_DATA = {
     },
     {
       "id": "13-7-f",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -981,7 +981,7 @@ var APP_DATA = {
     },
     {
       "id": "14-7-g",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -1047,7 +1047,7 @@ var APP_DATA = {
     },
     {
       "id": "15-7-h",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -1099,7 +1099,7 @@ var APP_DATA = {
     },
     {
       "id": "16-7-i",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -1158,7 +1158,7 @@ var APP_DATA = {
     },
     {
       "id": "17-7-j",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -1224,7 +1224,7 @@ var APP_DATA = {
     },
     {
       "id": "18-7-k",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -1272,7 +1272,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "19-7m-a",
-      "name": "HSSH, 7F Mezzanine",
+      "name": "7th Floor Mezzanine",
 			"floor": "7fm",
       "initial": true,
       "levels": [
@@ -1316,7 +1316,7 @@ var APP_DATA = {
         },
         {
           "yaw": -2.988681532090242,
-          "pitch": 0.105118929806995,
+          "pitch": -0.075118929806995,
           "rotation": 0,
           "target": "27-8-c",
           "icon": "img/link_stairs_up.png"
@@ -1326,7 +1326,7 @@ var APP_DATA = {
     },
     {
       "id": "20-7m-b",
-      "name": "HSSH, 7M",
+      "name": "7th Floor Mezzanine",
       "floor": "7fm",
       "levels": [
         {
@@ -1371,7 +1371,7 @@ var APP_DATA = {
     },
     {
       "id": "21-7m-c",
-      "name": "HSSH, 7M",
+      "name": "7th Floor Mezzanine",
       "floor": "7fm",
       "levels": [
         {
@@ -1597,7 +1597,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "23-7-t1",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -1657,7 +1657,7 @@ var APP_DATA = {
     },
     {
       "id": "24-7-t2",
-      "name": "HSSH, 7F",
+      "name": "7th Floor",
       "floor": "7f",
       "levels": [
         {
@@ -1721,7 +1721,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "25-8-a",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "initial": true,
       "levels": [
@@ -1794,7 +1794,7 @@ var APP_DATA = {
     },
     {
       "id": "26-8-b",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -1865,7 +1865,7 @@ var APP_DATA = {
     },
     {
       "id": "27-8-c",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -1949,7 +1949,7 @@ var APP_DATA = {
     },
     {
       "id": "28-8-d",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2019,7 +2019,7 @@ var APP_DATA = {
     },
     {
       "id": "29-8-e",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2079,7 +2079,7 @@ var APP_DATA = {
     },
     {
       "id": "30-8-f",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2162,7 +2162,7 @@ var APP_DATA = {
     },
     {
       "id": "31-8-g",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2235,7 +2235,7 @@ var APP_DATA = {
     },
     {
       "id": "32-8-h",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2288,7 +2288,7 @@ var APP_DATA = {
     },
     {
       "id": "33-8-i",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2347,7 +2347,7 @@ var APP_DATA = {
     },
     {
       "id": "34-8-j",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2426,7 +2426,7 @@ var APP_DATA = {
     },
     {
       "id": "35-8-k",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2485,7 +2485,7 @@ var APP_DATA = {
     },
     {
       "id": "36-8-l",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2550,7 +2550,7 @@ var APP_DATA = {
     },
     {
       "id": "37-8-m",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -2592,7 +2592,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "38-8m-a",
-      "name": "HSSH, 8F Mezzanine",
+      "name": "8th Floor Mezzanine",
 			"floor": "8fm",
       "initial": true,
       "levels": [
@@ -2639,7 +2639,7 @@ var APP_DATA = {
     },
     {
       "id": "39-8m-b",
-      "name": "HSSH, 8M",
+      "name": "8th Floor Mezzanine",
       "floor": "8fm",
       "levels": [
         {
@@ -2684,7 +2684,7 @@ var APP_DATA = {
     },
     {
       "id": "40-8m-c",
-      "name": "HSSH, 8M",
+      "name": "8th Floor Mezzanine",
       "floor": "8fm",
       "levels": [
         {
@@ -2729,7 +2729,8 @@ var APP_DATA = {
     },
     {
       "id": "41-8m-d",
-      "name": "HSSH, 8M",
+      "name": "8th Floor Mezzanine",
+      "floor": "8fm",
       "levels": [
         {
           "tileSize": 256,
@@ -2980,7 +2981,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "47-8-t1",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -3040,7 +3041,7 @@ var APP_DATA = {
     },
     {
       "id": "48-8-t2",
-      "name": "HSSH, 8F",
+      "name": "8th Floor",
 			"floor": "8f",
       "levels": [
         {
@@ -3104,7 +3105,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "49-9-a",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "initial": true,
       "levels": [
@@ -3177,7 +3178,7 @@ var APP_DATA = {
     },
     {
       "id": "50-9-b",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3229,7 +3230,7 @@ var APP_DATA = {
     },
     {
       "id": "51-9-c",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3313,7 +3314,7 @@ var APP_DATA = {
     },
     {
       "id": "52-9-d",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3358,7 +3359,7 @@ var APP_DATA = {
     },
     {
       "id": "53-9-e",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3424,7 +3425,7 @@ var APP_DATA = {
     },
     {
       "id": "54-9-f",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3490,7 +3491,7 @@ var APP_DATA = {
     },
     {
       "id": "55-9-g",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3549,7 +3550,7 @@ var APP_DATA = {
     },
     {
       "id": "56-9-h",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3621,7 +3622,7 @@ var APP_DATA = {
     },
     {
       "id": "57-9-i",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3673,7 +3674,7 @@ var APP_DATA = {
     },
     {
       "id": "58-9-j",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3732,7 +3733,7 @@ var APP_DATA = {
     },
     {
       "id": "59-9-k",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3804,7 +3805,7 @@ var APP_DATA = {
     },
     {
       "id": "60-9-l",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3849,7 +3850,7 @@ var APP_DATA = {
     },
     {
       "id": "61-9-m",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -3979,8 +3980,8 @@ var APP_DATA = {
         {
           "yaw": -2.1843935017004767,
           "pitch": 0.1392196064924036,
-          "title": "Copier Info",
-          "text": "asdasd"
+          "title": "Photocopying Station",
+          "text": "The Learning Commons has dedicated areas for photocopying reading materials and other documents."
         }
       ]
     },
@@ -3989,7 +3990,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "62-9m-a",
-      "name": "HSSH, 9F Mezzanine",
+      "name": "9th Floor Mezzanine",
 			"floor": "9fm",
       "initial": true,
       "levels": [
@@ -4049,7 +4050,7 @@ var APP_DATA = {
     },
     {
       "id": "63-9m-b",
-      "name": "HSSH, 9M",
+      "name": "9th Floor Mezzanine",
       "floor": "9fm",
       "levels": [
         {
@@ -4094,7 +4095,7 @@ var APP_DATA = {
     },
     {
       "id": "64-9m-c",
-      "name": "HSSH, 9M",
+      "name": "9th Floor Mezzanine",
       "floor": "9fm",
       "levels": [
         {
@@ -4156,7 +4157,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "65-9-t1",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -4216,7 +4217,7 @@ var APP_DATA = {
     },
     {
       "id": "66-9-t2",
-      "name": "HSSH, 9F",
+      "name": "9th Floor",
 			"floor": "9f",
       "levels": [
         {
@@ -4280,7 +4281,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "67-10-a",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "initial": true,
       "levels": [
@@ -4353,7 +4354,7 @@ var APP_DATA = {
     },
     {
       "id": "68-10-b",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4423,7 +4424,7 @@ var APP_DATA = {
     },
     {
       "id": "69-10-c",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4514,7 +4515,7 @@ var APP_DATA = {
     },
     {
       "id": "70-10-d",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4580,7 +4581,7 @@ var APP_DATA = {
     },
     {
       "id": "71-10-e",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4652,7 +4653,7 @@ var APP_DATA = {
     },
     {
       "id": "72-10-f",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4711,7 +4712,7 @@ var APP_DATA = {
     },
     {
       "id": "73-10-g",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4790,7 +4791,7 @@ var APP_DATA = {
     },
     {
       "id": "74-10-h",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4849,7 +4850,7 @@ var APP_DATA = {
     },
     {
       "id": "75-10-i",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4914,7 +4915,7 @@ var APP_DATA = {
     },
     {
       "id": "76-10-j",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -4956,7 +4957,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "77-10m-a",
-      "name": "HSSH, 10F Mezzanine",
+      "name": "10th Floor Mezzanine",
 			"floor": "10fm",
       "initial": true,
       "levels": [
@@ -5003,7 +5004,7 @@ var APP_DATA = {
     },
     {
       "id": "78-10m-b",
-      "name": "HSSH, 10M",
+      "name": "10th Floor Mezzanine",
       "floor": "10fm",
       "levels": [
         {
@@ -5048,7 +5049,7 @@ var APP_DATA = {
     },
     {
       "id": "79-10m-c",
-      "name": "HSSH, 10M",
+      "name": "10th Floor Mezzanine",
       "floor": "10fm",
       "levels": [
         {
@@ -5093,7 +5094,7 @@ var APP_DATA = {
     },
     {
       "id": "80-10m-d",
-      "name": "10M-D",
+      "name": "10th Floor Mezzanine",
       "floor": "10fm",
       "levels": [
         {
@@ -5222,7 +5223,7 @@ var APP_DATA = {
     },
     {
       "id": "83-10-s-sc",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -5342,7 +5343,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "85-10-t1",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -5402,7 +5403,7 @@ var APP_DATA = {
     },
     {
       "id": "86-10-t2",
-      "name": "HSSH, 10F",
+      "name": "10th Floor",
 			"floor": "10f",
       "levels": [
         {
@@ -5466,8 +5467,9 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "87-11-a",
-      "name": "HSSH, 11F",
-			"floor": "11f",
+      "name": "11th Floor",
+      "floor": "11f",
+      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -5529,9 +5531,8 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "88-11-t1",
-      "name": "HSSH, 11F",
+      "name": "11th Floor",
 			"floor": "11f",
-      "initial": true,
       "levels": [
         {
           "tileSize": 256,
@@ -5590,7 +5591,7 @@ var APP_DATA = {
     },
     {
       "id": "89-11-t2",
-      "name": "HSSH, 11F",
+      "name": "11th Floor",
 			"floor": "11f",
       "levels": [
         {
@@ -5654,7 +5655,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "90-12-a",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "initial": true,
       "levels": [
@@ -5727,7 +5728,7 @@ var APP_DATA = {
     },
     {
       "id": "91-12-b",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -5797,7 +5798,7 @@ var APP_DATA = {
     },
     {
       "id": "92-12-c",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -5862,7 +5863,7 @@ var APP_DATA = {
     },
     {
       "id": "93-12-d",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -5953,7 +5954,7 @@ var APP_DATA = {
     },
     {
       "id": "94-12-e",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -6025,7 +6026,7 @@ var APP_DATA = {
     },
     {
       "id": "95-12-f",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -6078,7 +6079,7 @@ var APP_DATA = {
     },
     {
       "id": "96-12-g",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -6142,7 +6143,7 @@ var APP_DATA = {
     },
     {
       "id": "97-12-h",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -6201,7 +6202,7 @@ var APP_DATA = {
     },
     {
       "id": "98-12-i",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -6471,7 +6472,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "103-12-t1",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
 			"floor": "12f",
       "levels": [
         {
@@ -6531,7 +6532,7 @@ var APP_DATA = {
     },
     {
       "id": "104-12-t2",
-      "name": "HSSH, 12F",
+      "name": "12th Floor",
       "floor": "12f",
       "levels": [
         {
@@ -6608,7 +6609,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "105-14-a",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "initial": true,
       "levels": [
@@ -6669,7 +6670,7 @@ var APP_DATA = {
     },
     {
       "id": "106-14-b",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -6745,7 +6746,7 @@ var APP_DATA = {
     },
     {
       "id": "107-14-c",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -6810,7 +6811,7 @@ var APP_DATA = {
     },
     {
       "id": "108-14-d",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -6895,7 +6896,7 @@ var APP_DATA = {
     },
     {
       "id": "109-14-e",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -6955,7 +6956,7 @@ var APP_DATA = {
     },
     {
       "id": "110-14-f",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7021,7 +7022,7 @@ var APP_DATA = {
     },
     {
       "id": "111-14-g",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7098,7 +7099,7 @@ var APP_DATA = {
     },
     {
       "id": "112-14-h",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7150,7 +7151,7 @@ var APP_DATA = {
     },
     {
       "id": "113-14-i",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7220,7 +7221,7 @@ var APP_DATA = {
     },
     {
       "id": "114-14-j",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7265,7 +7266,7 @@ var APP_DATA = {
     },
     {
       "id": "115-14-k",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7329,7 +7330,7 @@ var APP_DATA = {
     },
     {
       "id": "116-14-l",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7388,7 +7389,7 @@ var APP_DATA = {
     },
     {
       "id": "117-14-m",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7447,7 +7448,7 @@ var APP_DATA = {
     },
     {
       "id": "118-14-n",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7499,7 +7500,7 @@ var APP_DATA = {
     },
     {
       "id": "119-14-o",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7557,7 +7558,7 @@ var APP_DATA = {
     },
     {
       "id": "120-14-p",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7609,7 +7610,7 @@ var APP_DATA = {
     },
     {
       "id": "121-14-q",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7661,7 +7662,7 @@ var APP_DATA = {
     },
     {
       "id": "122-14-r",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7714,7 +7715,7 @@ var APP_DATA = {
     
     {
       "id": "129-14-u",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -7766,7 +7767,7 @@ var APP_DATA = {
     },
     {
       "id": "130-14-v",
-      "name": "HSSH, 14F",
+      "name": "14th Floor",
 			"floor": "14f",
       "levels": [
         {
@@ -8024,7 +8025,7 @@ var APP_DATA = {
      ****************************************************/
     {
       "id": "127-14-t1",
-      "name": "14-T1",
+      "name": "14th Floor",
       "floor": "14f",
       "levels": [
         {
@@ -8084,7 +8085,7 @@ var APP_DATA = {
     },
     {
       "id": "128-14-t2",
-      "name": "14-T2",
+      "name": "14th Floor",
       "floor": "14f",
       "levels": [
         {

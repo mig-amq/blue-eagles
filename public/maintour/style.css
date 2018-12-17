@@ -550,6 +550,6 @@ body.view-control-buttons .viewControlButton {
   cursor: grab !important;
   cursor: -moz-grab !important;
   cursor: -webkit-grab !important;
-  cursor: url('https://github.com/bqworks/slider-pro/raw/master/dist/css/images/openhand.cur'), n-resize;
+  cursor: url(img/openhand.cur), n-resize;
   /* standard */
 }
