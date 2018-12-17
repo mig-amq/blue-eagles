@@ -209,7 +209,7 @@ function resetScene() {
 }
 
 function reset() {
-  switchScene(findSceneById("1-6-a"));
+  switchScene(findSceneById("1-6-a"), 0);
 }
 
 function toggleMap() {

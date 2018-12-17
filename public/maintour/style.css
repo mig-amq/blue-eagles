@@ -252,7 +252,7 @@ a:visited {
 }
 
 .desktop .info-hotspot.visible .info-hotspot-title-wrapper,
-.desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
+.desktop.no-touch .info-hotspot:hover .info-hotspot-title-wrapper {
   width: 220px;
   padding: 0 5px;
   -webkit-transition: width 0s 0.4s,

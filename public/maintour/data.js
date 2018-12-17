@@ -893,7 +893,7 @@ var APP_DATA = {
         },
         {
           "yaw": 2.9795726710113666,
-          "pitch": -0.07769440398858762,
+          "pitch": 0.00769440398858762,
           "title": "Drinking Fountain",
           "text": "",
           "icon": "img/fountain.png"
