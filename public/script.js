@@ -1,37 +1,7 @@
 var mappings = {}
 
-function generateLinks(scenes) {
-    $("#location").click((e) => {
-        e.preventDefault();
-        $("#frame")[0].contentWindow.resetScene();
-    });
-
-    scenes.forEach(({
-        data,
-        scene,
-        view
-    }, i, a) => {
-        if (data.initial) {
-            let link = $(`<li><a data-scene="${data.id}">${data.name}</a></li>`);
-
-            link.click((e) => {
-                e.preventDefault();
-                $("#frame")[0].contentWindow.switchScene({
-                    data,
-                    scene,
-                    view
-                }, 0.0);
-
-                adjustCoords();
-            });
-
-            $("#buildings li ul").append(link);
-        }
-    });
-}
-
 function changeFloor(name, floor) {
-    $("#location").text(name);
+    $("#space .loc").text(name);
 
     changeMinimap(floor);
 }

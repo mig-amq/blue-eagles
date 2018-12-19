@@ -115,8 +115,7 @@ var scenes = data.scenes.map(function (data) {
   };
 });
 
-if (parent.generateLinks)
-  parent.generateLinks(scenes);
+generateLinks(scenes);
 
 // Set up autorotate, if enabled.
 var autorotate = Marzipano.autorotate({
@@ -178,6 +177,30 @@ function sanitize(s) {
   return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
 }
 
+
+function generateLinks(scenes) {
+
+    scenes.forEach(({
+        data,
+        scene,
+        view
+    }, i, a) => {
+        if (data.initial) {
+            let link = $(`<li><a data-scene="${data.id}">${data.name}</a></li>`);
+
+            link.click((e) => {
+                e.preventDefault();
+                switchScene({
+                    data,
+                    scene,
+                    view
+                }, 0.0);
+            });
+
+            $("#buildings li ul").append(link);
+        }
+    });
+}
 var prevView;
 
 function switchScene(scene, yaw) {
@@ -244,6 +267,7 @@ function createLinkHotspotElement(hotspot) {
   wrapper.addEventListener('click', function () {
     let scene = findSceneById(hotspot.target);
     switchScene(scene);
+      resetScene();
   });
 
   // Prevent touch and scroll events from reaching the parent element.

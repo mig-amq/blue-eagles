@@ -29,6 +29,7 @@ body {
   color: #fff;
 }
 
+
 a,
 a:hover,
 a:active,
@@ -512,6 +513,7 @@ a:visited {
 
 .viewControlButtons {
   display: flex;
+    align-items: center;
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -533,11 +535,16 @@ body.view-control-buttons .viewControlButton {
 }
 
 /* Center is at margin-left: -20px */
-.viewControlButton {
+.viewControlButton:not(.header) {
   margin: 0 5px;
   background-color: #054705;
   width: 50px;
   height: 50px;
+}
+
+.viewControlButton.header {
+  height: 50px;
+  background-color: #054705;
 }
 
 .viewControlButton .icon {
@@ -552,4 +559,84 @@ body.view-control-buttons .viewControlButton {
   cursor: -webkit-grab !important;
   cursor: url(img/openhand.cur), n-resize;
   /* standard */
+}
+
+.header nav{
+    height: 100%;
+    display: block;
+}
+.header nav #location {
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.header nav>ul {
+    height: 100%;
+    min-width: 250px !important;
+    display: inline-block !important;
+}
+
+.header nav ul>li {
+    cursor: pointer;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+}
+
+.header nav ul li>span{
+    height: 100%;
+    display: flex;
+    background-color: #054705;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul li>span .fas {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.header nav ul li>span {
+    color: #fff;
+    padding: 6px 15px;
+}
+
+.header nav ul>li:hover ul {
+    display: block;
+}
+
+.header nav ul li ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+    max-height: 300px !important;
+    overflow-y: scroll;
+    transform: translateY(-100%);
+}
+
+.header nav ul li ul li:hover {
+    background-color: #337c16;
+}
+
+.header nav ul li ul li:hover a {
+    color: #ffffff;
+}
+
+.header nav ul li ul li {
+    padding: 0;
+    background-color: #004d00;
+}
+
+.header nav ul li ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }

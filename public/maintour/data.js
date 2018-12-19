@@ -555,8 +555,8 @@ var APP_DATA = {
       ],
       "faceSize": 1728,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 1.0115479737019335,
+        "pitch": 0.09261092090104484,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
@@ -1273,7 +1273,7 @@ var APP_DATA = {
     {
       "id": "19-7m-a",
       "name": "7th Floor Mezzanine",
-			"floor": "7fm",
+			"floor": "7m",
       "initial": true,
       "levels": [
         {
@@ -1327,7 +1327,7 @@ var APP_DATA = {
     {
       "id": "20-7m-b",
       "name": "7th Floor Mezzanine",
-      "floor": "7fm",
+      "floor": "7m",
       "levels": [
         {
           "tileSize": 256,
@@ -1372,7 +1372,7 @@ var APP_DATA = {
     {
       "id": "21-7m-c",
       "name": "7th Floor Mezzanine",
-      "floor": "7fm",
+      "floor": "7m",
       "levels": [
         {
           "tileSize": 256,
@@ -1745,8 +1745,8 @@ var APP_DATA = {
       ],
       "faceSize": 1728,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 1.0115479737019335,
+        "pitch": 0.09261092090104484,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
@@ -2593,7 +2593,7 @@ var APP_DATA = {
     {
       "id": "38-8m-a",
       "name": "8th Floor Mezzanine",
-			"floor": "8fm",
+			"floor": "8m",
       "initial": true,
       "levels": [
         {
@@ -2640,7 +2640,7 @@ var APP_DATA = {
     {
       "id": "39-8m-b",
       "name": "8th Floor Mezzanine",
-      "floor": "8fm",
+      "floor": "8m",
       "levels": [
         {
           "tileSize": 256,
@@ -2685,7 +2685,7 @@ var APP_DATA = {
     {
       "id": "40-8m-c",
       "name": "8th Floor Mezzanine",
-      "floor": "8fm",
+      "floor": "8m",
       "levels": [
         {
           "tileSize": 256,
@@ -2730,7 +2730,7 @@ var APP_DATA = {
     {
       "id": "41-8m-d",
       "name": "8th Floor Mezzanine",
-      "floor": "8fm",
+      "floor": "8m",
       "levels": [
         {
           "tileSize": 256,
@@ -3991,7 +3991,7 @@ var APP_DATA = {
     {
       "id": "62-9m-a",
       "name": "9th Floor Mezzanine",
-			"floor": "9fm",
+			"floor": "9m",
       "initial": true,
       "levels": [
         {
@@ -4051,7 +4051,7 @@ var APP_DATA = {
     {
       "id": "63-9m-b",
       "name": "9th Floor Mezzanine",
-      "floor": "9fm",
+      "floor": "9m",
       "levels": [
         {
           "tileSize": 256,
@@ -4096,7 +4096,7 @@ var APP_DATA = {
     {
       "id": "64-9m-c",
       "name": "9th Floor Mezzanine",
-      "floor": "9fm",
+      "floor": "9m",
       "levels": [
         {
           "tileSize": 256,

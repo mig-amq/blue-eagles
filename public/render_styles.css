@@ -43,6 +43,7 @@ area {
     left: 0;
     z-index: 9999;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -75,7 +76,7 @@ area {
     list-style-type: none;
 }
 
-.header nav ul li>span {
+.header nav ul li>span{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     display: flex;
     background-color: #054705;
@@ -85,17 +86,12 @@ area {
     align-items: center;
 }
 
-.header nav ul li>span:active,
-.header nav ul li:hover>span {
-    border-bottom: 2px solid #054705;
-}
-
 .header nav ul li>span .fas {
     font-size: 12px;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
-.header nav ul li>span a {
+.header nav ul li>span {
     color: #fff;
     padding: 6px 15px;
 }
@@ -108,7 +104,7 @@ area {
     display: none;
     list-style-type: none;
     position: absolute;
-    top: 100%;
+    top: 0;
     left: 0;
     width: 100%;
     padding: 0;
@@ -146,10 +142,14 @@ area {
     padding: 10px;
 }
 
+.header #space {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
 /* Hide controls when width is too small */
 @media (max-width: 750px) {
     .header {
-        height: auto;
         flex-direction: column;
         flex-flow: column-reverse;
     }
